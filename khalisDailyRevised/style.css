@@ -1,0 +1,212 @@
+body{
+    background-color: #F8F8F8;
+}
+
+.navbar-default{
+    padding-top: 20px;
+    background-color: transparent;
+    border-color: transparent;
+    border: none;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    width: 80px;
+}
+
+
+.nav-anchor-login{
+    color: #ffff;
+    text-decoration: none;
+}
+
+
+#main-banner {
+    background: url(img/backGROUND.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+
+.btn-choose-plan {
+    margin-top: 20px;
+    width: 200px;
+    background-color: #43B02B;
+    border: #43B02B;
+    font-weight: 600;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+
+a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+#main-banner h1 {
+    letter-spacing: 2px;
+    font-size: 35px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#main-banner p {
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.banner{
+    padding: 10rem;
+}
+
+.three-points-container{
+    background-color: #FFFFFF;
+}
+
+
+.three-points{
+    text-align: center;
+}
+
+
+.three-points-row{
+    margin-top: 60px;
+}
+
+
+#three-points h3 {
+    margin-top: 70px;
+    font-size: 1.5em;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+#three-points p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 1.23px;
+    color: #929292;
+}
+
+.delas-para {
+    margin-top: 70px;
+    font-size: 2em;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.btn-start-saving{
+    margin-top: 20px;
+    color: #fff;
+    background-color: #43B02B;
+    border-color: #43B02B;
+    width: 116px;
+}
+
+.btn-get-started{
+    margin-top: 20px;
+    color: #fff;
+    background-color: #43B02B;
+    border-color: #43B02B;
+    width: 116px;
+}
+
+
+.company-logo-row{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.deals-row{
+    margin-top: 60px;
+}
+
+.product-row{
+    margin-top: 50px;
+}
+
+
+@media (max-width: 1200px){
+    .deals-img{
+        margin-top: 40px;
+    }
+
+    .company-logo-row {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .deals-img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .deals-div{
+        text-align: center;
+    }
+    .product-row{
+        text-align: center;
+    }
+
+    .child-img{
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media (max-width: 768px){
+    #main-banner h1 {
+        letter-spacing: 2px;
+        font-size: 1.4em;
+        /* font-weight: 500; */
+        color: #fff;
+    }
+
+    #main-banner p {
+        font-size: 0.9em;
+        font-weight: 100;
+        letter-spacing: 2px;
+        color: #fff;
+    }
+
+    .btn-choose-plan {
+        margin-top: 20px;
+        width: 150px;
+        background-color: #43B02B;
+        border: #43B02B;
+        font-weight: 600;
+        padding: 10px 15px;
+        font-size: 0.9em;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .deals-div{
+        text-align: center;
+    }
+
+    .product-row{
+        text-align: center;
+    }
+
+    .child-img{
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .company-logo-row{
+        margin-left: 50px;
+    }
+
+
+
+
+}

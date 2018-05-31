@@ -1,0 +1,344 @@
+
+#nav .navbar-default {
+    color: #000000;
+    background-color: #69d2e7;
+    border-color: #69d2e7;
+    border-top: #fa6900 6px solid;
+}
+
+#nav a{
+    color: #000000;
+}
+
+#nav .navbar-toggle {
+    border-radius: 50%;
+
+
+}
+
+#nav .icon-bar{
+    background-color: white;
+
+}
+
+#nav .navbar-brand{
+    color: white;
+}
+
+
+#hello{
+    background-color: #69d2e7;
+    margin-top: -20px;
+    height: 260px;
+}
+
+#hello h1{
+    font-size: 6.2em;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+
+}
+
+
+#hello p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#lorem{
+    height: 573px;
+    background-color: #f1f1f1;
+}
+#lorem .col-md-12 h1{
+
+    margin-top: 30px;
+    border-bottom: 1px solid;
+    padding-bottom: 11px;
+    border-color: #d5d5d5;
+}
+
+#lorem .col-md-4 img{
+    margin-top: -40px;
+}
+
+#lorem .col-md-4 h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
+
+#lorem .col-md-4 .text{
+    margin-top: -6px;
+}
+
+#about{
+    border-radius: 10px;
+    text-align: center;
+    margin-top: -65px;
+    background-color: white;
+}
+
+
+#about p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: large;
+    margin-top: 40px;
+}
+
+#about h1,p{
+    color: black;
+
+}
+
+/*#lorem .about h1{*/
+    /*text-align: center;*/
+    /*background-color: white;*/
+/*}*/
+
+#lorem .col-md-4{
+    margin-top: 120px;
+}
+
+#lorem .col-md-12{
+   padding-bottom: 30px;
+}
+
+
+#dolor{
+    background-color: #fa6900;
+    padding-bottom: 50px;
+
+}
+
+#dolor p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+
+
+
+#card{
+
+    background-color: #f1f1f1;
+}
+
+#card .img-responsive{
+background-color: white;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#card .col-md-12 h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+
+}
+
+#card .col-md-12 p{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#card .col-md-12{
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+#card .col-md-12 h5{
+    font-size: xx-large;
+    font-weight: 100;
+}
+
+
+
+#card .col-md-12 p{
+    padding-top: 30px;
+    font-size: x-large;
+    font-weight: 200;
+}
+#card .carousel-inner{
+height: 500px;
+}
+
+
+#curve .container{
+    margin: 0 auto;
+    width: 100%;
+}
+
+#curve .orange{
+
+    padding-top: 50px;
+    background-color: #fa6900;
+    padding-left: 100px;
+}
+
+#curve .orange p, h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+
+}
+
+#curve .row{
+    background-color: #fa6900;
+}
+
+#curve .orange{
+    height: 450px;
+}
+
+#curve .many {
+    margin-top: -13px;
+    font-weight: 100;
+}
+
+#curve .gap{
+    padding-top: 30px;
+}
+
+#curve .curve {
+    height:450px;
+    background-color: white;
+    border-top-left-radius: 207px 251px;
+    border-bottom-left-radius: 207px 251px;
+
+
+}
+#icon{
+    background-color: #f1f1f1;
+    padding-bottom: 30px;
+}
+
+#icon .img{
+    margin-top: 50px;
+}
+
+#icon .list-inline{
+    margin-top: 50px;
+}
+
+#icon .latest{
+    padding-top: 40px;
+}
+
+#icon .para{
+    margin-top: 40px;
+    font-weight: 400;
+
+}
+#icon .box{
+    margin-top: 10px;
+    background-color: white;
+    height: 130px;
+    width: 140px;
+    box-shadow: 0 5px 32px 0 rgba(0,0,0,.1);
+}
+
+#icon .boxDiv{
+    margin-top: 45px;
+}
+
+
+#footer{
+    background-color: #69d2e7;
+
+}
+
+#footer .col-md-6 p{
+    color: white;
+    margin-top: 20px;
+
+}
+
+
+/*MEDIA QUERIES for SM tablet*/
+@media(max-width: 1200px) {
+    #about{
+        margin-left: 137px;
+        width: 876px;
+    }
+
+}
+
+
+/*MEDIA QUERIES for SM tablet*/
+
+@media (max-width: 1100px) {
+
+
+}
+
+
+
+
+@media(max-width: 1000px) {
+    #about{
+        margin-left: 6px;
+        width: 746px;
+    }
+
+    #curve .orange p, h2{
+        margin-top: -14px;
+        font-size: 1.1em
+
+    }
+    #curve .many{
+        font-size: 1.3em;
+        padding-top: 10px;
+    }
+
+#dolor .col-md-12 img{
+         width: 600px;
+     }
+
+
+}
+
+/*MEDIA QUERIES for XS mobile*/
+@media(max-width: 800px) {
+
+    #about{
+        margin-left: 62px;
+        width: 611px;
+    }
+
+    #lorem .col-md-4 h3{
+        font-size: larger;
+    }
+
+    #dolor .col-md-12 img{
+        width: 600px;
+    }
+
+    #curve .orange p, h2{
+        margin-top: -14px;
+        font-size: 1.0em
+
+    }
+
+    #icon .col-md-6{
+        padding-left: 87px;
+    }
+
+    #icon .col-md-8 h4{
+        margin-top: -2px;
+    }
+    #icon .col-md-8 p{
+        margin-top: -4px;
+
+    }
+
+    #icon .col-md-8{
+        margin-left: 26px;
+    }
+
+}

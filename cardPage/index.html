@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cardPage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Mina|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top" id="navbar" role="navigation">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <div class="logo">
+                <img  src="img/logo.png">
+            </div>
+        </a>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right n">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#blog ">BLOG</a></li>
+                <li class="l"><div></div></li>
+                <li>
+                    <div class="row s" data-toggle="dropdown">
+                        <div class="col-md-offset-1 col-md-2 i ">
+                            <img src="img/girlimg.png"/>
+                        </div>
+                        <div class="col-md-offset-1 col-md-8">
+                            <h4>
+                                Maria Sharapova
+                            </h4>
+                            <p>
+                                New York, USA
+                                <img style="float: right; margin-top: -10%;" src="img/expand-arow.png"/>
+                            </p>
+
+                        </div>
+                        <div class="col-md-1">
+
+                        </div>
+
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li><a style="color: #5280C6;">Profile</a></li>
+                        <li><a style="color: #5280C6;" href="dashboard.html">Dashboard</a></li>
+                        <li><a style="color: #5280C6;">About Us</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+
+        <input id="toggle" type="checkbox" />
+        <label class="hamburger" for="toggle" style="width: 5%; float: right;">
+            <div class="top"></div>
+            <div class="meat"></div>
+            <div class="bottom"></div>
+        </label>
+
+        <nav class="menu">
+            <a class="link">About</a>
+            <a class="link" >Blog</a>
+            <a class="link" >Profile</a>
+            <a class="link" >Dashboard</a>
+            <a class="link" >Logout</a>
+            <a></a>
+        </nav>
+    </div>
+</div>
+<!--HOME-->
+
+<section id="home">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-sm-7">
+                <h2>Discover the potential
+                    of your airmiles</h2>
+                <p>Get notified instantly on airmiles for the best
+                    deals on your selected destinations.</p>
+            </div>
+        </div>
+        <div class="row r">
+            <div class="col-md-2 col-sm-3 col-xs-4">
+                <button type="button" class="btn btn-success btn1">Get Started</button>
+            </div>
+            <div class="col-md-2 col-sm-3 col-xs-3">
+                <button data-toggle="modal" data-target="#myModal"  type="button" class="btn btn-success btn2"><i class="fa fa-play-circle-o" aria-hidden="true"></i>Watch Video</button>
+            </div>
+
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog" style="
+      margin-top: 5%;
+    width: 90%;">
+
+                    <!-- Modal content-->
+                    <div class="modal-content" style="    height: 85vh;
+    margin-left: 2%;
+    margin-right: 2%;">
+                        <iframe style="width: 100%;
+    height: 100%;" src="https://www.youtube.com/embed/2gBxS_8_Zkg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--HOME-ENDS-->
+
+
+<section id="head">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1 class="heading-credit-card">
+                    CREDIT CARD GENIE
+                </h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="card">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1 class="card-heading">I Want..</h1>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-3  col-sm-3 col-sm-offset-1  col-xs-8 col-xs-offset-2 shadow">
+                <div class="main">
+                <h2 class="price-card-head">YELLOW CARD</h2>
+                <div class="line">
+
+                </div>
+                <P class="price-card-para">Lorem ipsum dolor sit amet, <br>
+                    consectetur adipiscing elit.</P>
+                </div>
+                
+                <div class="img-div">
+                    <img class="img-responsive img-card" src="img/background.png">
+                </div>
+            </div>
+
+            <div class="col-md-3 col-md-offset-1 col-sm-offset-1  col-sm-3 col-xs-8 col-xs-offset-2 shadow">
+                <div class="main">
+                    <h2 class="price-card-head">YELLOW CARD</h2>
+                    <div class="line">
+
+                    </div>
+                    <P class="price-card-para">Lorem ipsum dolor sit amet, <br>
+                        consectetur adipiscing elit.</P>
+                </div>
+
+                <div class="img-div">
+                    <img class="img-responsive img-card" src="img/background.png">
+                </div>
+            </div>
+
+
+            <div class="col-md-3 col-md-offset-1 col-sm-offset-1  col-sm-3 col-xs-8 col-xs-offset-2 shadow">
+                <div class="main">
+                    <h2 class="price-card-head">YELLOW CARD</h2>
+                    <div class="line">
+
+                    </div>
+                    <P class="price-card-para">Lorem ipsum dolor sit amet, <br>
+                        consectetur adipiscing elit.</P>
+                </div>
+
+                <div class="img-div">
+                    <img class="img-responsive img-card" src="img/background.png">
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row  card-row2">
+
+            <div class="col-md-3  col-sm-3 col-sm-offset-1  col-xs-8 col-xs-offset-2 shadow">
+                <div class="main">
+                    <h2 class="price-card-head">YELLOW CARD</h2>
+                    <div class="line">
+
+                    </div>
+                    <P class="price-card-para">Lorem ipsum dolor sit amet, <br>
+                        consectetur adipiscing elit.</P>
+                </div>
+
+                <div class="img-div">
+                    <img class="img-responsive img-card" src="img/background.png">
+                </div>
+            </div>
+
+            <div class="col-md-3 col-md-offset-1 col-sm-3  col-sm-offset-1 col-xs-offset-2 col-xs-8 shadow">
+                <div class="main">
+                    <h2 class="price-card-head">YELLOW CARD</h2>
+                    <div class="line">
+
+                    </div>
+                    <P class="price-card-para">Lorem ipsum dolor sit amet, <br>
+                        consectetur adipiscing elit.</P>
+                </div>
+
+                <div class="img-div">
+                    <img class="img-responsive img-card" src="img/background.png">
+                </div>
+            </div>
+
+
+            <div class="col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-offset-2   col-xs-8 shadow">
+                <div class="main">
+                    <h2 class="price-card-head">YELLOW CARD</h2>
+                    <div class="line">
+
+                    </div>
+                    <P class="price-card-para">Lorem ipsum dolor sit amet, <br>
+                        consectetur adipiscing elit.</P>
+                </div>
+
+                <div class="img-div">
+                    <img class="img-responsive img-card" src="img/background.png">
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</section>
+
+<!--FOOTER-->
+
+<section id="footer">
+    <div class="container">
+        <div class="row one">
+            <div class="col-md-2 col-sm-2 col-xs-12 img">
+                <img src="img/logo.png">
+            </div>
+            <div class="col-md-3 col-md-offset-2 col-sm-6 col-sm-offset-1 col-xs-12 txt">
+                <h5>
+                    Femme 2018 All Rights Reserved.
+                </h5>
+            </div>
+            <div class="footerSocialMediaIcons col-md-offset-2 col-md-3 col-sm-3 col-xs-5 col-xs-offset-3">
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                    <i class="fa fa-facebook fa-2x"></i>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                    <i class="fa fa-twitter fa-2x"></i>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                    <i class="fa fa-instagram fa-2x"></i>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                    <i class="fa fa-pinterest fa-2x"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--FOOTER-ENDS-->
+</body>
+</html>

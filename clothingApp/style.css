@@ -1,0 +1,942 @@
+#nav .navbar-default {
+    color: white;
+    background-color: #254b7d;
+    border-bottom-color: transparent;
+    margin-bottom: 0px;
+
+
+
+}
+
+.icon-bar{
+    background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+#banner{
+    /*background-image: url("img/backImgTrack.png");*/
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)), url("img/backImgTrack.png");
+
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.banner-text {
+    text-align: center;
+    color: #fff;
+    padding: 200px 0;
+    margin-bottom: 50px;
+}
+
+.banner-text h1 {
+    font-size: 4.2em;
+}
+
+.banner-text p {
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+.icon .fa{
+    padding: 200px 0;
+    color: white;
+}
+
+
+
+
+
+
+#cheakbox{
+    padding-top: 40px;
+    background-color: #f5f6f7;
+    padding-bottom: 40px;
+}
+
+#cheakbox .box{
+    width: 150px;
+    height: 18px;
+}
+
+
+#cheakbox .btn{
+    border-radius: 0px;
+    height: 42px;
+    color: white;
+    background-color: #aa9b77;
+}
+
+
+#line{
+    margin-top: 60px;
+}
+#line .img-responsive{
+    margin-left: -43px;
+    margin-top: 32px;
+}
+
+#line .fa{
+    color: #aa9b77;
+}
+
+#line p{
+    color: #aa9b77;
+    padding-left: 8px;
+}
+
+#line .pull-right{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+#imgRow1 .btn-default{
+    background-color: #f5f6f7;
+    border-color: transparent;
+
+}
+
+#imgRow1 .div1{
+    margin-left: 58px;
+    adding-top: 20px;
+    width: 318px;
+    background-color: #f5f6f7;
+    padding-bottom: 20px
+
+
+}
+
+
+#imgRow1 .T-shirt{
+    padding-left: 20px;
+    color: #aa9b77;
+    padding-top: 15px;
+}
+
+#imgRow1 .shirtPic{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#imgRow1 .euro{
+    padding-left: 62px;
+    padding-top: 10px;
+}
+
+#imgRow1 .img-responsive{
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#imgRow1 .img-pent{
+    height: 193px;
+    margin-top: 40px;
+    margin-left: -40px;
+}
+
+
+#imgRow1 .div2{
+    margin-left: 37px;
+    adding-top: 20px;
+    width: 312px;
+    background-color: #f5f6f7;
+    padding-bottom: 12px;
+
+
+}
+
+#imgRow1 .div3 {
+    height: 307px;
+    margin-left: 37px;
+    width: 312px;
+    background-color: #f5f6f7;
+    padding-bottom: 12px;
+}
+
+
+#imgRow1 .img-bag {
+    width: 138px;
+    margin-top: 42px;
+    margin-left: -60px;
+    padding-right: -11px;
+
+}
+
+#imgRow1 .bagPck {
+    padding-left: 20px;
+    color: #aa9b77;
+    padding-top: 15px;
+}
+
+
+
+#imgRow1 .pent{
+    padding-left: 20px;
+    color: #aa9b77;
+    padding-top: 15px;
+}
+
+
+#imgRow1 .euroDiv2 {
+    padding-left: 62px;
+    padding-top: 10px;
+}
+#line2 {
+    margin-top: 70px;
+}
+
+#line2 .col-md-2 h3{
+    margin-top: -13px;
+}
+
+#line2 .fa{
+    color: #aa9b77;
+}
+
+#line2 p{
+    color: #aa9b77;
+    padding-left: 8px;
+}
+
+
+/*imgRow2start--------------*/
+
+
+#imgRow2 .div1{
+    margin-left: 58px;
+    adding-top: 20px;
+    width: 318px;
+    background-color: #f5f6f7;
+    padding-bottom: 20px
+
+
+}
+
+#imgRow2 .btn-default {
+    background-color: #f5f6f7;
+    border-color: transparent;
+}
+
+#imgRow2 .img-upper{
+    margin-left: 80px;
+}
+
+#imgRow2 .giacket{
+    padding-left: 20px;
+    color: #aa9b77;
+    padding-top: 15px;
+
+}
+
+#imgRow2 .euroGiacket{
+    padding-left: 62px;
+    padding-top: 10px;
+
+}
+
+/*imgRow2End---------------*/
+
+
+
+
+
+
+/*imgRow2Div2start-----------------------*/
+
+#imgRow2 .div2{
+    height: 314px;
+    margin-left: 37px;
+    adding-top: 20px;
+    width: 318px;
+    background-color: #f5f6f7;
+    padding-bottom: 20px
+
+
+}
+
+#imgRow2 .img-shoes{
+    margin-top: 42px;
+    margin-left: 79px;
+}
+
+#imgRow2 .T-shoes{
+    padding-left: 20px;
+    color: #aa9b77;
+    padding-top: 58px;
+
+}
+
+#imgRow2 .euroShoes {
+    padding-left: 62px;
+    padding-top: 56px;
+
+}
+
+/*imgRow2Div2End-------------------------*/
+
+
+
+
+/*imgRow2Div3start-------------------------*/
+
+#imgRow2 .div3{
+    height: 314px;
+    margin-left: 37px;
+    adding-top: 20px;
+    width: 318px;
+    background-color: #f5f6f7;
+    padding-bottom: 20px
+
+
+}
+
+#imgRow2 .T-shirtGirl{
+    margin-left: 94px;
+    margin-top: 26px;
+    height: 200px;
+
+}
+
+#imgRow2 .circle{
+    margin-left: 32px;
+    margin-top: 19px;
+}
+
+#imgRow2 .T-shirtGirlText{
+    padding-left: 20px;
+    color: #aa9b77;
+    padding-top: 12px;
+}
+
+#imgRow2 .euro{
+    padding-left: 62px;
+    padding-top: 15px;
+}
+
+
+/*imgRow2Div3End-------------------------*/
+
+
+
+
+#about {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #aa9b77;
+    padding-bottom: 50px;
+}
+
+#about .blackDiv{
+    margin-left: 120px;
+    width: 800px;
+    margin-top: 80px;
+    height: 200px;
+    border: 2px solid #827558;
+}
+
+
+#about .blackDiv{
+    margin-left: 120px;
+    width: 800px;
+    margin-top: 80px;
+    height: 200px;
+    border: 2px solid #827558;
+}
+
+#about h1{
+    text-align: center;
+    /*margin-top: -23px;*/
+    margin-left: 5px;
+    color: #837659;
+}
+
+
+#social{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #535253;
+}
+
+#social span{
+    font-size: 0.8em;
+    color: white;
+}
+
+#footer{
+    color: white;
+    background-color: #424242;
+
+}
+
+
+#footer h1{
+    font-size: 2.2em;
+}
+
+#footer p{
+    font-weight: lighter;
+}
+
+#footer .list{
+    float: right;
+    display: inline-block;
+}
+
+#footer .design{
+    font-weight: 300;
+
+    margin-right: -17px;
+}
+
+
+#footer .row  a{
+    padding-right: 7px;
+    border-right: 2px solid;
+    color: white;
+}
+
+/*MEDIA QUERIES for SM tablet*/
+@media(max-width: 1200px) {
+
+    #banner h1 {
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+
+    .banner-text p {
+        font-size: 0.9em;
+        font-weight: lighter;
+    }
+
+    #cheakbox {
+        padding-top: 36px;
+        background-color: #f5f6f7;
+        padding-bottom: 12px;
+    }
+
+    #cheakbox .box {
+        width: 20px;
+        height: 19px;
+    }
+
+    .checkbox-inline {
+        padding-bottom: 5px;
+        margin-left: 10px;
+    }
+
+    #cheakbox p {
+        margin-left: 10px;
+        margin-top: 3px;
+    }
+
+    #cheakbox .btn {
+        border-radius: 0px;
+        height: 42px;
+        color: white;
+        background-color: #aa9b77;
+    }
+
+    #cheakbox .btn {
+        margin-top: 20px;
+        border-radius: 0px;
+        height: 38px;
+        color: white;
+        background-color: #aa9b77;
+    }
+
+    #line .img-responsive {
+        margin-left: 9px;
+        margin-top: 32px;
+    }
+
+    #line .col-md-2 h3 {
+        margin-left: 15px;
+        font-size: small;
+        padding-top: 8px;
+    }
+
+    #line .pull-right {
+        margin-top: 13px;
+        margin-right: 3px;
+    }
+
+    #imgRow1 .shirtPic {
+        width: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #imgRow1 .btn-default {
+        /* padding-right: 10px; */
+        padding-left: 0px;
+        background-color: #f5f6f7;
+        border-color: transparent;
+    }
+
+    #imgRow1 .img-responsive {
+        /* width: 42px; */
+        padding-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #imgRow1 .T-shirt {
+        padding-left: 12px;
+        color: #aa9b77;
+        font-size: x-small;
+        margin-top: 31px;
+
+    }
+
+    #imgRow1 .euro {
+        font-size: smaller;
+        padding-left: 14px;
+        padding-top: 32px;
+    }
+
+    #imgRow1 .div1 {
+        margin-left: 10px;
+        adding-top: 20px;
+        width: 146px;
+        background-color: #f5f6f7;
+        padding-bottom: 20px;
+    }
+
+    #line2 .col-md-2 h3 {
+        font-size: small;
+        margin-left: -8px;
+        margin-top: -6px;
+    }
+
+    #about .blackDiv {
+        font-size: xx-large;
+        margin-left: 100px;
+        width: 703px;
+        margin-top: 53px;
+        height: 110px;
+        border: 2px solid #827558;
+    }
+
+    #about {
+        text-align: center;
+        margin-top: 55px;
+        background-color: #aa9b77;
+        padding-bottom: 28px;
+    }
+
+
+    #about h1 {
+        /*background-image: url('img/aboutBack.png');*/
+        text-align: center;
+        margin-top: -13px;
+        margin-left: 5px;
+        color: #837659;
+    }
+
+    #about p {
+        font-size: x-small;;
+    }
+
+    #social span {
+        font-size: 0.5em;
+        color: white;
+        margin-left: 18px;
+    }
+
+    #footer h1 {
+        padding-left: 9px;
+        font-size: 1.0em;
+    }
+
+    #footer p {
+        font-size: 0.8em;
+        padding-left: 9px;
+        font-weight: lighter;
+    }
+
+    #footer .row a {
+        font-size: xx-small;
+        padding-right: 7px;
+        border-right: 2px solid;
+        color: white;
+    }
+
+    #footer .foo{
+        margin-left: -11px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+@media(max-width: 768px) {
+
+    #banner h1 {
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+
+    .banner-text p {
+        font-size: 0.9em;
+        font-weight: lighter;
+    }
+
+    #cheakbox {
+        padding-top: 36px;
+        background-color: #f5f6f7;
+        padding-bottom: 12px;
+    }
+
+    #cheakbox .box {
+        width: 20px;
+        height: 19px;
+    }
+
+    .checkbox-inline {
+        padding-bottom: 5px;
+        margin-left: 10px;
+    }
+
+    #cheakbox p {
+        margin-left: 10px;
+        margin-top: 3px;
+    }
+
+    #cheakbox .btn {
+        border-radius: 0px;
+        height: 42px;
+        color: white;
+        background-color: #aa9b77;
+    }
+
+    #cheakbox .btn {
+        margin-top: 20px;
+        border-radius: 0px;
+        height: 38px;
+        color: white;
+        background-color: #aa9b77;
+    }
+
+    #line .img-responsive {
+        margin-left: 9px;
+        margin-top: 32px;
+    }
+
+    #line .col-md-2 h3 {
+        margin-left: 15px;
+        font-size: small;
+        padding-top: 8px;
+    }
+
+    #line .pull-right {
+        margin-top: 13px;
+        margin-right: 20px;
+    }
+
+    #imgRow1 .shirtPic {
+        width: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #imgRow1 .btn-default {
+        /* padding-right: 10px; */
+        padding-left: 0px;
+        background-color: #f5f6f7;
+        border-color: transparent;
+    }
+
+    #imgRow1 .img-responsive {
+        /* width: 42px; */
+        padding-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #imgRow1 .T-shirt {
+        padding-left: 12px;
+        color: #aa9b77;
+        font-size: 0.5em;
+        /* margin-top: 31px; */
+    }
+
+    #imgRow1 .bagPck{
+        padding-left: 12px;
+        color: #aa9b77;
+        font-size: 0.5em;
+        /* margin-top: 31px; */
+    }
+
+    #imgRow1 .euro {
+        font-size: 0.6em;
+        padding-right: -59px;
+        padding-left: 4px;
+        padding-top: 43px;
+    }
+
+    /*#imgRow1 .div1 {*/
+        /*margin-top: 10px;*/
+        /*margin-right: 29px;*/
+        /*margin-left: 10px;*/
+        /*adding-top: 20px;*/
+        /*width: 146px;*/
+        /*background-color: #f5f6f7;*/
+        /*padding-bottom: 20px;*/
+    /*}*/
+
+    #imgRow1 .div1 {
+        margin-top: 10px;
+        margin-right: 29px;
+        margin-left: 10px;
+        adding-top: 20px;
+        width: 115px;
+        background-color: #f5f6f7;
+        padding-bottom: 0px;
+    }
+
+    #line2 .col-md-2 h3 {
+        font-size: small;
+        margin-left: -8px;
+        margin-top: -6px;
+    }
+
+    #line2 .line2{
+        height: 2px;
+    }
+
+    #about .blackDiv {
+        font-size: smaller;
+        margin-left: 10px;
+        width: 316px;
+        margin-top: 53px;
+        height: 110px;
+        border: 2px solid #827558;
+    }
+
+    #about {
+        text-align: center;
+        margin-top: 55px;
+        background-color: #aa9b77;
+        padding-bottom: 28px;
+    }
+
+    #about h1 {
+        background: url('img/aboutBack.png');
+        font-size: x-large;
+        text-align: center;
+        margin-top: -13px;
+        margin-left: 5px;
+        color: #837659;
+    }
+
+    #about p {
+        font-size: xx-small;
+    }
+
+    #social span {
+        font-size: 0.5em;
+        color: white;
+        margin-left: 18px;
+    }
+
+    #footer h1 {
+        padding-left: 9px;
+        font-size: 1.0em;
+    }
+
+    #footer p {
+        padding-left: 9px;
+        font-size: x-small;
+        font-weight: lighter;
+    }
+
+    #footer .row a {
+        font-size: xx-small;
+        padding-right: 7px;
+        border-right: 2px solid;
+        color: white;
+    }
+
+    #footer .foo{
+        margin-left: -11px;
+    }
+
+    #footer .design{
+        font-size: 0.7em;
+        margin-right: -15px;
+    }
+
+    /*div 2 queri*/
+
+    #imgRow1 .img-pent {
+        height: 119px;
+        margin-top: 46px;
+        margin-left: -28px;
+    }
+
+
+    #imgRow1 .div2 {
+        margin-left: -18px;
+        width: 109px;
+        background-color: #f5f6f7;
+
+        height: 215px;
+        margin-top: 8px;
+    }
+
+
+    #imgRow1 .pent {
+        font-size: 0.4em;
+        padding-left: 14px;
+        color: #aa9b77;
+    }
+
+    #imgRow1 .euroDiv2 {
+        padding-top: 12px;
+        font-size: 0.6em;
+        margin-left: -54px;
+    }
+
+
+    #imgRow1 .div3 {
+        margin-top: 10px;
+        height: 216px;
+        margin-left: 13px;
+        width: 107px;
+        background-color: #f5f6f7;
+        padding-bottom: 12px;
+    }
+
+    #imgRow1 .img-bag {
+        width: 68px;
+        margin-left: 32px;
+        margin-top: 22px;
+    }
+
+
+    #imgRow1 .bagPck {
+
+        color: #aa9b77;
+        font-size: 0.5em;
+        margin-top: 18px;
+
+    }
+
+
+    #imgRow2 .div1 {
+        margin-top: 10px;
+        height: 216px;
+        margin-left: 13px;
+        width: 107px;
+        background-color: #f5f6f7;
+        padding-bottom: 12px;
+    }
+
+
+    #imgRow2 .img-upper {
+        height: 119px;
+        width: 84px;
+        margin-top: 10px;
+        margin-left: 27px;
+
+    }
+
+    #imgRow2 .giacket {
+        font-size: 0.5em;
+        padding-left: 7px;
+        color: #aa9b77;
+        padding-top: 26px;
+    }
+
+    #imgRow2 .euroGiacket {
+        font-size: 0.7em;
+         padding-left: 0px;
+        padding-top: 24px;
+    }
+
+
+    #imgRow2 .div2 {
+        margin-top: 10px;
+        height: 216px;
+        margin-left: 13px;
+        width: 107px;
+        background-color: #f5f6f7;
+        padding-bottom: 12px;
+    }
+
+    #imgRow2 .img-shoes {
+        margin-top: 36px;
+        width: 80px;
+        margin-left: 28px;
+    }
+
+
+    #imgRow2 .T-shoes {
+        font-size: 0.5em;
+        padding-left: 11px;
+        color: #aa9b77;
+        padding-top: 50px;
+    }
+
+    #imgRow2 .euroShoes {
+         padding-left: 0px;
+        padding-top: 52px;
+        font-size: 0.7em;
+    }
+
+
+    #imgRow2 .div3 {
+        margin-top: 10px;
+        height: 216px;
+        margin-left: 13px;
+        width: 107px;
+        background-color: #f5f6f7;
+        padding-bottom: 12px;
+    }
+
+    #imgRow2 .circle {
+        width: 20px;
+        margin-left: 14px;
+        margin-top: 8px;
+    }
+
+    #imgRow2 .T-shirtGirl {
+        margin-left: 29px;
+        margin-top: 26px;
+        height: 103px;
+    }
+
+    #imgRow2 .T-shirtGirlText {
+        font-size: 0.6em;
+        padding-left: 10px;
+        color: #aa9b77;
+        padding-top: 24px;
+    }
+
+
+    #imgRow2 .euro {
+        padding-left: 0px;
+        padding-top: 29px;
+        font-size: 0.7em;
+    }
+
+
+}

@@ -1,0 +1,195 @@
+/*section navbar*/
+
+#nav .navbar-fixed-top{
+    width:100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color:white;
+    border: 0;
+}
+
+#nav .btn-default{
+    background-color: #e64a19;
+    color: white;
+    width: 96px;
+    height: 41px;
+    margin-right: 80px;
+}
+
+#nav img{
+    margin-top: -18px;
+}
+
+
+/*end navbar*/
+
+
+
+
+/*section pic*/
+
+video {
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+#video .overlay-desc {
+    background: rgba(0,0,0,0);
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h4 {
+    color: white;
+    font-family: 'Nobile', sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#video .btn-danger{
+    background-color: #e64a19;
+    color: white;
+    width: 154px;
+    height: 50px;
+    font-size: x-large;
+    margin-top: 150px;
+
+}
+
+/*section pic end*/
+
+
+/*section discover start*/
+#discover .row h2{
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #323668;
+}
+
+#{
+    margin-top: 40px;
+}
+
+#discover .col-md-12{
+    margin-top: 40px;
+
+}
+
+
+#discover .btn-primary{
+    text-align: center;
+    background-color: #323668;
+    color: white;
+    width: 154px;
+    height: 50px;
+    font-size: x-large;
+    margin-top: 50px;
+}
+
+#form{
+    margin-top: 50px;
+}
+
+
+
+#cook{
+    margin-top: 50px;
+}
+
+#cook h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #323668;
+}
+#cook .col-md-3{
+    margin-top: 50px;
+    border-right: 1px solid gray;
+}
+
+#cook .border{
+    border: none;
+}
+
+#cook .
+
+#cook .col-md-3 p{
+    color: #323668;
+    font-weight: 500;
+}
+
+
+#cook .btn-primary{
+    text-align: center;
+    background-color: #323668;
+    color: white;
+    width: 177px;
+    height: 50px;
+    font-size: x-large;
+    margin-top: 50px;
+}
+
+#slider{
+    margin-top: 50px
+}
+
+#text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#text  h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #323668;
+
+}
+
+#text  p{
+    color: #323668;
+    font-weight: 500;
+
+}
+
+
+#text .btn-primary{
+    text-align: center;
+    background-color: #323668;
+    color: white;
+    width: 177px;
+    height: 50px;
+    font-size: x-large;
+    margin-top: 30px;
+}
+
+#footer1 .col-md-12{
+    text-align: center;
+    margin-top: 50px;
+    background-color: #323668;
+    padding-bottom: 20px;
+}
+
+#footer1 p, .fa-2x{
+    padding-top: 20px;
+    color: white;
+    padding-left: 10px;
+}
+
+#footer1 h3{
+    color: white;
+    padding-top: 20px;
+    font-weight: bold;
+
+}
+
+
+
+#footer1 .col-md-4 {
+    border-right: 1px solid gray;
+}

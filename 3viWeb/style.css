@@ -1,0 +1,199 @@
+#about{
+    padding: 30px;
+    color: white;
+    text-align: center;
+    background-color: #112646;
+}
+
+
+
+#about .col-md-8 h3,p{
+    text-align: left;
+}
+
+#about .col-md-12{
+    margin-top: 50px;
+}
+
+#about .img-responsive{
+    height: 60px;
+    margin-top: 35px;
+    margin-left: 48px;
+}
+
+#about .h1{
+    font-weight: 100;
+}
+
+#about .col-md-4 p{
+    font-weight: 100;
+
+}
+
+
+#nav .navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+#about .hidden { display: none; }
+
+
+
+
+
+
+
+#carousel .item, img{
+    object-fit: cover;
+}
+#carousel .overlay p{
+    text-align: center;
+    padding-top: 90px;
+
+
+}
+
+#carousel .overlay {
+    font-size: xx-large;
+    font-weight: lighter;
+    color:#fff;
+    position:absolute;
+    z-index:12;
+    top:50%;
+    left:0;
+    width:100%;
+    text-align:center;
+}
+
+#carousel .carousel-inner{
+    height: 835px;
+}
+
+
+
+#footer{
+    color: white;
+    background-color: black;
+    padding-top: 30px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+
+}
+
+
+/*MEDIA QUERIES for tablet*/
+@media(max-width: 1200px) {
+
+    #about h1{
+        font-size: x-large;
+
+    }
+
+    /*#carousel p{*/
+        /*margin-top: 30%;*/
+    /*}*/
+
+    #about .img-responsive{
+        margin-left: 20px;
+    }
+
+
+
+    #Carousel {
+        min-height: 100%;
+        min-width: 100%;
+    }
+
+
+    #carousel .overlay {
+        font-size: larger;
+    }
+
+    #myCarousel .carousel-inner{
+        height: 810px;
+    }
+    #myCarousel .item, img{
+        height: 100% !important;
+        width:  100% !important;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+
+
+    }
+
+
+    #carousel .carousel-inner{
+        height: 808px;
+    }
+
+    #tie{
+        /*height: ;*/
+
+    }
+
+}
+
+
+/*MEDIA QUERIES for Mobile*/
+@media(max-width: 800px) {
+
+    #tie{
+        height: 50px;
+    }
+
+    #about h1{
+        font-size: large;
+
+    }
+
+    #about .col-md-8 h3,p{
+        font-size: small;
+    }
+
+    #about .img-responsive{
+        margin-left: 16px;
+        width: 17px;
+    }
+
+
+
+    #Carousel{
+        min-height: 100%;
+        min-width: 100%;
+
+    }
+
+    #carousel .overlay p {
+        text-align: center;
+        padding-top: 50%;
+
+    }
+
+   #myCarousel .carousel-inner{
+       height: 810px;
+    }
+
+
+   #myCarousel .item, img{
+        height: 100% !important;
+        width:  100% !important;
+       margin: 0 auto;
+       overflow: hidden;
+       position: relative;
+
+
+    }
+
+    #carousel .carousel-inner{
+        height: 808px;
+    }
+
+}
+
+
+
+

@@ -1,0 +1,228 @@
+
+/*NAVBAR*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.right-side-button a {
+    font-size: 0.8em;
+    font-weight: 800;
+    color: #fff;
+}
+
+.navbar-nav li > a {
+    font-size: 15px;
+}
+
+
+
+.navbar-default{
+    background-color:#000;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    border-bottom: none;
+    color: #fff;
+}
+
+.four-op > ul > li > a {
+    color: #fff;
+    font-weight: 300;
+}
+
+.four-op > ul > li > a:hover {
+    color: #FF6008;
+    font-weight: 200;
+    text-decoration: none;
+    background-color: #000;
+}
+
+
+#navbar-strap .navbar .right-side-button{
+    padding-top: 5px;
+    /* background-color: #FF6008; */
+    color: #fff;
+    /* border-radius: 1px */
+}
+
+#navbar-strap .navbar .right-side-button .btn-submit{
+    background-color: #FF6008;
+    color: #fff;
+    font-weight: 200;
+    border-radius: 0;
+    font-size: 0.9em;
+    margin-right: 15px;
+}
+
+#navbar-strap a.login-a:hover {
+    text-decoration: none;
+}
+
+/*NAVBAR END*/
+
+
+
+
+/* CONTENT AREA STARTS */
+
+#content-banner {
+    background: url("../img/light-bulb-cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 90px;
+    }
+
+
+
+#content-banner .banner-text{
+    color: #fff;
+    /* font-size: s */
+}
+
+
+#content-banner .banner-text h1{
+    font-size: 3.9em;
+}
+
+
+#content-banner .banner-text .grey-text{
+    color: #E9E9E9;
+}
+
+
+#content-banner .banner-text .fa-heart{
+    padding-left: 70px;
+    color: red
+}
+
+/* CONTENT AREA ENDS */
+
+
+/*subscribe open*/
+
+#suscribe {
+    background-color: #E9E9E9;
+    padding-top: 50px;
+    margin-bottom: 7;
+    padding-bottom: 50px;
+}
+
+
+#suscribe .col-md-8 p{
+font-size: large;
+    font-weight: bold;
+}
+
+
+#suscribe .inputIcon i{
+    position: absolute;
+    float: right;
+    margin-left: -30px;
+}
+
+
+#suscribe .inputIcon input{
+    width: 75%;
+    height: 43px;
+}
+
+
+#suscribe .follow p{
+    font-size: large;
+    font-weight: bold;
+}
+
+
+#suscribe .fa-2x {
+    margin-top: 10px;
+    margin-right: 28px;
+
+}
+/*subscribe end*/
+
+
+/*About open*/
+
+#about {
+margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#about .col-md-6 h2{
+    color: #FF610A;
+}
+
+#about .col-md-6 p{
+
+}
+
+
+
+
+/*MEDIA QUERIES for SM tablet*/
+@media(max-width: 1200px) {
+    #content-cards .third{
+        /*padding-top: 40px;*/
+    }
+
+    #suscribe{
+        /*align-items: center;*/
+        text-align: center;
+    }
+
+    #awards {
+        text-align: center;
+    }
+
+    #awards .img{
+        text-align: center;
+    }
+
+    #content-cards .img-card{
+        text-align: center;
+
+    }
+}
+
+
+
+
+
+/*MEDIA QUERIES for XS mobile*/
+@media(max-width: 800px) {
+    #content-cards{
+        text-align: center;
+    }
+
+    #content-cards .second{
+        /*padding-top: 20px;*/
+    }
+
+    #content-cards .img-card{
+        margin-top: 30px;
+    }
+
+    #awards .img{
+        margin-right: 120px;
+    }
+
+
+    #suscribe{
+
+        text-align: center;
+
+    }
+
+
+    #suscribe .follow{
+        padding-top: 20px;
+    }
+
+    #footer .fa-2x{
+        font-size: large;
+    }
+}
