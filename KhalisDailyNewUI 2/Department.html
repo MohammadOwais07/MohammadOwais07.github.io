@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Khalis Daily</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Mina|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section id="head-content" class="deliveryInfo-section">
+    <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid container-media-xs">
+
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">
+                    <div class="icon">
+                        <i class="fa fa-user-circle user-circle"></i>
+                    </div>
+                </a>
+
+                <a href="index.html" class="navbar-brand">
+                    <div class="logo">
+                        <img class="logo-img" src="img/logoblue.png" alt="mnb-logo">
+                        <img class="img-responsive img-logo-mediaQ" src="img/logopng.png" alt="">
+                    </div>
+                </a>
+
+                <a href="#" class="navbar-brand">
+                    <div class="cart-responsive">
+                        <i class="fa fa-shopping-cart cart-query"></i>
+
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="">
+                <!--navbar-collapse collapse-->
+                <ul class="nav navbar-nav nav-change-color-media">
+                    <li>
+                        <form class="navbar-form navbar-left" action="/action_page.php">
+                            <div class="input-group ">
+                                <div class="input-group-btn search-panel">
+                                    <button type="button" class="btn btn-default dropdown-toggle btn-dropdown" data-toggle="dropdown">
+                                        <span id="search_concept">All</span> <span class="fa fa-chevron-down" aria-hidden="true"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#contains">Contains</a></li>
+                                        <li><a href="#its_equal">It's equal</a></li>
+                                        <li><a href="#greather_than">Greather than </a></li>
+                                        <li><a href="#less_than">Less than</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="#all">Anything</a></li>
+                                    </ul>
+                                </div>
+                                <input type="text" class="form-control input-search" name="x" placeholder="Search term...">
+                                <span class="input-group-btn">
+                    <button class="btn btn-default btn-glyphicon" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="location-map" href="account-model.html"> <span class="fa fa-map-marker" aria-hidden="true"></span><span class="delivery-xs">Delivery in Gulshan</span></a></li>
+                    <li><a class="account-content" href="accountInfo.html">Account <span class="fa fa-chevron-down" aria-hidden="true"></span> </a></li>
+                    <li>
+                        <button type="button"  class="btn btn-demo navbar-btn-cart" data-toggle="modal" data-target="#myModal2">
+                            <span class="fa fa-shopping-cart" aria-hidden="true"></span>Cart</a>
+                            <span class="cart-span">1</span>
+                        </button>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="content-links">
+        <ul class="list-inline">
+            <li>
+                <span class="home-media list-icon"><i class="fa fa-home"></i></span><br/>
+                <a class="home" href="content.html" >HOME</a></li>
+            <li>
+                <span class="department-media list-icon"><i class="fa fa-th-large"></i></span><br/>
+                <a class="department-tab" href="#"><span >DEPARTMENTS</span> </a></li>
+            <li>
+                <span class="coupons-media list-icon"><i class="fa fa-tag"></i></span><br/>
+                <a href="#">COUPONS</a></li>
+            <li>
+                <span class="price-media list-icon"><i class="fa fa-usd"></i></span><br/>
+                <a href="get-PKR-page.html">GET $50</a></li>
+            <li>
+                <span class="item-media list-icon"><i class="fa fa-sticky-note"></i></span><br/>
+                <a href="sub-department2.html">YOUR ITEMS</a></li>
+        </ul>
+    </div>
+
+
+</section>
+
+<section id="department">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <h1 class="department-heading"> DEPARTMENT</h1>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                <h4 class="categoery-heading"> Popular in San</h4>
+                </div>
+
+                <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <img src="img/pack.jpg" alt="">
+                </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/jelly.jpg" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/tea.jpg" alt="">
+                    </div>
+
+
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/pack.jpg" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/jelly.jpg" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/tea.jpg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span> </p>
+                </div>
+
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                <h4 class="categoery-heading"> Popular in San</h4>
+                </div>
+
+                <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <img src="img/pack.jpg" alt="">
+                </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/jelly.jpg" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/tea.jpg" alt="">
+                    </div>
+
+
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/pack.jpg" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/jelly.jpg" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/tea.jpg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span> </p>
+                </div>
+
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+                <img class="category-menu-category-image" src="img/sale.jpg">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="categoery-heading">Sales</h4>
+                </div>
+
+                <ul class="list-unstyled list-inList">
+                    <li class="categoery-list"> Nature</li>
+                    <li class="categoery-list"> Gluten Free</li>
+                    <li class="categoery-list"> Organic</li>
+                    <li class="categoery-list"> Produce</li>
+                </ul>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span> </p>
+                </div>
+
+            </div>
+
+
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+                <img class="category-menu-category-image" src="img/egggg.jpg">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="categoery-heading">produce</h4>
+                </div>
+
+                <ul class="list-unstyled list-inList">
+                    <li class="categoery-list">Drinks</li>
+                    <li class="categoery-list"> Nuts</li>
+                    <li class="categoery-list"> Salads</li>
+                    <li class="categoery-list"> Tofu</li>
+                </ul>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span> </p>
+                </div>
+
+            </div>
+
+
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+                <img class="category-menu-category-image" src="img/snakers.jpg">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="categoery-heading">Snacks</h4>
+                </div>
+
+                <ul class="list-unstyled list-inList">
+                    <li class="categoery-list"> chips</li>
+                    <li class="categoery-list"> candy</li>
+                    <li class="categoery-list"> Crackers</li>
+                    <li class="categoery-list">Energy &  Bars</li>
+                </ul>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span> </p>
+                </div>
+
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+                <img class="category-menu-category-image" src="img/iceCre.jpg">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="categoery-heading">Frozen</h4>
+                </div>
+
+                <ul class="list-unstyled list-inList">
+                    <li class="categoery-list"> Frozen </li>
+                    <li class="categoery-list"> Ice Cream & Ice</li>
+                    <li class="categoery-list"> Frozen Pizza</li>
+                    <li class="categoery-list">Frozen Meat </li>
+
+                </ul>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span> </p>
+                </div>
+
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+                <img class="category-menu-category-image" src="img/bakeryy.jpg">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="categoery-heading"> Bakery</h4>
+                </div>
+
+                <ul class="list-unstyled list-inList">
+                    <li class="categoery-list"> Bread </li>
+                    <li class="categoery-list"> Tortillas & Flat Bread</li>
+                    <li class="categoery-list"> Breakfast Bakery</li>
+                    <li class="categoery-list">Bakery Desserts</li>
+                </ul>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span> </p>
+                </div>
+
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+                <img class="category-menu-category-image" src="img/meat.jpg">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="categoery-heading"> Meat</h4>
+                </div>
+
+                <ul class="list-unstyled list-inList">
+                    <li class="categoery-list">  Meat</li>
+                    <li class="categoery-list">  Poultry Counter</li>
+                    <li class="categoery-list"> Crackers</li>
+                    <li class="categoery-list"> Packaged Meat</li>
+                </ul>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span></p>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+                <img class="category-menu-category-image" src="img/sale.jpg">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="categoery-heading">Sales</h4>
+                </div>
+
+                <ul class="list-unstyled list-inList">
+                    <li class="categoery-list"> Nature</li>
+                    <li class="categoery-list"> Gluten Free</li>
+                    <li class="categoery-list"> Organic</li>
+                    <li class="categoery-list"> Produce</li>
+                </ul>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span> </p>
+                </div>
+
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="categoery-heading"> Popular in San</h4>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/pack.jpg" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/jelly.jpg" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/tea.jpg" alt="">
+                    </div>
+
+
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/pack.jpg" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/jelly.jpg" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/tea.jpg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span> </p>
+                </div>
+
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="categoery-heading"> Popular in San</h4>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/pack.jpg" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/jelly.jpg" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/tea.jpg" alt="">
+                    </div>
+
+
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/pack.jpg" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/jelly.jpg" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img src="img/tea.jpg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span> </p>
+                </div>
+
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+                <img class="category-menu-category-image" src="img/sale.jpg">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="categoery-heading">Sales</h4>
+                </div>
+
+                <ul class="list-unstyled list-inList">
+                    <li class="categoery-list"> Nature</li>
+                    <li class="categoery-list"> Gluten Free</li>
+                    <li class="categoery-list"> Organic</li>
+                    <li class="categoery-list"> Produce</li>
+                </ul>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span> </p>
+                </div>
+
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+                <img class="category-menu-category-image" src="img/egggg.jpg">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="categoery-heading">produce</h4>
+                </div>
+
+                <ul class="list-unstyled list-inList">
+                    <li class="categoery-list">Drinks</li>
+                    <li class="categoery-list"> Nuts</li>
+                    <li class="categoery-list"> Salads</li>
+                    <li class="categoery-list"> Tofu</li>
+                </ul>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span> </p>
+                </div>
+
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+                <img class="category-menu-category-image" src="img/iceCre.jpg">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="categoery-heading">Frozen</h4>
+                </div>
+
+                <ul class="list-unstyled list-inList">
+                    <li class="categoery-list"> Frozen </li>
+                    <li class="categoery-list"> Ice Cream & Ice</li>
+                    <li class="categoery-list"> Frozen Pizza</li>
+                    <li class="categoery-list">Frozen Meat</li>
+
+                </ul>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span> </p>
+                </div>
+
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+                <img class="category-menu-category-image" src="img/bakeryy.jpg">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="categoery-heading"> Bakery</h4>
+                </div>
+
+                <ul class="list-unstyled list-inList">
+                    <li class="categoery-list"> Bread </li>
+                    <li class="categoery-list"> Tortillas & Flat Bread</li>
+                    <li class="categoery-list"> Breakfast Bakery</li>
+                    <li class="categoery-list">Bakery Desserts</li>
+                </ul>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span> </p>
+                </div>
+
+            </div>
+
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+                <img class="category-menu-category-image" src="img/snakers.jpg">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="categoery-heading">Snacks</h4>
+                </div>
+
+                <ul class="list-unstyled list-inList">
+                    <li class="categoery-list"> chips</li>
+                    <li class="categoery-list"> candy</li>
+                    <li class="categoery-list"> Crackers</li>
+                    <li class="categoery-list">Energy &  Bars</li>
+                </ul>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span> </p>
+                </div>
+
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+                <img class="category-menu-category-image" src="img/iceCre.jpg">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="categoery-heading">Frozen</h4>
+                </div>
+
+                <ul class="list-unstyled list-inList">
+                    <li class="categoery-list"> Frozen </li>
+                    <li class="categoery-list"> Ice Cream & Ice</li>
+                    <li class="categoery-list"> Frozen Pizza</li>
+                    <li class="categoery-list">Frozen Meat</li>
+
+                </ul>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span> </p>
+                </div>
+
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+                <img class="category-menu-category-image" src="img/bakeryy.jpg">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="categoery-heading"> Bakery</h4>
+                </div>
+
+                <ul class="list-unstyled list-inList">
+                    <li class="categoery-list"> Bread </li>
+                    <li class="categoery-list"> Tortillas & Flat Bread</li>
+                    <li class="categoery-list"> Breakfast Bakery</li>
+                    <li class="categoery-list">Bakery Desserts</li>
+                </ul>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span> </p>
+                </div>
+
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+                <img class="category-menu-category-image" src="img/meat.jpg">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="categoery-heading"> Meat</h4>
+                </div>
+
+                <ul class="list-unstyled list-inList">
+                    <li class="categoery-list">  Meat</li>
+                    <li class="categoery-list">  Poultry Counter</li>
+                    <li class="categoery-list"> Crackers</li>
+                    <li class="categoery-list"> Packaged Meat</li>
+                </ul>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span></p>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+                <img class="category-menu-category-image" src="img/sale.jpg">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="categoery-heading">Sales</h4>
+                </div>
+
+                <ul class="list-unstyled list-inList">
+                    <li class="categoery-list"> Nature</li>
+                    <li class="categoery-list"> Gluten Free</li>
+                    <li class="categoery-list"> Organic</li>
+                    <li class="categoery-list"> Produce</li>
+                </ul>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span> </p>
+                </div>
+
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+                <img class="category-menu-category-image" src="img/egggg.jpg">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="categoery-heading">produce</h4>
+                </div>
+
+                <ul class="list-unstyled list-inList">
+                    <li class="categoery-list">Drinks</li>
+                    <li class="categoery-list"> Nuts</li>
+                    <li class="categoery-list"> Salads</li>
+                    <li class="categoery-list"> Tofu</li>
+                </ul>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span> </p>
+                </div>
+
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-12 category-menu-category">
+                <img class="category-menu-category-image" src="img/snakers.jpg">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="categoery-heading">Snacks</h4>
+                </div>
+
+                <ul class="list-unstyled list-inList">
+                    <li class="categoery-list"> chips</li>
+                    <li class="categoery-list"> candy</li>
+                    <li class="categoery-list"> Crackers</li>
+                    <li class="categoery-list">Energy &  Bars</li>
+                </ul>
+
+                <div class="row">
+                    <p class="categoery-link">more view <span class="fa fa-chevron-right"></span> </p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+</body>
+</html>

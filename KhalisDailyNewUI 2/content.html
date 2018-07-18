@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Khalis Daily</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Mina|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section id="head-content">
+    <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid container-media-xs">
+
+            <div class="navbar-header">
+                <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">-->
+                    <!--<span class="sr-only">Toggle Navigation</span>-->
+                    <!--<span class="icon-bar"></span>-->
+                    <!--<span class="icon-bar"></span>-->
+                    <!--<span class="icon-bar"></span>-->
+                <!--</button>-->
+
+
+                <a href="#" class="navbar-brand">
+                    <div class="icon">
+                        <i class="fa fa-user-circle user-circle"></i>
+                    </div>
+                </a>
+
+                <a href="index.html" class="navbar-brand">
+                    <div class="logo">
+                        <img class="logo-img" src="img/logoblue.png" alt="mnb-logo">
+                        <img class="img-responsive img-logo-mediaQ" src="img/logopng.png" alt="">
+                    </div>
+                </a>
+
+                <a href="#" class="navbar-brand">
+                    <div class="cart-responsive">
+                        <i class="fa fa-shopping-cart cart-query"></i>
+
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="">
+                <!--navbar-collapse collapse-->
+                <ul class="nav navbar-nav nav-change-color-media">
+                <li>
+                    <form class="navbar-form navbar-left" action="/action_page.php">
+                        <div class="input-group ">
+                            <div class="input-group-btn search-panel">
+                                <button type="button" class="btn btn-default dropdown-toggle btn-dropdown" data-toggle="dropdown">
+                                    <span id="search_concept">All</span> <span class="fa fa-chevron-down" aria-hidden="true"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#contains">Contains</a></li>
+                                    <li><a href="#its_equal">It's equal</a></li>
+                                    <li><a href="#greather_than">Greather than </a></li>
+                                    <li><a href="#less_than">Less than</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#all">Anything</a></li>
+                                </ul>
+                            </div>
+                            <input type="text" class="form-control input-search" name="x" placeholder="Search term...">
+                            <span class="input-group-btn">
+                    <button class="btn btn-default btn-glyphicon" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+                        </div>
+                    </form>
+                </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="location-map" href="account-model.html"> <span class="fa fa-map-marker" aria-hidden="true"></span><span class="delivery-xs">Delivery in Gulshan</span></a></li>
+                    <li><a class="account-content" href="accountInfo.html">Account <span class="fa fa-chevron-down" aria-hidden="true"></span> </a></li>
+                    <li>
+                        <button type="button"  class="btn btn-demo navbar-btn-cart" data-toggle="modal" data-target="#myModal2">
+                            <span class="fa fa-shopping-cart" aria-hidden="true"></span>Cart</a>
+                            <span class="cart-span">1</span>
+                        </button>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="content-links">
+        <ul class="list-inline">
+            <li>
+                <span class="home-media list-icon"><i class="fa fa-home"></i></span><br/>
+                <a class="content-home" href="content.html" >HOME</a></li>
+            <li>
+                <span class="department-media list-icon"><i class="fa fa-th-large"></i></span><br/>
+                <a href="Department.html">DEPARTMENTS</a></li>
+            <li>
+                <span class="coupons-media list-icon"><i class="fa fa-tag"></i></span><br/>
+                <a href="#">COUPONS</a></li>
+            <li>
+                <span class="price-media list-icon"><i class="fa fa-usd"></i></span><br/>
+                <a href="get-PKR-page.html">GET $50</a></li>
+            <li>
+                <span class="item-media list-icon"><i class="fa fa-sticky-note"></i></span><br/>
+                <a href="sub-department2.html">YOUR ITEMS</a></li>
+        </ul>
+    </div>
+
+
+</section>
+
+<section id="slider">
+    <div class="slider-container container">
+        <section class="deals-slider slider">
+            <div class="slide">
+                <div class="col-md-3 col-sm-3 col-xs-12 Deals">
+                    <div class="col-md-8 col-sm-8 col-xs-8 main-div">
+                        <P class="para-heading-deals">DEALS OF THE DAY</P>
+                        <p class="simple-para-deals">Up to 40% off everyday essentials</p>
+                        <button class="btn-showAll-deals">SHOW ALL DEALS</button>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img class="img-first-div" src="img/Deals%circle.png">
+                    </div>
+
+                </div>
+            </div>
+            <div class="slide">
+                <div class="col-md-3 col-sm-3 col-xs-12 Save">
+                    <div class="col-md-8 col-sm-8 col-xs-8 main-div">
+                        <P class="para-heading-save">SAVE PKR. 50.00</P>
+                        <p class="simple-para-save">with select Lipton, Tapal, A1 Kar,
+                            brooke bond and more items</p>
+                        <button class="btn-showAll-save">SAVE NOW</button>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img class="img-first-div" src="img/deal2.png">
+                    </div>
+
+                </div>
+            </div>
+            <div class="slide">
+                <div class="col-md-3 col-sm-3 col-xs-12 Save">
+                    <div class="col-md-8 col-sm-8 col-xs-8 main-div">
+                        <P class="para-heading-save">SAVE PKR. 50.00</P>
+                        <p class="simple-para-save">with select Lipton, Tapal, A1 Kar,
+                            brooke bond and more items</p>
+                        <button class="btn-showAll-save">SAVE NOW</button>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img class="img-first-div" src="img/deal3.png">
+                    </div>
+
+                </div>
+            </div>
+            <div class="slide">
+                <div class="col-md-3 col-sm-3 col-xs-12 Deals">
+                    <div class="col-md-8 col-sm-8 col-xs-8 main-div">
+                        <P class="para-heading-deals">SAVE PKR. 50.00</P>
+                        <p class="simple-para-deals">Up to 40% off everyday essentials</p>
+                        <button class="btn-showAll-deals">SAVE NOW</button>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img class="img-first-div" src="img/Deals%circle.png">
+                    </div>
+
+                </div>
+            </div>
+            <div class="slide">
+                <div class="col-md-3 col-sm-3 col-xs-12 Deals">
+                    <div class="col-md-8 col-sm-8 col-xs-8 main-div">
+                        <P class="para-heading-deals">SAVE PKR. 50.00</P>
+                        <p class="simple-para-deals">Up to 40% off everyday essentials</p>
+                        <button class="btn-showAll-deals">SAVE NOW</button>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img class="img-first-div" src="img/Deals%circle.png">
+                    </div>
+
+                </div>
+            </div>
+            <div class="slide">
+                <div class="col-md-3 col-sm-3 col-xs-12 Save">
+                    <div class="col-md-8 col-sm-8 col-xs-8 main-div">
+                        <P class="para-heading-save">SAVE PKR. 50.00</P>
+                        <p class="simple-para-save">with select Lipton, Tapal, A1 Kar,
+                            brooke bond and more items</p>
+                        <button class="btn-showAll-save">SAVE NOW</button>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img class="img-first-div" src="img/Deals%circle.png">
+                    </div>
+
+                </div>
+            </div>
+            <div class="slide">
+                <div class="col-md-3 col-sm-3 col-xs-12 Save">
+                    <div class="col-md-8 col-sm-8 col-xs-8 main-div">
+                        <P class="para-heading-save">SAVE PKR. 50.00</P>
+                        <p class="simple-para-save">with select Lipton, Tapal, A1 Kar,
+                            brooke bond and more items</p>
+                        <button class="btn-showAll-save">SAVE NOW</button>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <img class="img-first-div" src="img/Deals%circle.png">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+</section>
+
+<section id="product-slider">
+    <div class="slider-container slider-container-products container">
+        <div class="row top-row">
+            <div class="col-md-6">
+                <text class="para-top-one">Popular in New York</text>
+            </div>
+            <div class="col-md-6">
+                <text class="para-top-two">View more ></text>
+            </div>
+        </div>
+        <div>
+            <section class="product-slider products">
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                        <!-- <div class="col-md-2">
+                               <i class="fa fa-sun-o" aria-hidden="true"></i>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div  class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para-discount">$4.29 <strike class="text-discount">$9.79</strike></p>
+                            <button type="button" class="btn-off">$0.60 off</button>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+    </div>
+</section>
+
+<section id="product-slider-two">
+    <div class="slider-container slider-container-products container">
+        <div class="row top-row">
+            <div class="col-md-6">
+                <text class="para-top-one">Trending Near You</text>
+            </div>
+            <div class="col-md-6">
+                <text class="para-top-two">View more ></text>
+            </div>
+        </div>
+        <div>
+            <section class="product-slider products">
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para-discount">$4.29 <strike class="text-discount">$9.79</strike></p>
+                            <button type="button" class="btn-off">$0.60 off</button>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para-discount">$4.29 <strike class="text-discount">$9.79</strike></p>
+                            <button type="button" class="btn-off">$0.60 off</button>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para-discount">$4.29 <strike class="text-discount">$9.79</strike></p>
+                            <button type="button" class="btn-off">$0.60 off</button>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+    </div>
+</section>
+
+<section id="product-slider-three">
+
+    <div class="slider-container slider-container-products container">
+        <div class="row top-row">
+            <div class="col-md-6">
+                <text class="para-top-one">New Arrivals</text>
+            </div>
+            <div class="col-md-6">
+                <text class="para-top-two">View 44 more ></text>
+            </div>
+        </div>
+        <div>
+            <section class="product-slider products">
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                        <div class="col-md-12">
+                            <button class="btn-save"> Save $0.30</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+        </div>
+
+    </div>
+</section>
+<section id="product-slider-four">
+
+    <div class="slider-container slider-container-products container">
+        <div class="row top-row">
+            <div class="col-md-6">
+                <text class="para-top-one">New Arrivals</text>
+            </div>
+            <div class="col-md-6">
+                <text class="para-top-two">View 44 more ></text>
+            </div>
+        </div>
+        <div>
+            <section class="product-slider products">
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                        <div class="col-md-12">
+                            <button class="btn-save"> Save $0.30</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="products col-md-2 col-sm-2">
+                        <div class="col-md-12 col-sm-12">
+                            <img class="product-plus" src="img/add-img.png">
+                        </div>
+                        <div class="products col-md-12 col-sm-12">
+                            <img class="products-imgs" src="img/product-one.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p class="last-row-first-para">$9.79</p>
+                            <p class="last-row-second-para">Maille Cornichons Extra Fine Gherkins Hand-Picked</p>
+                            <p class="last-row-third-para"> 14 fl oz</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+        </div>
+
+    </div>
+</section>
+
+<section id="img-content">
+    <div class="container img-container">
+        <div class="row img-div">
+            <div class="col-md-12">
+                <p class="img-content-para"> Browse Departments</p>
+            </div>
+            <div class="row img-row1">
+                <div class="col-md-2 col-sm-2 col-xs-6">
+                    <img class="img-responsive" src="img/egg1.png" alt=""/>
+                    <div class="bottom-left">Produce</div>
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-6 pic">
+                    <img class="img-responsive" src="img/apple.png" alt=""/>
+                    <div class="bottom-left">Apple</div>
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-6 pic">
+                    <img class="img-responsive" src="img/tea.png" alt=""/>
+                    <div class="bottom-left">Beverages</div>
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-6 pic">
+                    <img class="img-responsive" src="img/snacks.png" alt=""/>
+                    <div class="bottom-left">Snacks</div>
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-6 pic">
+                    <img class="img-responsive" src="img/ice.png" alt=""/>
+                    <div class="bottom-left">Frozen</div>
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-6 pic">
+                    <img class="img-responsive" src="img/bakery.png" alt=""/>
+                    <div class="bottom-left">Bakery</div>
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-6 pic">
+                    <img class="img-responsive" src="img/gradint.png" alt=""/>
+                    <div class="bottom-left">Pantry</div>
+                </div>
+            </div>
+            <div class="row img-row2">
+                <div class="col-md-2 col-sm-2 col-xs-6 second-egg-div">
+                    <img class="img-responsive" src="img/egg1.png" alt=""/>
+                    <div class="bottom-left">Produce</div>
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-6 pic">
+                    <img class="img-responsive" src="img/apple.png" alt=""/>
+                    <div class="bottom-left">Apple</div>
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-6 pic">
+                    <img class="img-responsive" src="img/tea.png" alt=""/>
+                    <div class="bottom-left">Beverages</div>
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-6 pic">
+                    <img class="img-responsive" src="img/snacks.png" alt=""/>
+                    <div class="bottom-left">Snacks</div>
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-6 pic">
+                    <img class="img-responsive" src="img/ice.png" alt=""/>
+                    <div class="bottom-left">Frozen</div>
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-6 pic">
+                    <img class="img-responsive" src="img/bakery.png" alt=""/>
+                    <div class="bottom-left">Bakery</div>
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-6 pic">
+                    <img class="img-responsive" src="img/gradint.png" alt=""/>
+                    <div class="bottom-left">Pantry</div>
+                </div>
+            </div>
+            <div class="row img-row3">
+                <div class="col-md-2 col-sm-2 col-xs-6">
+                    <img class="img-responsive" src="img/egg1.png" alt=""/>
+                    <div class="bottom-left">Produce</div>
+                </div>
+
+
+                <div class="col-md-2 col-sm-2 col-xs-6 pic">
+                    <img class="img-responsive" src="img/tea.png" alt=""/>
+                    <div class="bottom-left">Beverages</div>
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-6 pic">
+                    <img class="img-responsive" src="img/bakery.png" alt=""/>
+                    <div class="bottom-left">Bakery</div>
+                </div>
+
+                <div class="col-md-2 col-sm-2 col-xs-6 pic">
+                    <img class="img-responsive" src="img/gradint.png" alt=""/>
+                    <div class="bottom-left">Pantry</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</section>
+
+<section id="modal">
+    <!-- Modal -->
+    <div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <section id="my-cart">
+                    <div class="container cart-main">
+                        <div class="row first-row">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <p class="my-cart">My Carts</p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 personal-cart-div">
+                                <h4 class="perosnal-cart">Personal Cart</h4>
+                                <p class="shopping">Shopping in 10001</p>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <button class="btn-close" data-dismiss="modal">
+                                    <span class="close-span">X</span>Close
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="row second-row">
+                            <div class="col-md-2 col-sm-2 col-xs-2">
+                                <div>
+                                    <img src="img/food-cart.png" class="promo-image" />
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 title-div">
+                                <h4 class="perosnal-cart">The Food Emporium</h4>
+                                <p class="shopping">Next delivery: Today, Noon - 2pm</p>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                <p class="promo-price">$20.18</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p class="text-para">Add
+                                <span class="price-span">$14.82</span> for
+                                <span class="free-delivery">FREE delivery</span> with Express!</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 col-sm-2 col-xs-2">
+                                <div>
+                                    <img src="img/p2.png" class="promo-image" />
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 title-div">
+                                <h4 class="perosnal-cart">Liquid Plumr Pro-Strength Clog Destroyer PipeGuard</h4>
+                                <p class="shopping">80 fl oz</p>
+                                <div class="col-md-12 col-sm-12 col-xs-12 btn-div">
+                                    <div class="col-md-6 col-sm-6 col-xs-6 ins-div">
+                                        <p class="icon-text">
+                                            <i class="fa fa-pencil-square-o icon-color" aria-hidden="true"></i>
+                                            Instruction</p>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-5 trash-div">
+                                        <p class="icon-text">
+                                            <i class="fa fa-trash icon-color" aria-hidden="true"></i>
+                                            Remove</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3 add-delete-div">
+                                <div class="col-md-12 col-sm-12 col-xs-12  card">
+                                    <div class="col-md-4 col-sm-4 col-xs-4 padding-responsive">
+                                        <i class="fa fa-trash icon-color" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4 padding-responsive">
+                                        1
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4 padding-responsive">
+                                        <i class="fa fa-plus icon-color" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-2 col-sm-2 col-xs-2">
+                                <div>
+                                    <img src="img/p1.jpg" class="promo-image" />
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 title-div">
+                                <h4 class="perosnal-cart">Liquid Plumr Pro-Strength Clog Destroyer PipeGuard</h4>
+                                <p class="shopping">80 fl oz</p>
+                                <div class="col-md-12 col-sm-12 col-xs-12 btn-div">
+                                    <div class="col-md-6 col-sm-6 col-xs-6 ins-div">
+                                        <p class="icon-text">
+                                            <i class="fa fa-pencil-square-o icon-color" aria-hidden="true"></i>
+                                            Instruction</p>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-5 trash-div">
+                                        <p class="icon-text">
+                                            <i class="fa fa-trash icon-color" aria-hidden="true"></i>
+                                            Remove</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <input type="text" class="qty-input" />
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <p class="price-para">$8.59</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row btn-checkout-div">
+                            <a href="cheakout.html"  class="btn btn-success btn-checkout btn-block">
+                                Checkout
+                                <span class="span-price">$20.18</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </section>
+
+
+            </div>
+            <!-- modal-content -->
+        </div>
+        <!-- modal-dialog -->
+    </div>
+    <!-- modal -->
+</section>
+</body>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.deals-slider').slick({
+            slidesToShow: 3.5,
+            infinite: false,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 1500,
+            arrows: true,
+            draggable: false,
+            dots: false,
+            prevArrow: '<img class="img-arrow1 hidden animated fadeIn" src="img/left-arrow.png">',
+            nextArrow: '<img class="img-arrow animated fadeIn" src="img/right-arrow.png">',
+            pauseOnHover: false,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2
+                }
+            }, {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2.33
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    draggable: true,
+                    slidesToShow: 1
+                }
+            }]
+
+        });
+        $('.deals-slider').on('afterChange', function (event, slick, currentSlide) {
+            console.log(currentSlide)
+            var count  = slick.slideCount-6
+            if (currentSlide === count) {
+                $('.img-arrow').addClass('hidden');
+            }
+            else {
+                $('.img-arrow').removeClass('hidden');
+            }
+
+            if (currentSlide === 0) {
+                $('.img-arrow1').addClass('hidden').fadeIn(3000);
+            }
+            else {
+                $('.img-arrow1').removeClass('hidden');
+            }
+        })
+
+        $('.product-slider').slick({
+            slidesToShow: 6.5,
+            infinite: false,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 1500,
+            arrows: true,
+            draggable: false,
+            dots: false,
+            prevArrow: '<img class="img-product-arrow1 hidden animated fadeIn" src="img/left-arrow.png">',
+            nextArrow: '<img class="img-product-arrow animated fadeIn" src="img/right-arrow.png">',
+            pauseOnHover: false,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2
+                }
+            }, {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2.33
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    draggable: true,
+                    slidesToShow: 1
+                }
+            }]
+
+        });
+        $('.product-slider').on('afterChange', function (event, slick, currentSlide) {
+            console.log(currentSlide)
+            var count  = slick.slideCount-6
+            if (currentSlide === count) {
+                $('.img-product-arrow').addClass('hidden');
+            }
+            else {
+                $('.img-product-arrow').removeClass('hidden');
+            }
+
+            if (currentSlide === 0) {
+                $('.img-product-arrow1').addClass('hidden').fadeIn(3000);
+            }
+            else {
+                $('.img-product-arrow1').removeClass('hidden');
+            }
+        })
+    });
+</script>
+</html>
