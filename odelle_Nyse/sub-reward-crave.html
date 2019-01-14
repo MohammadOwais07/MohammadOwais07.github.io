@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Odelle Nyse</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+
+
+    <script src="./particles.js"></script>
+    <script src="js/app.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Mina|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body-content">
+
+<div id="particles-js">
+
+    <section id="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="data-transfer-head">Crave</h1>
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12 data-transfer-circle-whole-div">
+                    <div class="col-md-3 col-sm-3 col-xs-3 data-transfer-circle">
+                        <a href="instagram.html"> <img class="data-transfer-fa-img" src="img/data-N.png " alt=""></a>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="row data-transfer-graph-whole-div">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</div>
+<!-- scripts -->
+
+<script>
+    window.onload = function () {
+        var chart = new CanvasJS.Chart("chartContainer", {
+            animationEnabled: true,
+            zoomEnabled: true,
+            theme: "light2",
+            title:{
+                text: ""
+            },
+            axisX: {
+                title:"Employment - Agriculture",
+                suffix: "%",
+                minimum: 0,
+                maximum: 61,
+                gridThickness: 1
+            },
+            axisY:{
+                title: "Agricultural Land (million sq.km)",
+                suffix: "mn"
+            },
+            data: [{
+                type: "bubble",
+                toolTipContent: "<b>{name}</b><br/>Employment: {x}% <br/> Agri-Land: {y}mn sq. km<br/> Population: {z}mn",
+                dataPoints: [
+                    { x: 39.6, y: 5.225, z:1347, name:"China" },
+                    { x: 3.3, y: 4.17, z:21.49, name:"Australia" },
+                    { x: 1.5, y: 4.043, z:304.09, name:"US" },
+                    { x: 17.4, y: 2.647, z:2.64, name:"Brazil" },
+                    { x: 8.6, y: 2.154, z:141.95, name:"Russia" },
+                    { x: 52.98, y: 1.797, z:1190.86, name:"India" },
+                    { x: 4.3, y: 1.735, z:26.16, name:"Saudi Arabia" },
+                    { x: 1.21, y: 1.41, z:39.71, name:"Argentina" },
+                    { x: 5.7, y: .993, z:48.79, name:"SA" },
+                    { x: 13.1, y: 1.02, z:110.42, name:"Mexico" },
+                    { x: 2.4, y: .676, z:33.31, name:"Canada" },
+                    { x: 2.8, y: .293, z:64.37, name:"France" },
+                    { x: 3.8, y: .46, z:127.70, name:"Japan" },
+                    { x: 40.3, y: .52, z:234.95, name:"Indonesia" },
+                    { x: 42.3, y: .197, z:68.26, name:"Thailand" },
+                    { x: 31.6, y: .35, z:78.12, name:"Egypt" },
+                    { x: 1.1, y: .176, z:61.39, name:"U.K" },
+                    { x: 3.7, y: .144, z:59.83, name:"Italy" },
+                    { x: 1.8, y: .169, z:82.11, name:"Germany" }
+                ]
+            }]
+        });
+        chart.render();
+
+    }
+</script>
+
+<script src="./particles.js"></script>
+<script src="js/app.js"></script>
+
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>

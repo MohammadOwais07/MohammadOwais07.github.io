@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Odelle Nyse</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+
+
+    <script src="./particles.js"></script>
+    <script src="js/app.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Mina|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body-content">
+
+<div id="particles-js">
+
+    <section id="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="data-transfer-head">Ads Revenue Increased</h1>
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12 sub-service-circle-whole-div org-service-whole-div  sub-ads-revenue-whole-div">
+                    <div class="col-md-3 col-sm-3 col-xs-12 sub-service-circle  sub-insta-connection-circle sub-interaction-increase-circle">
+                        <a href="#"><p class="insta-sub-interaction-increase-circle-text"> 45%</p></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 insta-interaction-increase-list-point">
+                        <p class="sub-interaction-increase-head">Gained Vs Projected</p>
+                        <!--<ul>-->
+                            <!--<li class="insta-sub-interaction-increase-list">@AngelitaBanfield (12)</li>-->
+                            <!--<li class="insta-sub-interaction-increase-list">@BritanyUrbanek (9)</li>-->
+                            <!--<li class="insta-sub-interaction-increase-list">@ArleneFredricks (6)</li>-->
+                            <!--<li class="insta-sub-interaction-increase-list">@RainaMaul (5)</li>-->
+                            <!--<li class="insta-sub-interaction-increase-list">@CraigGutirre (3)</li>-->
+                        <!--</ul>-->
+
+
+                    </div>
+
+                    <div class="col-md-3 col-sm-3 col-xs-12 org-N-log insta-interaction-increase">
+                        <a href="instagram.html"> <img class="img-responsive data-transfer-fa-img" src="img/data-N.png " alt=""></a>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+    </section>
+</div>
+<script>
+    window.onload = function () {
+
+        var chart = new CanvasJS.Chart("chartContainer", {
+            animationEnabled: true,
+            theme: "light2",
+            title:{
+                text: "Ads Revenue(Gained Vs Projected)"
+            },
+
+        axisX:{
+                valueFormatString: "DD MMM",
+                crosshair: {
+                    enabled: true,
+                    snapToDataPoint: true
+                }
+            },
+            axisY: {
+                title: "Number of Visits",
+                crosshair: {
+                    enabled: true
+                }
+            },
+            toolTip:{
+                shared:true
+            },
+            legend:{
+                cursor:"pointer",
+                verticalAlign: "bottom",
+                horizontalAlign: "left",
+                dockInsidePlotArea: true,
+                itemclick: toogleDataSeries
+            },
+            data: [{
+                type: "line",
+                showInLegend: true,
+                name: "Total Visit",
+                markerType: "square",
+                xValueFormatString: "DD MMM, YYYY",
+                color: "#F08080",
+                dataPoints: [
+                    { x: new Date(2017, 0, 3), y: 650 },
+                    { x: new Date(2017, 0, 4), y: 700 },
+                    { x: new Date(2017, 0, 5), y: 710 },
+                    { x: new Date(2017, 0, 6), y: 658 },
+                    { x: new Date(2017, 0, 7), y: 734 },
+                    { x: new Date(2017, 0, 8), y: 963 },
+                    { x: new Date(2017, 0, 9), y: 847 },
+                    { x: new Date(2017, 0, 10), y: 853 },
+                    { x: new Date(2017, 0, 11), y: 869 },
+                    { x: new Date(2017, 0, 12), y: 943 },
+                    { x: new Date(2017, 0, 13), y: 970 },
+                    { x: new Date(2017, 0, 14), y: 869 },
+                    { x: new Date(2017, 0, 15), y: 890 },
+                    { x: new Date(2017, 0, 16), y: 930 }
+                ]
+            },
+                {
+                    type: "line",
+                    showInLegend: true,
+                    name: "Unique Visit",
+                    lineDashType: "dash",
+                    dataPoints: [
+                        { x: new Date(2017, 0, 3), y: 510 },
+                        { x: new Date(2017, 0, 4), y: 560 },
+                        { x: new Date(2017, 0, 5), y: 540 },
+                        { x: new Date(2017, 0, 6), y: 558 },
+                        { x: new Date(2017, 0, 7), y: 544 },
+                        { x: new Date(2017, 0, 8), y: 693 },
+                        { x: new Date(2017, 0, 9), y: 657 },
+                        { x: new Date(2017, 0, 10), y: 663 },
+                        { x: new Date(2017, 0, 11), y: 639 },
+                        { x: new Date(2017, 0, 12), y: 673 },
+                        { x: new Date(2017, 0, 13), y: 660 },
+                        { x: new Date(2017, 0, 14), y: 562 },
+                        { x: new Date(2017, 0, 15), y: 643 },
+                        { x: new Date(2017, 0, 16), y: 570 }
+                    ]
+                }]
+        });
+        chart.render();
+
+        function toogleDataSeries(e){
+            if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+                e.dataSeries.visible = false;
+            } else{
+                e.dataSeries.visible = true;
+            }
+            chart.render();
+        }
+
+    }
+</script>
+<!-- scripts -->
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+<script src="./particles.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
