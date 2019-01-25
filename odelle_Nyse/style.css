@@ -1266,6 +1266,14 @@
 
 }
 
+.school-cap-fa {
+    position: absolute;
+    font-size: 58px;
+    color: #32E3F7;
+    top: 29%;
+    right: 21%;
+}
+
 .data-transfer-fa {
     position: absolute;
     font-size: 58px;
@@ -1273,6 +1281,8 @@
     top: 26%;
     right: 31%;
 }
+
+
 
 .data-transfer-circle-whole-div{
     margin-top: 50px;
@@ -3472,9 +3482,24 @@
     }
 
 }
-
+@media (max-width: 1380px) {
+    .school-cap-fa {
+        position: absolute;
+        font-size: 58px;
+        color: #32E3F7;
+        top: 28%;
+        right: 10%;
+    }
+}
 
 @media (max-width: 1200px) {
+    .school-cap-fa {
+        position: absolute;
+        font-size: 45px;
+        color: #32E3F7;
+        top: 28%;
+        right: 18%;
+    }
     .org-wearable-para {
         position: absolute;
         color: #32E3F7;
@@ -3698,6 +3723,14 @@
 
 
 @media (max-width: 992px) {
+
+    .school-cap-fa {
+        position: absolute;
+        font-size: 34px;
+        color: #32E3F7;
+        top: 28%;
+        right: 18%;
+    }
     .org-work-sub-filed-curr-emp-para {
         position: absolute;
         left: 146%;
@@ -4653,6 +4686,7 @@
 
 /*amazonData css start------------------------*/
 
+
 .amazon-circle-text-purchase {
     right: 42%;
     letter-spacing: 1px;
@@ -5320,6 +5354,9 @@
 
 
 /*amazonSUB Electronic css start-------------------------------------*/
+.amazon-sub-electronic-whole-div{
+    margin-top: 5%;
+}
 .Elec-amazon-sub-Electronic-text {
     right: 46%;
     letter-spacing: 1px;
@@ -5373,7 +5410,9 @@
 }
 
 @media (max-width: 1120px) {
-
+    .amazon-sub-electronic-whole-div {
+        margin-top: 13%;
+    }
 .Elec-amazon-sub-accessories {
     right: 12%;
     letter-spacing: 1px;
@@ -5464,6 +5503,9 @@
 
 
 @media (max-width: 800px) {
+    .amazon-sub-electronic-whole-div {
+        margin-top: 22%;
+    }
     .Elec-amazon-sub-accessories {
         right: 19%;
         letter-spacing: 1px;
@@ -5528,6 +5570,7 @@
 
 }
 
+
 @media (max-width: 430px) {
     .Elec-amazon-sub-Electronic-text {
         right: 38%;
@@ -5537,6 +5580,10 @@
         font-size: 19px;
         font-family: 'Lato', sans-serif;
         top: 43%;
+    }
+
+    .amazon-sub-electronic-whole-div {
+        margin-top: 45%;
     }
 }
 /*amazonSUB Electronic css end--------------------------------------*/
@@ -5724,6 +5771,10 @@
 }
 
 @media (max-width: 768px) {
+
+    .fb-message-whole-div{
+        margin-top: 36%;
+    }
     .facebook-msg-text {
         position: absolute;
         color: #32E3F7;
@@ -7426,6 +7477,10 @@
 
 /*instagram css start--------------------------------------*/
 
+.onScreen-whole-div {
+    margin-top: 6%;
+}
+
 .instagram-circle-request {
     top: -54%;
     left: 51%;
@@ -7872,6 +7927,9 @@
 }
 
 @media (max-width: 600px) {
+    .onScreen-whole-div {
+        margin-top: 20%;
+    }
     .instagram-circle-text-profile {
         right: 5%;
         letter-spacing: 1px;
@@ -8375,6 +8433,10 @@
     }
 }
 /*insta sub interaction increase css end--------------------------------------*/
+
+.sub-reward-icon-row{
+    margin-bottom: 7%;
+}
 
 
 
