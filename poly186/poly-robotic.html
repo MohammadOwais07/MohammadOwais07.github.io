@@ -29,10 +29,10 @@
 
                     <div class="home-side-down-list">
                         <ul class="list-unstyled home-sidenav-down-anchor">
-                            <li> <a href="#" data-toggle="modal" data-target="#myModal"> <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li> <a href="#" data-toggle="modal" data-target="#myModal"> <i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li> <a href="#" data-toggle="modal" data-target="#myModal"> <i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                            <li> <a href="#" data-toggle="modal" data-target="#myModal"> <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li> <a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i></a></li>
+                            <li> <a href="#" data-toggle="modal" data-target="#myModal"> <i class="fa fa-commenting-o" aria-hidden="true"></i></a></li>
+                            <li> <a href="#" data-toggle="modal" data-target="#myModal"> <i class="fa  fa-user-o" aria-hidden="true"></i></a></li>
+                            <li> <a href="#" data-toggle="modal" data-target="#myModal"> <i class="fa fa-meetup" aria-hidden="true"></i></a></li>
                             <li> <a href="#" data-toggle="modal" data-target="#myModal"> <i class="fa fa-sitemap" aria-hidden="true"></i></a></li>
                             <li> <a href="#" data-toggle="modal" data-target="#myModal"> <i class="fa fa-music" aria-hidden="true"></i></a></li>
                         </ul>
@@ -44,7 +44,7 @@
 
                 <div class="row odelle-head-row ">
                     <div class="col-md-3 col-sm-3 col-xs-3">
-                        <a href="index.html"> <img src="img/poly186-logo.png" class="logo-poly-img"></a>
+                        <a href="our-strategy.html"> <img src="img/poly186-logo.png" class="logo-poly-img"></a>
                     </div>
 
                     <div class="col-md-3 col-sm-3 col-xs-3">
@@ -52,7 +52,7 @@
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-3 div-contact-hide-responsive">
                         <span class="contact-para-span"></span>
-                        <p class="para-contact"><a href="our-strategy.html" class="contact-para-a">Contact Us</a></p>
+                        <p class="para-contact"><a href="#" class="contact-para-a">Contact Us</a></p>
 
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-3 div-on-responsive-bar">
@@ -91,7 +91,7 @@
                             <div class="form-group has-success has-feedback">
                                 <div class="col-sm-10 odelle-input-main-div">
                                     <input type="text" class="form-control odelle-input-email" id="inputSuccess">
-                                    <span class="odelle-input-img"><img src="img/email-icon.png" class="odelle-input-img-email"></span>
+                                    <span class="odelle-input-img"><img src="img/search-input.png" class="odelle-input-img-email"></span>
                                 </div>
                             </div>
                         </div>
@@ -138,7 +138,7 @@
                     <h4 class="matter-robotic-card-3d poly-energy-product-para-carbon">Virtual Realities</h4>
                     <p class="matter-robotic-card-paraWhite">Towards augmenting Enviromental forces to create
                         realities in which biological life thrves.</p>
-                    <button class="btn btn-matter-robotics btn-poly-energy-expolre" data-toggle="collapse" data-target="#card-row1"> Explore</button>
+                    <button class="btn btn-matter-robotics btn-poly-energy-expolre" id='btndemol' onclick="myDemoTwo()"> Explore</button>
 
                 </div>
 
@@ -147,40 +147,40 @@
                     <h4 class="matter-robotic-card-3d">Physical Realities</h4>
                     <p class="matter-robotic-card-paraBlue">Our Clients range from counties, states / Province, countries
                         to large corporations and organizations</p>
-                    <button class="btn btn-matter-robotics" data-toggle="collapse" data-target="#card-row2"> Explore</button>
+                    <button class="btn btn-matter-robotics" id='btndemof' onclick="myDemo()"> Explore</button>
 
                 </div>
 
             </div>
         </div>
 
-            <div class="row collapse" id="card-row1">
+            <div class="row collapse" id="demo">
             <div class="col-md-11 col-sm-11 col-xs-12 work1-whole-div matter-robotic-card-row2-div poly-robotic-card-row2-div">
-                <div class="col-md-3 col-sm-3 col-xs-12 matter-robotic-solar-div poly-robotic-card-data">
-                    <img src="img/civic.png" alt="">
-                    <h4 class="matter-robotic-card-3d"> Comic Multiverse</h4>
-                    <p class="matter-robotic-card-paraBlue">Our Clients range from counties, states / Province, countries
+
+                <div class="col-md-3 col-sm-3 col-xs-12 matter-robotic-solar-div poly-energy-product-div2 poly-robotic-card-data">
+                    <img src="img/civic.png" class="matter-robotic-card-imgs" alt="">
+                    <h4 class="matter-robotic-card-3d poly-energy-product-para-carbon">Comic Multiverse</h4>
+                    <p class="matter-robotic-card-paraWhite">Our Clients range from counties, states / Province, countries
                         to large corporations and organizations</p>
-                    <button class="btn btn-matter-robotics"> Explore</button>
+                    <button class="btn btn-matter-robotics btn-poly-energy-expolre" onclick="childWhiteOne()"> Explore</button>
 
                 </div>
-
                 <div class="col-md-3 col-sm-3 col-xs-12 matter-robotic-solar-div poly-energy-product-div2 poly-robotic-card-data">
                     <img src="img/solar-img-3.png" class="matter-robotic-card-imgs" alt="">
                     <h4 class="matter-robotic-card-3d poly-energy-product-para-carbon">Culture Universe</h4>
                     <p class="matter-robotic-card-paraWhite">Towards augmenting Enviromental forces to create
                         realities in which biological life thrves.</p>
-                    <button class="btn btn-matter-robotics btn-poly-energy-expolre"> Explore</button>
+                    <button class="btn btn-matter-robotics btn-poly-energy-expolre" onclick="childWhiteTwo()"> Explore</button>
 
                 </div>
 
 
                 <div class="col-md-3 col-sm-3 col-xs-12 matter-robotic-solar-div poly-energy-product-div2 poly-robotic-card-data">
                     <img src="img/desert.png"    class="matter-robotic-card-imgs" alt="">
-                    <h4 class="matter-robotic-card-3d poly-energy-product-para-carbon">Anime <Multiverse></Multiverse></h4>
+                    <h4 class="matter-robotic-card-3d poly-energy-product-para-carbon">Anime </h4>
                     <p class="matter-robotic-card-paraWhite">Towards augmenting Enviromental forces to create
                         realities in which biological life thrves.</p>
-                    <button class="btn btn-matter-robotics btn-poly-energy-expolre"> Explore</button>
+                    <button class="btn btn-matter-robotics btn-poly-energy-expolre" onclick="childWhiteThree()"> Explore</button>
 
                 </div>
 
@@ -190,57 +190,151 @@
             </div>
             </div>
 
-        <div class="row collapse" id="card-row2">
+        <!--/parent-->
+
+        <div class="row collapse" id="demof">
             <div class="col-md-11 col-sm-11 col-xs-12 work1-whole-div matter-robotic-card-row2-div poly-robotic-card-row2-div">
                 <div class="col-md-3 col-sm-3 col-xs-12 matter-robotic-solar-div poly-robotic-card-data">
                     <img src="img/sky-cities.png" alt="">
                     <h4 class="matter-robotic-card-3d">Land Cities</h4>
                     <p class="matter-robotic-card-paraBlue">Our Clients range from counties, states / Province, countries
                         to large corporations and organizations</p>
-                    <button class="btn btn-matter-robotics"> Explore</button>
+                    <button class="btn btn-matter-robotics" id='btn-land'  onclick="childOne()" > Explore</button>
 
                 </div>
 
-                <div class="col-md-3 col-sm-3 col-xs-12 matter-robotic-solar-div poly-energy-product-div2 poly-robotic-card-data">
-                    <img src="img/water-city.png" class="matter-robotic-card-imgs" alt="">
-                    <h4 class="matter-robotic-card-3d poly-energy-product-para-carbon">Water Cities</h4>
-                    <p class="matter-robotic-card-paraWhite">Towards augmenting Enviromental forces to create
+                <div class="col-md-3 col-sm-3 col-xs-12 matter-robotic-solar-div poly-robotic-card-data">
+                    <img src="img/water-city.png" alt="">
+                    <h4 class="matter-robotic-card-3d">Water Cities</h4>
+                    <p class="matter-robotic-card-paraBlue">Towards augmenting Enviromental forces to create
                         realities in which biological life thrves.</p>
-                    <button class="btn btn-matter-robotics btn-poly-energy-expolre"> Explore</button>
+                    <button class="btn btn-matter-robotics"  id='btn-water'  onclick="childTwo()" > Explore</button>
 
                 </div>
 
-
-                <div class="col-md-3 col-sm-3 col-xs-12 matter-robotic-solar-div poly-energy-product-div2 poly-robotic-card-data">
-                    <img src="img/space-city.png" class="matter-robotic-card-imgs" alt="">
-                    <h4 class="matter-robotic-card-3d poly-energy-product-para-carbon">Space Cities</h4>
-                    <p class="matter-robotic-card-paraWhite">Towards augmenting Enviromental forces to create
+                <div class="col-md-3 col-sm-3 col-xs-12 matter-robotic-solar-div poly-robotic-card-data">
+                    <img src="img/space-city.png" alt="">
+                    <h4 class="matter-robotic-card-3d">Space Cities</h4>
+                    <p class="matter-robotic-card-paraBlue">Towards augmenting Enviromental forces to create
                         realities in which biological life thrves.</p>
-                    <button class="btn btn-matter-robotics btn-poly-energy-expolre"> Explore</button>
+                    <button class="btn btn-matter-robotics"  id='btn-cities'  onclick="childThree()"> Explore</button>
 
                 </div>
-
-
-
 
             </div>
         </div>
 
 
+
+
+
+
+
+        <!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+
+        <!--<div class="row" id="myGroup">-->
+            <!--<div class="col-md-11 col-sm-11 col-xs-12 work1-whole-div matter-robotic-card-row2-div poly-robotic-card-row2-div ">-->
+
+                <!--<div class="col-md-3 col-sm-3 col-xs-12 matter-robotic-solar-div poly-robotic-card-data democlass" id="landExplore" style="padding-bottom: 220px;">-->
+                    <!--<img src="img/skya-cities.png" alt="">-->
+                    <!--<h4 class="matter-robotic-card-3d">Land City Explore</h4>-->
+                    <!--<p class="matter-robotic-card-paraBlue"></p>-->
+
+
+                <!--</div>-->
+
+                <!--<div class="col-md-3 col-sm-3 col-xs-12 matter-robotic-solar-div poly-robotic-card-data democlass" id="waterExplore" style="padding-bottom: 220px;">-->
+                    <!--<img src="img/water-scity.png" alt="">-->
+                    <!--<h4 class="matter-robotic-card-3d">Water Cities explore</h4>-->
+                    <!--<p class="matter-robotic-card-paraBlue"></p>-->
+
+
+                <!--</div>-->
+
+                <!--<div class="col-md-3 col-sm-3 col-xs-12 matter-robotic-solar-div poly-robotic-card-data democlass" id="spaceExplore" style="padding-bottom: 220px;">-->
+                    <!--<img src="img/spsace-city.png" alt="">-->
+                    <!--<h4 class="matter-robotic-card-3d">Space Cities explore</h4>-->
+                    <!--<p class="matter-robotic-card-paraBlue"></p>-->
+
+
+                <!--</div>-->
+
+
+
+          <!--</div>-->
+        <!--</div>-->
+        <div class="row">
+            <div class="col-md-11 col-sm-11 col-xs-12 work1-whole-div matter-robotic-card-row2-div poly-robotic-card-row2-div ">
+
+                <div class="col-md-3 col-sm-3 col-xs-12 matter-robotic-solar-div poly-robotic-card-data " id="landExplore" style="padding-bottom: 220px; display: none" >
+                    <img src="img/skya-cities.png" alt="">
+                    <h4 class="matter-robotic-card-3d">Land City Explore</h4>
+                    <p class="matter-robotic-card-paraBlue"></p>
+
+
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12 matter-robotic-solar-div poly-robotic-card-data " id="waterExplore" style="padding-bottom: 220px; display: none">
+                    <img src="img/water-scity.png" alt="">
+                    <h4 class="matter-robotic-card-3d">Water Cities explore</h4>
+                    <p class="matter-robotic-card-paraBlue"></p>
+
+
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12 matter-robotic-solar-div poly-robotic-card-data " id="spaceExplore" style="padding-bottom: 220px; display: none" >
+                    <img src="img/spsace-city.png" alt="">
+                    <h4 class="matter-robotic-card-3d">Space Cities explore</h4>
+                    <p class="matter-robotic-card-paraBlue"></p>
+
+
+                </div>
+
+
+
+          </div>
+        </div>
+
+
+            <div class="col-md-11 col-sm-11 col-xs-12 work1-whole-div matter-robotic-card-row2-div poly-robotic-card-row2-div">
+
+                <div class="col-md-3 col-sm-3 col-xs-12 matter-robotic-solar-div poly-energy-product-div2 poly-robotic-card-data" id="comic-explore" style="padding-bottom: 220px; display: none">
+                    <img src="img/csivic.png" class="matter-robotic-card-imgs" alt="">
+                    <h4 class="matter-robotic-card-3d poly-energy-product-para-carbon">Comic Multiverse Explore</h4>
+                    <p class="matter-robotic-card-paraWhite"></p>
+
+
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12 matter-robotic-solar-div poly-energy-product-div2 poly-robotic-card-data" id="culture-explore" style="padding-bottom: 220px; display: none">
+                    <img src="img/solar-icmg-3.png" class="matter-robotic-card-imgs" alt="">
+                    <h4 class="matter-robotic-card-3d poly-energy-product-para-carbon">Culture Universe Explore</h4>
+                    <p class="matter-robotic-card-paraWhite"></p>
+
+
+                </div>
+
+
+                <div class="col-md-3 col-sm-3 col-xs-12 matter-robotic-solar-div poly-energy-product-div2 poly-robotic-card-data" id="anime-explore" style="padding-bottom: 220px; display: none">
+                    <img src="img/deserts.png" class="matter-robotic-card-imgs" alt="">
+                    <h4 class="matter-robotic-card-3d poly-energy-product-para-carbon">Anime Explore</h4>
+                    <p class="matter-robotic-card-paraWhite"></p>
+
+
+                </div>
+            </div>
+
+
+
+
             <div class="col-md-11 col-sm-11 col-xs-11 footer-main-div">
                 <p class="odelle-footer-para1">Join Our Movement</p>
                 <h3 class="footer-head">Start Contributing Chat on Slack Donate Join Our Newsletter</h3>
-                <!--<p class="odelle-footer-para2">Sign up or Login-->
-                    <!--Self Actualized. Becoming Your Best Version.</p>-->
-                <!--<button class="btn btn-odelle-footer"> Download</button>-->
-                <!--<ul CLASS="list-inline">-->
-                    <!--<li><a href="#"> <i class="fa fa-facebook-square footer-social-link" aria-hidden="true"></i></a> </li>-->
-                    <!--<li><a href="#"> <i class="fa fa-twitter-square footer-social-link" aria-hidden="true"></i></a> </li>-->
-                    <!--<li><a href="#"> <i class="fa fa-linkedin-square footer-social-link" aria-hidden="true"></i></a> </li>-->
-                    <!--<li><a href="#"> <i class="fa fa-google-plus-square footer-social-link" aria-hidden="true"></i></a> </li>-->
-                <!--</ul>-->
-
-                <!--<p class="odelle-footer-para2">Poly186 is a multinational brand and conglomerate</p>-->
+                <div class="row odelle-input-main-div">
+                    <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+                        <input type="text" class="form-control our-strategy-input-email" id="inputSuccqess">
+                        <span class="odelle-input-img"><img src="img/email-icon.png" class="our-strategy-img-email"></span>
+                    </div>
+                </div>
                 <div class="footer">
                     <div class="contain">
                         <div class="col">
@@ -345,6 +439,145 @@
     function closeNav() {
         document.getElementById("mySidenav").style.display = "none";
     }
+
+
+
+
+
+    function myDemo(){//f
+
+        if(document.getElementById('demof').style.display == 'block') {
+            document.getElementById('demof').style.display = 'none';
+        }
+        else{
+            document.getElementById('demof').style.display = 'block';
+    }
+
+
+        document.getElementById('demo').style.display = "none";
+        document.getElementById('landExplore').style.display = "none";
+        document.getElementById('spaceExplore').style.display = "none";
+        document.getElementById('waterExplore').style.display = "none";
+        document.getElementById('culture-explore').style.display = "none";
+        document.getElementById('comic-explore').style.display = "none";
+        document.getElementById('anime-explore').style.display = "none";
+
+        window.scrollTo(0, 1900);
+
+    }
+
+    function myDemoTwo(){
+        if(document.getElementById('demo').style.display == 'block') {
+            document.getElementById('demo').style.display = 'none';
+        }
+        else{
+            document.getElementById('demo').style.display = 'block';
+        }
+        document.getElementById('demof').style.display = "none";
+        // document.getElementById('demo').style.display = "block";
+        document.getElementById('landExplore').style.display = "none";
+        document.getElementById('spaceExplore').style.display = "none";
+        document.getElementById('waterExplore').style.display = "none";
+        document.getElementById('culture-explore').style.display = "none";
+        document.getElementById('comic-explore').style.display = "none";
+        document.getElementById('anime-explore').style.display = "none";
+
+        window.scrollTo(0, 1900);
+    }
+
+
+    /* child Blue*/
+    function childOne(){
+        if(document.getElementById('landExplore').style.display == 'block') {
+            document.getElementById('landExplore').style.display = 'none';
+        }
+        else{
+            document.getElementById('landExplore').style.display = 'block';
+        }
+        // document.getElementById('landExplore').style.display = "block";
+        document.getElementById('spaceExplore').style.display = "none";
+        document.getElementById('waterExplore').style.display = "none";
+        window.scrollTo(0, 2200);
+
+    }
+
+    function childTwo(){
+        if(document.getElementById('waterExplore').style.display == 'block') {
+            document.getElementById('waterExplore').style.display = 'none';
+        }
+        else{
+            document.getElementById('waterExplore').style.display = 'block';
+        }
+        // document.getElementById('waterExplore').style.display = "block";//disply
+        document.getElementById('spaceExplore').style.display = "none";//disply
+        document.getElementById('landExplore').style.display = "none";//disply
+        window.scrollTo(0, 2200);
+
+    }
+
+    function childThree(){
+        if(document.getElementById('spaceExplore').style.display == 'block') {
+            document.getElementById('spaceExplore').style.display = 'none';
+        }
+        else{
+            document.getElementById('spaceExplore').style.display = 'block';
+        }
+        // document.getElementById('spaceExplore').style.display = "block";//disply
+        document.getElementById('waterExplore').style.display = "none";//disply
+        document.getElementById('landExplore').style.display = "none";//disply
+        window.scrollTo(0, 2200);
+
+
+    }
+
+
+    /* child White */
+    function childWhiteOne(){
+        if(document.getElementById('comic-explore').style.display == 'block') {
+            document.getElementById('comic-explore').style.display = 'none';
+        }
+        else{
+            document.getElementById('comic-explore').style.display = 'block';
+        }
+        // document.getElementById('comic-explore').style.display = "block";
+        document.getElementById('culture-explore').style.display = "none";
+        document.getElementById('anime-explore').style.display = "none";
+        window.scrollTo(0, 2200);
+
+    }
+
+    function childWhiteTwo(){
+        if(document.getElementById('culture-explore').style.display == 'block') {
+            document.getElementById('culture-explore').style.display = 'none';
+        }
+        else{
+            document.getElementById('culture-explore').style.display = 'block';
+        }
+        // document.getElementById('culture-explore').style.display = "block";//disply
+        document.getElementById('comic-explore').style.display = "none";//disply
+        document.getElementById('anime-explore').style.display = "none";//disply
+        window.scrollTo(0, 2200);
+
+    }
+
+    function childWhiteThree(){
+        if(document.getElementById('anime-explore').style.display == 'block') {
+            document.getElementById('anime-explore').style.display = 'none';
+        }
+        else{
+            document.getElementById('anime-explore').style.display = 'block';
+        }
+        // document.getElementById('anime-explore').style.display = "block";//disply
+        document.getElementById('comic-explore').style.display = "none";//disply
+        document.getElementById('culture-explore').style.display = "none";//disply
+        window.scrollTo(0, 2200);
+
+    }
+
+
+
+
+
 </script>
 
 </body>
