@@ -1,6 +1,7 @@
 body {
     font-family: 'Abel', sans-serif;
     overflow-x: hidden;
+
 }
 
 
@@ -952,12 +953,47 @@ a:focus, a:hover {
     }
 }
 
+
+@media (max-width: 900px) {
+    .sub-arrow {
+        margin-bottom: 13px;
+        width: 55%;
+        margin-top: 25px;
+        margin-left: 30%;
+    }
+    .btn-index-odelle-nyse {
+        width: 115%;
+        font-size: 18px;
+        background: transparent;
+        border: 3px solid #FF6600;
+        color: #fff;
+        border-radius: 50px;
+        margin-top: 12px;
+        margin-left: 67px;
+    }
+
+    .sub-arrow-left{
+        margin-bottom: 13px;
+        width: 55%;
+        margin-top: 25px;
+        margin-left: 13%;
+    }
+
+    .btn-polyocracy-On-md {
+        margin-left: 104%;
+    }
+}
+
 @media (max-width: 870px) {
     .progress-row {
         margin-top: 35%;
     }
 }
 @media (max-width: 850px) {
+
+    .btn-polyocracy-On-md{
+        margin-left: 113%;
+    }
     .social-environmental-force-para {
         margin-left: 9%;
         color: #fff;
@@ -1048,6 +1084,10 @@ a:focus, a:hover {
 /*}*/
 
 @media (max-width: 768px) {
+    #index-ploy{
+        overflow-x: hidden;
+    }
+
     .matter-robotic-card-paraBlue {
         margin-top: 28px;
         color: #fff;
@@ -1138,12 +1178,28 @@ a:focus, a:hover {
         margin-top: 12px;
         margin-left: 22px;
     }
+
+    .btn-polyocracy-On-md{
+        margin-left: 113%;
+    }
 }
 
 @media (max-width: 700px) {
-    /*.home-head {*/
-        /*margin-top: 32%;*/
-    /*}*/
+    .sub-arrow-left {
+        margin-bottom: 13px;
+        margin-top: 25px;
+        margin-left: 15%;
+    }
+    .btn-index-poly-energy {
+        margin-left: -37%;
+        width: 123%;
+        font-size: 12px;
+        background: transparent;
+        border: 3px solid #FF6600;
+        color: #fff;
+        border-radius: 50px;
+        margin-top: 12px;
+    }
 }
 
 @media (max-width: 665px) {
@@ -1202,6 +1258,29 @@ a:focus, a:hover {
     }
 }
 
+@media (max-width: 625px) {
+    .btn-index-poly-energy {
+        margin-left: -35%;
+        width: 145%;
+        font-size: 12px;
+        background: transparent;
+        border: 3px solid #FF6600;
+        color: #fff;
+        border-radius: 50px;
+        margin-top: 12px;
+    }
+    .btn-index-metter-robotic {
+        width: 167%;
+        font-size: 12px;
+        background: transparent;
+        border: 3px solid #FF6600;
+        color: #fff;
+        border-radius: 50px;
+        margin-top: 12px;
+        margin-left: 60px;
+    }
+
+}
 @media (max-width: 610px) {
     /*.home-head {*/
         /*margin-top: 40%;*/
@@ -1215,6 +1294,9 @@ a:focus, a:hover {
         border-radius: 50px;
         margin-top: 12px;
         margin-left: 6px;
+    }
+    .btn-polyocracy-On-md{
+        margin-left: 113%;
     }
 
     .btn-index-poly-robotic {
@@ -1230,6 +1312,7 @@ a:focus, a:hover {
 }
 
 @media (max-width: 590px) {
+
     .progress-row {
         margin-top: 46%;
     }
@@ -1345,6 +1428,8 @@ a:focus, a:hover {
     .btn-polyocracy-On-md {
         margin-left: 60px;
     }
+
+
 
     .btn-index-poly-energy {
         margin-left: -35%;
@@ -1491,6 +1576,9 @@ a:focus, a:hover {
         margin-top: 12px;
         margin-left: 6px;
     }
+    .btn-polyocracy-On-md{
+        margin-left: 113%;
+    }
     .btn-index-186 {
         margin-left: 5px;
         width: 165%;
@@ -1615,7 +1703,7 @@ a:focus, a:hover {
     }
 
     .btn-index-metter-robotic {
-        width: 421%;
+        width: 352%;
         font-size: 12px;
         background: transparent;
         border: 3px solid #FF6600;
@@ -1626,8 +1714,8 @@ a:focus, a:hover {
     }
 
     .btn-index-poly-energy {
-        margin-left: -132%;
-        width: 342%;
+        margin-left: -105%;
+        width: 300%;
         font-size: 12px;
         background: transparent;
         border: 3px solid #FF6600;
@@ -1640,7 +1728,7 @@ a:focus, a:hover {
     }
 
     .btn-index-odelle-nyse {
-        width: 342%;
+        width: 296%;
         font-size: 12px;
         background: transparent;
         border: 3px solid #FF6600;
@@ -1651,7 +1739,7 @@ a:focus, a:hover {
     }
 
     .btn-index-poly-robotic {
-        width: 362%;
+        width: 470%;
         font-size: 12px;
         background: transparent;
         border: 3px solid #FF6600;
@@ -1663,13 +1751,14 @@ a:focus, a:hover {
 
     .btn-index-186 {
         margin-left: 5px;
-        width: 221%;
+        width: 300%;
         font-size: 12px;
         background: transparent;
         border: 3px solid #FF6600;
         color: #fff;
         border-radius: 50px;
         margin-top: 12px;
+        margin-left: 6%;
     }
 
     .btn-polyocracy-On-md {
@@ -1684,6 +1773,42 @@ a:focus, a:hover {
 }
 
 @media (max-width: 400px) {
+    .sub-arrow {
+        margin-bottom: 13px;
+        width: 77%;
+        margin-top: 25px;
+        margin-left: 18%;
+    }
+    .btn-index-odelle-nyse {
+        width: 400%;
+        font-size: 10px;
+        background: transparent;
+        border: 3px solid #FF6600;
+        color: #fff;
+        border-radius: 50px;
+        margin-top: 12px;
+        margin-left: -20px;
+    }
+    .btn-index-poly-energy {
+        margin-left: -105%;
+        width: 393%;
+        font-size: 10px;
+        background: transparent;
+        border: 3px solid #FF6600;
+        color: #fff;
+        border-radius: 50px;
+        margin-top: 12px;
+    }
+    .btn-index-metter-robotic {
+        width: 435%;
+        font-size: 10px;
+        background: transparent;
+        border: 3px solid #FF6600;
+        color: #fff;
+        border-radius: 50px;
+        margin-top: 12px;
+        margin-left: 15px;
+    }
     .index-progres-matter-robotic{
         width: 86%;
     }
@@ -2163,7 +2288,7 @@ a:focus, a:hover {
     }
 
     .work2-whole-div{
-        display: none;
+        display: block;
     }
 
     .work1-whole-div {
@@ -2426,7 +2551,7 @@ a:focus, a:hover {
 @media (max-width: 430px) {
 
     .odelle-mb-pic {
-        margin-top: 345%;
+        margin-top: 370%;
     }
 }
 /*odelle_Nyse css end*/
@@ -2528,6 +2653,13 @@ a:focus, a:hover {
     }
 }
 
+@media (max-width: 580px) {
+    .polycracy-mb-pic {
+        margin-top: 167%;
+        float: right;
+        width: 96%;
+    }
+}
 @media (max-width: 565px) {
     .polycracy-mb-pic {
         margin-top: 170%;
@@ -2558,10 +2690,24 @@ a:focus, a:hover {
         width: 101%;
     }
 }
-
+@media (max-width: 450px) {
+    .polycracy-mb-pic {
+        margin-top: 303%;
+        float: right;
+        width: 101%;
+    }
+}
 @media (max-width: 441px) {
     .polycracy-mb-pic {
         margin-top: 303%;
+        float: right;
+        width: 101%;
+    }
+}
+
+@media (max-width: 436px) {
+    .polycracy-mb-pic {
+        margin-top: 320%;
         float: right;
         width: 101%;
     }
@@ -2575,9 +2721,16 @@ a:focus, a:hover {
     }
 }
 
+@media (max-width: 425px) {
+    .polycracy-mb-pic {
+        margin-top: 335%;
+        float: right;
+        width: 101%;
+    }
+}
 @media (max-width: 420px){
     .polycracy-mb-pic {
-        margin-top: 334%;
+        margin-top: 345%;
         float: right;
         width: 101%;
     }
@@ -2585,7 +2738,7 @@ a:focus, a:hover {
 
 @media (max-width: 410px){
     .polycracy-mb-pic {
-        margin-top: 344%;
+        margin-top: 350%;
         float: right;
         width: 101%;
     }
@@ -2593,7 +2746,7 @@ a:focus, a:hover {
 
 @media (max-width: 400px){
     .polycracy-mb-pic {
-        margin-top: 350%;
+        margin-top: 425%;
         float: right;
         width: 101%;
     }
@@ -2602,6 +2755,13 @@ a:focus, a:hover {
 
 /*186 css start*/
 
+.poly186-row-card-poly {
+    margin-bottom: 1%;
+    margin-top: 1%;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+}
 .poly186-feature-card-div {
     box-shadow: 0 0 20px rgba(0, 0, 0, .1);
     background-color: white;
@@ -2772,6 +2932,16 @@ a:focus, a:hover {
         margin-top: 15px;
     }
 }
+@media (max-width: 1060px) {
+    .card-div {
+        height: 275px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+        background-color: white;
+        border-radius: 7px;
+        z-index: 3;
+        text-align: center;
+    }
+}
 @media (max-width: 1030px) {
     .poly186-card-div-text {
         color: #979AA0;
@@ -2783,6 +2953,7 @@ a:focus, a:hover {
 }
 
 @media (max-width: 992px) {
+
     .poly186-card-div {
         margin-left: 20%;
         margin-top: -9%;
@@ -2804,6 +2975,15 @@ a:focus, a:hover {
         margin-right: -13%;
     }
 
+    .poly186-row-card-poly {
+        margin-bottom: 1%;
+        margin-top: 1%;
+        float: right;
+        display: flex;
+        justify-content: space-around;
+        margin-right: 10%;
+    }
+
     .poly186-card-div-odelle {
         margin-right: -12%;
         margin-top: 2%;
@@ -2818,6 +2998,7 @@ a:focus, a:hover {
         letter-spacing: 1px;
         margin-top: 12px;
     }
+
 }
 
 
@@ -2848,8 +3029,11 @@ a:focus, a:hover {
 }
 
 @media (max-width: 768px) {
+    .p186-path-work{
+        display: none;
+    }
     .p186-feature-div {
-        top: 40%;
+        top: 60%;
         text-align: center;
         position: absolute;
     }
@@ -2909,13 +3093,13 @@ a:focus, a:hover {
     }
 
     .card-div {
-        height: 185px;
+        height: 255px;
         box-shadow: 0 0 20px rgba(0, 0, 0, .1);
         background-color: white;
         border-radius: 7px;
         z-index: 3;
         text-align: center;
-        margin-bottom: 15%;
+        margin-bottom: 1%;
     }
 
 
@@ -2926,7 +3110,7 @@ a:focus, a:hover {
     }
 
     .p186-how-work-div {
-        margin-top: 63%;
+        margin-top: 76%;
         text-align: center;
     }
 
@@ -2941,7 +3125,22 @@ a:focus, a:hover {
 
 }
 
+@media (max-width: 630px) {
+    .card-div {
+        height: 237px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+        background-color: white;
+        border-radius: 7px;
+        z-index: 3;
+        text-align: center;
+        margin-bottom: 1%;
+    }
+}
 @media (max-width: 600px) {
+    .poly186-path {
+        height: 84px;
+        width: 32%;
+    }
 
     .p186-how-work-div {
         margin-top: 99%;
@@ -2966,7 +3165,7 @@ a:focus, a:hover {
 
 @media (max-width: 538px) {
     .p186-how-work-div {
-        margin-top: 113%;
+        margin-top: 93%;
         text-align: center;
     }
     .poly186-card-div {
@@ -2975,13 +3174,23 @@ a:focus, a:hover {
 }
 
 
+@media (max-width: 520px){
+    .poly186-card-div-text {
+        color: #979AA0;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 1px;
+        margin-top: 12px;
+        font-size: 12px;
+    }
+}
 @media (max-width: 495px){
     .feature-div-poly186 {
         height: 310px;
     }
 
     .p186-how-work-div {
-        margin-top: 128%;
+        margin-top: 91%;
         text-align: center;
     }
 }
@@ -2996,7 +3205,7 @@ a:focus, a:hover {
         text-align: center;
     }
     .p186-how-work-div {
-        margin-top: 151%;
+        margin-top: 88%;
         text-align: center;
     }
 }
@@ -3016,11 +3225,45 @@ a:focus, a:hover {
     /*}*/
 }
 
-
-
-@media (max-width: 440px) {
+@media (max-width: 460px) {
     .p186-how-work-div {
-        margin-top: 172%;
+        margin-top: 105%;
+        text-align: center;
+    }
+    .card-div {
+        height: 260px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+        background-color: white;
+        border-radius: 7px;
+        z-index: 3;
+        text-align: center;
+        margin-bottom: 1%;
+    }
+}
+
+@media (max-width: 450px) {
+    .card-div {
+        width: 60%;
+        height: 251px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+        background-color: white;
+        border-radius: 7px;
+        z-index: 3;
+        text-align: center;
+        margin-bottom: 1%;
+    }
+}
+@media (max-width: 440px) {
+    .p186-card-polyocracy-div{
+        margin-left: 42%;
+    }
+    .p186-feature-div {
+        top: 45%;
+        text-align: center;
+        position: absolute;
+    }
+    .p186-how-work-div {
+        margin-top: 120%;
         text-align: center;
     }
 }
@@ -3029,7 +3272,7 @@ a:focus, a:hover {
         margin-top: 60%;
     }
     .p186-how-work-div {
-        margin-top: 196%;
+        margin-top: 190%;
         text-align: center;
     }
 
@@ -3152,6 +3395,7 @@ a:focus, a:hover {
     border-radius: 7px;
 }
 
+
 .matter-robotic-card-3d{
     margin-top: 10%;
     color: #fff;
@@ -3183,8 +3427,9 @@ a:focus, a:hover {
     float: right;
 }
 
+
 .product-energy {
-    margin-top: 5%;
+    margin-top: 0%;
     margin-left: 4%;
 }
 
@@ -3193,6 +3438,9 @@ a:focus, a:hover {
     float: right;
 }
 
+.matter-energy-head{
+    margin-top: 5%;
+}
 .matter-robotic-synopsis-div {
     margin-top: 0%;
     text-align: center;
@@ -3294,6 +3542,7 @@ a:focus, a:hover {
     }
 
     .metter-robotic-card-div {
+        margin-bottom: 14%;
         height: auto;
         box-shadow: 0 0 20px rgba(0, 0, 0, .1);
         background-color: white;
@@ -3395,7 +3644,7 @@ a:focus, a:hover {
 
 @media (max-width: 400px) {
     .matter-robotic-area-head {
-        margin-top: 182%;
+        margin-top: 203%;
         text-align: center;
         float: right;
     }
@@ -3517,7 +3766,7 @@ a:focus, a:hover {
 
 @media (max-width: 427px) {
     .poly-energy-process {
-        margin-top: 80%;
+        margin-top: 95%;
         text-align: center;
     }
     .poly-energy-div-whole {
@@ -3641,6 +3890,32 @@ a:focus, a:hover {
 
 
 /*our strategy css start*/
+.our-strategy-back-arrow-img{
+    margin-left: 3%;
+    width: 46%;
+}
+
+.our-strategy-white-arrow {
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.our-strategy-white-arrowSecond {
+    margin-left: -2%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.our-strategy-arrow-Mainpath{
+    margin-right: 5%;
+    margin-top: 1%;
+}
+.our-strategy-arrow-path{
+    margin-left: 8%;
+    margin-top: 2%;
+}
 
 .our-strategy-poly-robotic-div{
     text-align: center;
@@ -3710,7 +3985,7 @@ a:focus, a:hover {
     text-align: center;
 }
 .our-strategy-area-para {
-    margin-right: 9%;
+    /*margin-right: 9%;*/
 }
 
 .our-strategy-ploy-whole-div{
@@ -3726,7 +4001,27 @@ a:focus, a:hover {
 }
 
 
+@media (max-width: 1580px){
+    .our-strategy-arrow-path {
+        margin-left: 4%;
+        margin-top: 2%;
+    }
+    .our-strategy-arrow-Mainpath {
+        margin-right: 2%;
+        margin-top: 1%;
+    }
+}
 @media (max-width: 1495px){
+    .our-strategy-arrow-path {
+        width: 91%;
+        margin-left: 4%;
+        margin-top: 2%;
+    }
+    .our-strategy-arrow-Mainpath {
+        width: 82%;
+        margin-right: 1%;
+        margin-top: 1%;
+    }
     .our-strategy-card-para {
         font-size: 12px;
         color: #979AA0;
@@ -3830,7 +4125,7 @@ a:focus, a:hover {
     }
     .our-strategy-ploy-robotic-head {
         margin-top: 2%;
-        margin-right: 9%;
+        /*margin-right: 9%;*/
     }
 
     .btn-our-strategy-explor {
@@ -3870,7 +4165,7 @@ a:focus, a:hover {
     }
     .our-strategy-ploy-robotic-head {
         margin-top: 9%;
-        margin-right: 9%;
+        /*margin-right: 9%;*/
     }
 }
 @media (max-width: 1030px) {
@@ -3897,7 +4192,7 @@ a:focus, a:hover {
         float: right;
     }
     .odelle-feature-head {
-        margin-left: 7%;
+        margin-left: 1%;
         color: #5C5C5E;
         letter-spacing: 1px;
     }
@@ -4016,6 +4311,30 @@ a:focus, a:hover {
 }
 
 @media (max-width: 768px) {
+    .our-strategy-back-arrow-img {
+        margin-left: 24%;
+        width: 57%;
+    }
+    .our-strategy-ploy-robotic-head {
+        margin-bottom: 3%;
+        margin-right: 6%;
+    }
+    .our-strategy-graph-path{
+    display: none;
+}
+    .our-strategy-white-arrow{
+        display: none;
+    }
+    .our-strategy-white-arrowSecond{
+        display: block;
+    }
+
+    .our-strategy-arrow-Mainpath{
+        display: none;
+    }
+    .our-strategy-arrow-path{
+        display: none;
+    }
 
     .our-strategy-input-email {
         height: 35px;
@@ -4047,7 +4366,7 @@ a:focus, a:hover {
     }
     .our-strategy-ploy-whole-div {
         text-align: center;
-        display: block;
+        display: flex;
         justify-content: space-around;
     }
     .our-strategy-area-cards {
@@ -4057,6 +4376,7 @@ a:focus, a:hover {
         justify-content: space-around;
     }
     .odelle-feature-head {
+        margin-top: 3%;
         font-size: 21px;
         margin-left: 2%;
         color: #5C5C5E;
@@ -4095,6 +4415,7 @@ a:focus, a:hover {
         border-radius: 7px;
         z-index: 3;
         text-align: center;
+        margin-bottom: 20%;
     }
 
     /*.our-strategy-polycracy-para-div {*/
@@ -4185,6 +4506,13 @@ a:focus, a:hover {
 }
 
 @media (max-width: 564px) {
+    .odelle-feature-head {
+        margin-top: 3%;
+        margin-left: 2%;
+        color: #5C5C5E;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
     .our-strategy-polycracy-para-div {
         top: 60%;
         text-align: center;
@@ -4254,6 +4582,17 @@ a:focus, a:hover {
 
 }
 @media (max-width: 450px) {
+    .our-strategy-card-div {
+        margin-left: -5%;
+        width: 100%;
+        height: 590px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+        background-color: white;
+        border-radius: 7px;
+        z-index: 3;
+        text-align: center;
+        margin-bottom: 20%;
+    }
     .our-strategy-area-head {
         margin-top: 150%;
         text-align: center;
