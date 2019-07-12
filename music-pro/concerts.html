@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TM-studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Mina|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 col-sm-3 col-xs-12 navbar-responsive">
+                <div id="mySidenav" class="sidenav-responsive">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html">HOME</a>
+                    <a href="music.html">MUSIC</a>
+                    <a href="concerts.html">CONCERTS</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="contact-us.html">CONTACT</a>
+                </div>
+                <span style="font-size:30px;cursor:pointer; color: #fff" onclick="openNav()">&#9776;</span>
+
+
+                <div class="sidenav sidenav-main-div">
+                    <a href="index.html"> <img class="img-responsive img-logo" src="img/music-logo.png"></a>
+                    <div class="sidenav-ancor">
+                        <div class="sidenav-ancor-radio-div"> <a  href="index.html"><span class="sidenav-ancor-span"><img src="img/sidenav-radio-off.png" alt="">
+                        <img class="sidenav-ancor-line" src="img/sidenav-line.png" alt=""></span>HOME</a></div>
+                        <div class="sidenav-ancor-radio-div"> <a href="about.html" ><span class="sidenav-ancor-span"><img class="sidenav-radio-off-img" src="img/sidenav-radio-off.png" alt="">
+                     <img class="sidenav-ancor-line" src="img/sidenav-line.png" alt=""></span>ABOUT</a></div>
+                        <div class="sidenav-ancor-radio-div"> <a href="music.html"><span class="sidenav-ancor-span"><img class="sidenav-radio-off-img" src="img/sidenav-radio-off.png" alt="">
+                     <img class="sidenav-ancor-line" src="img/sidenav-line.png" alt=""></span>MUSIC</a></div>
+                        <div class="sidenav-ancor-radio-div"> <a href="concerts.html" id="active"><span class="sidenav-ancor-span"><img class="sidenav-radio-off-img" src="img/side-nav-radio.png" alt="">
+                     <img class="sidenav-ancor-line" src="img/sidenav-line.png" alt=""></span>CONCERTS</a></div>
+
+                        <div class="sidenav-ancor-radio-div"> <a href="contact-us.html"><span class="sidenav-ancor-span"><img class="sidenav-radio-off-img" src="img/sidenav-radio-off.png" alt="">
+                    </span>CONTACT</a></div>
+                    </div>
+                    <div class="sidenav-social-div center-block">
+                        <a href="https://twitter.com/bootsnipp"><i class="fa fa-twitter fa-2x social"></i></a>
+                        <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook fa-2x social"></i></a>
+                        <!--<a href="https://twitter.com/bootsnipp"><i class="fa fa-envelope fa-2x social"></i></a>-->
+                        <!--<a href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus fa-2x social"></i></a>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-10 col-sm-9 col-xs-12 background-img-music">
+                <div class="row">
+                    <div class="col-md-6 col-sm-9 col-xs-11 music-main-div-right">
+                        <div class="col-md-12 col-sm-12 col-xs-12 music-site-name-div">
+                            <h1 class="music-site-name"><strong>Talha Mohiuddin</strong> </h1>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 music-sub-head-div">
+                            <h1 class="music-sub-head">DON'T SEE YOUR DATE BELOW? </h1>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 music-sub-head-div">
+                            <div class="music-sub-head-para">
+                                Subscribe and be one of the first to know when Bruno is coming to your area!
+                            </div>
+                        </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 music-input-div">
+                                <input id="email" name="email" tabindex="-1" type="email" class="music-email-input" placeholder="E-Mail Address">
+                                <input class="music-submit-btn" type="submit" value="Submit">
+                    </div>
+                        <div class="col-md-9 col-md-offset-3 col-sm-12 col-xs-12 music-line-div">
+                        </div>
+
+                        <div class="col-md-12 col-sm-12 col-xs-12 music-sub-head-div music-sub-head-div-responsive">
+                            <h1 class="music-sub-head-24k">THE 24K MAGIC WORLD TOUR</h1>
+
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 music-sub-head-div music-sub-head-div-responsive">
+                            <a class="music-anchor-link" href="#">NORTH NAZMABAD </a><span class="music-anchor-link-slach">/</span>
+                            <a class="music-anchor-link-unactive" href="#"> INTERNATIONAL </a><span class="music-anchor-link-slach">/</span>
+                            <a class="music-anchor-link-unactive" href="#">VIEW ALL</a>
+                        </div>
+
+                        <div class="col-md-10 col-md-offset-2 col-sm-12 col-xs-12 music-list-div1">
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                <p class="music-para-date"><strong>SEP 03</strong></p>
+                                <p class="music-para-date-year"><strong>2019</strong></p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                <p class="music-para-Park">Park Theater</p>
+                                <p class="music-para-Park-sub">LAS VEGAS, NV</p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                               <input class="music-ticket-btn" type="submit" value="TICKETS"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-10 col-md-offset-2 col-sm-12 col-xs-12 music-list-main-div">
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                <p class="music-para-date"><strong>SEP 03</strong></p>
+                                <p class="music-para-date-year"><strong>2019</strong></p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                <p class="music-para-Park">Park Theater</p>
+                                <p class="music-para-Park-sub">LAS VEGAS, NV</p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                               <input class="music-ticket-btn" type="submit" value="TICKETS"></p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-10 col-md-offset-2 col-sm-12 col-xs-12 music-list-main-div">
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                <p class="music-para-date"><strong>SEP 03</strong></p>
+                                <p class="music-para-date-year"><strong>2019</strong></p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                <p class="music-para-Park">Park Theater</p>
+                                <p class="music-para-Park-sub">LAS VEGAS, NV</p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                <input class="music-ticket-btn" type="submit" value="TICKETS"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-10 col-md-offset-2 col-sm-12 col-xs-12 music-list-main-div">
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                <p class="music-para-date"><strong>SEP 03</strong></p>
+                                <p class="music-para-date-year"><strong>2019</strong></p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                <p class="music-para-Park">Park Theater</p>
+                                <p class="music-para-Park-sub">LAS VEGAS, NV</p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                <input class="music-ticket-btn" type="submit" value="TICKETS"></p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-10 col-md-offset-2 col-sm-12 col-xs-12 music-list-main-div">
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                <p class="music-para-date"><strong>SEP 03</strong></p>
+                                <p class="music-para-date-year"><strong>2019</strong></p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                <p class="music-para-Park">Park Theater</p>
+                                <p class="music-para-Park-sub">LAS VEGAS, NV</p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                <input class="music-ticket-btn" type="submit" value="TICKETS"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-10 col-md-offset-2 col-sm-12 col-xs-12 music-list-main-div">
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                <p class="music-para-date"><strong>SEP 03</strong></p>
+                                <p class="music-para-date-year"><strong>2019</strong></p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                <p class="music-para-Park">Park Theater</p>
+                                <p class="music-para-Park-sub">LAS VEGAS, NV</p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                <input class="music-ticket-btn" type="submit" value="TICKETS"></p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-10 col-md-offset-2 col-sm-12 col-xs-12">
+                            <div class="col-md-5 col-sm-4 col-xs-12">
+                                <a class="music-view-more-date" href="#">VIEW MORE DATE</a>
+                            </div>
+
+                            <div class="col-md-11 col-md-offset-1 col-sm-12 col-xs-12 music-line-div music-line-res">
+                            </div>
+
+                            <div class="col-md-12 col-sm-12 col-xs-12 music-sub-head-div music-sub-head-div-mob-res">
+                                <h1 class="music-sub-head-follow">FOLLOW AND LISTEN TO THIS PLAYLIST TO GET
+                                    PREPARED FOR THE SHOW! </h1>
+
+                            </div>
+
+                            <div class="col-md-12 col-sm-12 col-xs-12 music-list-div">
+                            <audio controls>
+                                <source src="horse.ogg" type="audio/ogg">
+                                <source src="horse.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 music-list-div">
+                            <audio controls>
+                                <source src="horse.ogg" type="audio/ogg">
+                                <source src="horse.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 music-list-div">
+                                <audio controls>
+                                    <source src="horse.ogg" type="audio/ogg">
+                                    <source src="horse.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 music-list-div music-list-last-div">
+                                <audio controls>
+                                    <source src="horse.ogg" type="audio/ogg">
+                                    <source src="horse.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+
+
+                    <!--<div class="col-md-6 col-sm-6 col-xs-6"></div>-->
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "white";
+    }
+</script>

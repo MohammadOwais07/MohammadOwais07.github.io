@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TM-studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Mina|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 col-sm-3 col-xs-12 navbar-responsive">
+                <div id="mySidenav" class="sidenav-responsive">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html">HOME</a>
+                    <a href="music.html">MUSIC</a>
+                    <a href="concerts.html">CONCERTS</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="contact-us.html">CONTACT US</a>
+                </div>
+                <span style="font-size:30px;cursor:pointer; color: #fff" onclick="openNav()">&#9776;</span>
+
+
+                <div class="sidenav sidenav-main-div">
+                    <a href="index.html"> <img class="img-responsive img-logo" src="img/music-logo.png"></a>
+                    <div class="sidenav-ancor">
+                        <div class="sidenav-ancor-radio-div"> <a  href="index.html"><span class="sidenav-ancor-span"><img src="img/sidenav-radio-off.png" alt="">
+                        <img class="sidenav-ancor-line" src="img/sidenav-line.png" alt=""></span>HOME</a></div>
+                        <div class="sidenav-ancor-radio-div"> <a href="about.html"><span class="sidenav-ancor-span"><img class="sidenav-radio-off-img" src="img/sidenav-radio-off.png" alt="">
+                     <img class="sidenav-ancor-line" src="img/sidenav-line.png" alt=""></span>ABOUT</a></div>
+                        <div class="sidenav-ancor-radio-div"> <a href="music.html"><span class="sidenav-ancor-span"><img class="sidenav-radio-off-img" src="img/sidenav-radio-off.png" alt="">
+                     <img class="sidenav-ancor-line" src="img/sidenav-line.png" alt=""></span>MUSIC</a></div>
+                        <div class="sidenav-ancor-radio-div"> <a href="concerts.html"><span class="sidenav-ancor-span"><img class="sidenav-radio-off-img" src="img/sidenav-radio-off.png" alt="">
+                     <img class="sidenav-ancor-line" src="img/sidenav-line.png" alt=""></span>CONCERTS</a></div>
+                        <div class="sidenav-ancor-radio-div"> <a href="contact-us.html" id="active"><span class="sidenav-ancor-span"><img class="sidenav-radio-off-img" src="img/side-nav-radio.png" alt="">
+                    </span>CONTACT</a></div>
+                    </div>
+                    <div class="sidenav-social-div center-block">
+                        <a href="https://twitter.com/bootsnipp"><i class="fa fa-twitter fa-2x social"></i></a>
+                        <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook fa-2x social"></i></a>
+                        <!--<a href="https://twitter.com/bootsnipp"><i class="fa fa-envelope fa-2x social"></i></a>-->
+                        <!--<a href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus fa-2x social"></i></a>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-10 col-sm-9 col-xs-12 contact-main-div">
+                <div class="row contact-right-row">
+                    <div class="col-md-8 col-sm-7 col-xs-12">
+                        <div class="col-md-11 col-md-offset-1 col-sm-12 col-xs-12 contact-right-whole-div">
+
+                            <div class="contact-img-hand-div">
+                                <img src="img/Waving_Hand_Sign_a.png">
+                                <h4 class="contact-hand-para">Hello. Let's get in touch.</h4>
+                            </div>
+
+                            <div class="contact-input-name-div">
+                            <input class="contact-input-field" placeholder="Name" type="text" />
+                            </div>
+
+                            <div class="contact-input-email-div">
+                                <input class="contact-input-field" placeholder="Email" type="text" />
+                            </div>
+
+                            <div class="contact-input-email-div">
+                                <input class="contact-input-field" placeholder="Mobile Number" type="text" />
+                            </div>
+
+                            <div class="contact-input-email-div">
+                                <input class="contact-input-field" placeholder="Message" type="text" />
+                            </div>
+
+                            <div class="contact-input-email-div">
+                                <button class="contact-btn-send"> SEND</button>
+                            </div>
+
+                            <div class="contact-last-para-div">
+                               <h4 class="contact-last-para">We'd love to hear from you</h4>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-5 col-xs-12">
+                        <div class="contact-right-area-div">
+                            <h4 class="contact-right-para-area">In the bay area?</h4>
+                            <p  class="contact-right-area-address"> Defance View Street II <br>House No A-153</p>
+                        </div>
+
+                        <div class="contact-right-area-div">
+                            <h4 class="contact-right-para-area">Office Hours</h4>
+                            <p  class="contact-right-area-address"> Monday - Friday <br>11:00 AM - 7:00 PM</p>
+                            <p  class="contact-right-area-address"> Saturday <br>1:00 PM - 5:00 PM</p>
+                        </div>
+
+                        <div class="contact-right-area-div">
+                            <h4 class="contact-right-para-area">Support</h4>
+                            <p  class="contact-right-area-address"> talha@fellowsupport.com <br>0333-3333313</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "white";
+    }
+</script>

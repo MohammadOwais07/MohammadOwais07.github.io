@@ -1,0 +1,2515 @@
+.sidenav {
+    height: 100%;
+    /*width: 160px;*/
+    width: 281px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: 'Nunito', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.sidenav a {
+    /*padding: 6px 8px 6px 16px;*/
+    /*padding: 49px 136px 15px 41px;*/
+    padding: 0px 128px 8px 39px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.img-logo{
+    margin-left: auto;
+    /*margin-right: auto;*/
+}
+
+.sidenav .sidenav-ancor{
+    margin-top: 90%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+
+}
+
+.sidenav-ancor-radio-div a{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Nunito', sans-serif;
+
+
+}
+
+.sidenav-ancor-span{
+    padding-right: 50%;
+}
+
+.sidenav-ancor-line{
+    margin-top: 12px;
+    margin-left: 48%;
+}
+
+.sidenav-radio-off-img{
+    margin-left: 3px;
+}
+
+#active{
+    color: #fff;
+}
+
+.social {
+    font-size: 1.5em;
+
+    color: #FFDD00;
+}
+
+.sidenav-social-div a{
+    padding: 6px 8px 6px 16px;
+
+}
+
+.sidenav > .sidenav-social-div{
+    display: flex;
+    /* flex-direction: column; */
+    flex: 1;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.background-img-home{
+    background-image: url(img/about-back2.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: fit-content;
+     background-size: cover;
+}
+
+@media (min-width: 1650px) {
+    .sidenav{
+        width: 17%;
+    }
+
+    .contact-main-div {
+        background-color: black;
+        height: auto;
+    }
+    .concerts-three-sub-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 37%;
+        background: url(img/concert-two.jpg) center center;
+        background-size: cover;
+    }
+
+    .concerts-sub-one-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 37%;
+        background: url(img/concert-one.jpg) center center;
+        background-size: cover;
+    }
+
+    .concerts-sub-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 37%;
+        background: url(img/TALHA-back.png) center center;
+        background-size: cover;
+        /* margin-top: 5%; */
+    }
+}
+
+@media (max-width: 768px) {
+    .sidenav-main-div{
+        display: none;
+    }
+    .navbar-responsive{
+    background-color: #000;
+    }
+
+}
+
+
+.sidenav-responsive {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav-responsive a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav-responsive a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav-responsive .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav-responsive {padding-top: 15px;}
+    .sidenav-responsive a {font-size: 18px;}
+}
+
+
+/*--------------------------------------------------about page css start---------------------------------------*/
+.background-img-about {
+    background-image: url(img/about-back-new.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: fit-content;
+     background-size: cover;
+}
+
+.about-main-head{
+    font-size: 2em;
+    line-height: 1.50;
+    margin: 0 0 .5em;
+    color: #fff;
+    padding: 349px 254px 9px 39px;
+}
+
+.about-para1{
+    font-size: 1.25em;
+    color: #ededed;
+    font-weight: 100;
+    letter-spacing: 2px;
+    line-height: 1.7;
+    padding: 179px 140px 28px 38px;
+}
+
+.about-para2 {
+    font-size: 1.25em;
+    color: #ededed;
+    font-weight: 100;
+    letter-spacing: 2px;
+    line-height: 1.7;
+    padding: 0px 135px 29px 41px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.about-button {
+    display: inline-block;
+    padding: 18px 50px;
+    color: #162063;
+    background-color: #ededed;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: .9375em;
+    border: 0;
+    white-space: nowrap;
+    font-family: "GT",serif;
+    line-height: 1.5;
+    -webkit-transition: background-color .3s cubic-bezier(.455,.03,.515,.955),color .3s cubic-bezier(.455,.03,.515,.955);
+    transition: background-color .3s cubic-bezier(.455,.03,.515,.955),color .3s cubic-bezier(.455,.03,.515,.955);
+    border: 2px solid #ededed;
+    letter-spacing: 2px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+
+.about-button:hover {
+    color: #ededed;
+    background-color: transparent;
+}
+
+@media (max-width: 1500px) {
+    .about-main-head {
+        font-size: 2.5em;
+        line-height: 1.50;
+        margin: 0 0 .5em;
+        color: #fff;
+        padding: 354px 183px 9px 94px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .about-main-head {
+        font-size: 2.5em;
+        line-height: 1.50;
+        margin: 0 0 .5em;
+        color: #fff;
+        padding: 355px 108px 9px 93px;
+    }
+    .about-para1 {
+        font-size: 1.25em;
+        color: #ededed;
+        font-weight: 100;
+        letter-spacing: 2px;
+        line-height: 1.7;
+        padding: 179px 97px 28px 38px;
+    }
+
+    .about-para2 {
+        font-size: 1.25em;
+        color: #ededed;
+        font-weight: 100;
+        letter-spacing: 2px;
+        line-height: 1.7;
+        padding: 0px 112px 29px 41px;
+        font-family: 'Nunito', sans-serif;
+    }
+
+}
+@media (max-width: 1300px) {
+    .about-main-head {
+        font-size: 2em;
+        line-height: 1.50;
+        margin: 0 0 .5em;
+        color: #fff;
+        padding: 397px 117px 9px 93px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .about-para1 {
+        font-size: 1.25em;
+        color: #ededed;
+        font-weight: 100;
+        letter-spacing: 2px;
+        line-height: 1.7;
+        padding: 179px 34px 28px 38px;
+    }
+    .about-para2 {
+        font-size: 1.25em;
+        color: #ededed;
+        font-weight: 100;
+        letter-spacing: 2px;
+        line-height: 1.7;
+        padding: 0px 49px 29px 41px;
+        font-family: 'Nunito', sans-serif;
+    }
+}
+
+@media (max-width: 1140px) {
+    .about-button {
+        display: inline-block;
+        padding: 15px 24px;
+        color: #162063;
+        background-color: #ededed;
+        border-radius: 50px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: .9375em;
+        border: 0;
+        white-space: nowrap;
+        font-family: "GT",serif;
+        line-height: 1.5;
+        -webkit-transition: background-color .3s cubic-bezier(.455,.03,.515,.955),color .3s cubic-bezier(.455,.03,.515,.955);
+        transition: background-color .3s cubic-bezier(.455,.03,.515,.955),color .3s cubic-bezier(.455,.03,.515,.955);
+        border: 2px solid #ededed;
+        letter-spacing: 2px;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .about-main-head {
+        font-size: 1.8em;
+        line-height: 1.50;
+        margin: 0 0 .5em;
+        color: #fff;
+        padding: 398px 32px 9px 117px;
+    }
+}
+
+@media (max-width: 992px) {
+    .about-main-head {
+        font-size: 1.5em;
+        line-height: 1.50;
+        margin: 0 0 .5em;
+        color: #fff;
+        padding: 398px 32px 9px 48px;
+    }
+    .about-para1 {
+        font-size: 1.25em;
+        color: #ededed;
+        font-weight: 100;
+        letter-spacing: 2px;
+        line-height: 1.7;
+        padding: 179px 0px 28px 22px;
+    }
+    .about-para2 {
+        font-size: 1.2em;
+        color: #ededed;
+        font-weight: 100;
+        letter-spacing: 2px;
+        line-height: 1.7;
+        padding: 0px 0px 0px 15px;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .about-button {
+        display: inline-block;
+        padding: 12px 18px;
+        color: #162063;
+        background-color: #ededed;
+        border-radius: 50px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: .9375em;
+        border: 0;
+        white-space: nowrap;
+        font-family: "GT",serif;
+        line-height: 1.5;
+        -webkit-transition: background-color .3s cubic-bezier(.455,.03,.515,.955),color .3s cubic-bezier(.455,.03,.515,.955);
+        transition: background-color .3s cubic-bezier(.455,.03,.515,.955),color .3s cubic-bezier(.455,.03,.515,.955);
+        border: 2px solid #ededed;
+        letter-spacing: 2px;
+        font-family: 'Nunito', sans-serif;
+        margin-top: 19px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .about-main-head {
+        font-size: 1.2em;
+        line-height: 1.50;
+        margin: 0 0 .5em;
+        color: #fff;
+        padding: 398px 0px 9px 64px;
+    }
+    .about-para1 {
+        font-size: 1.25em;
+        color: #ededed;
+        font-weight: 100;
+        letter-spacing: 1px;
+        line-height: 1.7;
+        padding: 179px 0px 28px 0px;
+    }
+    .about-para2 {
+        font-size: 1.2em;
+        color: #ededed;
+        font-weight: 100;
+        letter-spacing: 2px;
+        line-height: 1.7;
+        padding: 0px 0px 0px 0px;
+        font-family: 'Nunito', sans-serif;
+    }
+
+}
+
+
+@media (max-width: 840px) {
+    .sidenav {
+        height: 100%;
+        /* width: 160px; */
+        width: 232px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 20px;
+        font-family: 'Nunito', sans-serif;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidenav-main-div {
+        display: none;
+    }
+    .about-main-head {
+        font-size: 1.2em;
+        line-height: 1.50;
+        margin: 0 0 .5em;
+        color: #fff;
+        padding: 122px 0px 9px 35px;
+    }
+    .about-para2-strong{
+        font-weight: 200;
+    }
+    .about-para1 {
+        font-size: 1.25em;
+        color: #ededed;
+        font-weight: 100;
+        letter-spacing: 1px;
+        line-height: 1.7;
+        padding: 79px 0px 28px 0px;
+    }
+}
+
+/*----------------------------------------------------music css start-------------------------------------------------*/
+
+
+
+.background-img-music{
+    background-image: url(img/music-back.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: fit-content;
+     background-size: cover;
+}
+
+
+.music-site-name{
+    font-family: 'Nunito', sans-serif;
+    overflow: hidden;
+    text-align: left;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1em;
+}
+
+.music-site-name-div{
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+    justify-content: center;
+}
+.music-sub-head {
+    font-size: 31px;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1;
+    color: #fff;
+
+}
+
+.music-sub-head-div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.music-sub-head-para {
+    padding: 0px 6px 1px 151px;
+    font-size: 20px;
+    margin-bottom: 17px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.music-email-input {
+    display: inline-block;
+    max-width: calc(100% - 108px);
+    width: 45%;
+    margin-right: 8px;
+    vertical-align: top;
+    color: #7d7d7d;
+    border: 1px solid #444141;
+    background-color: transparent;
+    max-width: calc(100% - 108px);
+    padding: 9px;
+    height: 35px;
+
+
+}
+
+.music-input-div {
+    display: flex;
+    justify-content: center;
+    margin-left: 6%;
+
+
+
+
+}
+
+.music-submit-btn {
+    height: 35px;
+    width: 20%;
+    background: transparent;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    /* padding: 12px; */
+    /* margin: 0; */
+    cursor: pointer;
+    border: 2px solid #444141;
+
+}
+
+.music-line-div{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 50px;
+}
+
+.music-sub-head-24k {
+    font-size: 31px;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1;
+    color: #fff;
+    margin-top: 10%;
+    font-weight: 700;
+    margin-right: 5%;
+}
+
+.music-anchor-link{
+    font-size: 16px;
+    color: #fff;
+    border-bottom: 1px solid;
+    margin-right: 5%;
+}
+.music-anchor-link-slach{
+    font-size: 21px;
+    color: white;
+    margin-right: 3%;
+}
+
+.music-anchor-link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.music-anchor-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.music-anchor-link-unactive{
+    font-size: 16px;
+    color: #aaaaaa;
+    border-bottom: 1px solid;
+    margin-right: 5%;
+}
+
+.music-para-date {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 800;
+    margin-left: 17%;
+    margin-top: 17%;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.music-para-date-year {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 800;
+    margin-left: 17%;
+
+    letter-spacing: 2px;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+
+.music-para-Park {
+    font-weight: 100;
+    font-size: 19px;
+    color: #fff;
+    margin-left: 17%;
+    margin-top: 17%;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.music-ticket-btn {
+    float: right;
+    height: 35px;
+    width: 68%;
+    background: transparent;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    /* padding: 12px; */
+    /* margin: 0; */
+    cursor: pointer;
+    border: 2px solid #444141;
+    margin-top: 18%;
+}
+
+.music-para-Park-sub {
+    font-weight: 100;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 17%;
+    letter-spacing: 2px;
+}
+
+.music-view-more-date{
+    margin-top: 16%;
+    float: right;
+    color: #444141;
+    text-decoration: underline;
+}
+
+.music-sub-head-follow {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1;
+    color: #fff;
+    font-weight: 800;
+    margin-left: 5%;
+    margin-top: 15%;
+    letter-spacing: 1px;
+}
+
+.music-list-last-div{
+    margin-bottom: 10%;
+}
+.music-list-div {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10%;
+    margin-left: 3%;
+}
+.music-list-div1{
+    margin-top: 10%;
+}
+
+
+@media (max-width: 2200px) {
+    .music-site-name {
+        font-family: 'Nunito', sans-serif;
+        overflow: hidden;
+        text-align: left;
+        text-transform: capitalize;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 1em;
+        margin-left: 6%;
+    }
+
+    .music-sub-head {
+        margin-left: 7%;
+        font-size: 31px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+    }
+}
+
+@media (max-width: 2100px){
+    .music-sub-head {
+        margin-left: 14%;
+        font-size: 31px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+    }
+
+    .music-site-name {
+        font-family: 'Nunito', sans-serif;
+        overflow: hidden;
+        text-align: left;
+        text-transform: capitalize;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 1em;
+        margin-left: 12%;
+    }
+}
+
+@media (max-width: 1900px) {
+    .music-site-name {
+        font-family: 'Nunito', sans-serif;
+        overflow: hidden;
+        text-align: left;
+        text-transform: capitalize;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 1em;
+        margin-left: 19%;
+    }
+
+    .music-sub-head {
+        margin-left: 23%;
+        font-size: 31px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+    }
+
+    .music-sub-head-para {
+        padding: 0px 6px 1px 197px;
+        font-size: 20px;
+        margin-bottom: 17px;
+        color: #fff;
+        letter-spacing: 1px;
+        font-weight: 100;
+    }
+
+}
+    @media (min-width: 1800px){
+        .music-sub-head-para {
+            padding: 0px 6px 1px 182px;
+            font-size: 20px;
+            margin-bottom: 17px;
+            color: #fff;
+            letter-spacing: 1px;
+            font-weight: 100;
+        }
+
+
+
+}
+@media (max-width: 1800px) {
+    .music-sub-head-para {
+        padding: 0px 6px 1px 172px;
+        font-size: 20px;
+        margin-bottom: 17px;
+        color: #fff;
+        letter-spacing: 1px;
+        font-weight: 100;
+    }
+}
+
+@media (max-width: 1700px) {
+    .music-sub-head {
+        margin-left: 26%;
+        font-size: 31px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+    }
+}
+@media (max-width: 1650px) {
+    .music-sub-head {
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        margin-left: 5%;
+        color: #fff;
+    }
+    .music-site-name {
+        font-family: 'Nunito', sans-serif;
+        overflow: hidden;
+        text-align: left;
+        text-transform: capitalize;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 1em;
+        margin-left: 0%;
+    }
+    .music-sub-head-para {
+        padding: 0px 6px 1px 148px;
+        font-size: 20px;
+        margin-bottom: 17px;
+        color: #fff;
+        letter-spacing: 1px;
+        font-weight: 100;
+    }
+
+
+
+}
+
+@media (max-width: 1600px){
+    .music-sub-head {
+        font-size: 29px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+    }
+    .music-sub-head-para {
+        padding: 0px 6px 1px 145px;
+        font-size: 20px;
+        margin-bottom: 17px;
+        color: #fff;
+        letter-spacing: 1px;
+        font-weight: 100;
+    }
+    .music-sub-head-24k {
+        font-size: 31px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+        margin-top: 10%;
+        font-weight: 700;
+        margin-right: -2%;
+    }
+    .music-anchor-link {
+        font-size: 16px;
+        color: #fff;
+        border-bottom: 1px solid;
+        margin-right: 3%;
+    }
+    .music-anchor-link-unactive {
+        font-size: 16px;
+        color: #aaaaaa;
+        border-bottom: 1px solid;
+        margin-right: 3%;
+    }
+
+    .music-para-Park {
+        font-weight: 100;
+        font-size: 19px;
+        color: #fff;
+        margin-left: 6%;
+        margin-top: 17%;
+        letter-spacing: 2px;
+        margin-bottom: 0;
+    }
+
+    .music-para-Park-sub {
+        font-weight: 100;
+        font-size: 12px;
+        color: #fff;
+        margin-left: 10%;
+        letter-spacing: 2px;
+    }
+
+}
+
+
+@media (max-width: 1500px) {
+    .music-sub-head {
+        font-size: 28px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+    }
+
+    .music-sub-head-para {
+        padding: 0px 6px 1px 120px;
+        font-size: 20px;
+        margin-bottom: 17px;
+        color: #fff;
+        letter-spacing: 1px;
+        font-weight: 100;
+    }
+    .music-para-Park {
+        font-weight: 100;
+        font-size: 19px;
+        color: #fff;
+        margin-left: 2%;
+        margin-top: 17%;
+        letter-spacing: 2px;
+        margin-bottom: 0;
+    }
+    .music-para-Park-sub {
+        font-weight: 100;
+        font-size: 12px;
+        color: #fff;
+        margin-left: 5%;
+        letter-spacing: 2px;
+    }
+
+}
+
+@media (max-width: 1440px) {
+    .music-sub-head {
+        font-size: 27px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+    }
+    .music-sub-head-para {
+        padding: 0px 6px 1px 106px;
+        font-size: 20px;
+        margin-bottom: 17px;
+        color: #fff;
+        letter-spacing: 1px;
+        font-weight: 100;
+    }
+
+    .music-input-div {
+        display: flex;
+        justify-content: center;
+        margin-left: 3%;
+    }
+    .music-line-div {
+        margin-left: 21%;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 50px;
+    }
+
+    .music-sub-head-24k {
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+        margin-top: 10%;
+        font-weight: 700;
+        margin-right: -2%;
+    }
+    .music-para-date {
+        font-size: 16px;
+        color: #fff;
+        font-weight: 800;
+        margin-left: 0%;
+        margin-top: 17%;
+        letter-spacing: 2px;
+        margin-bottom: 0;
+    }
+
+    .music-para-date-year {
+        font-size: 16px;
+        color: #fff;
+        font-weight: 800;
+        margin-left: 0;
+        letter-spacing: 2px;
+        padding-bottom: 0;
+        margin-top: 0;
+    }
+    .music-ticket-btn {
+        float: right;
+        height: 35px;
+        width: 73%;
+        background: transparent;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        /* padding: 12px; */
+        /* margin: 0; */
+        cursor: pointer;
+        border: 2px solid #444141;
+        margin-top: 18%;
+    }
+    .music-para-Park {
+        font-weight: 100;
+        font-size: 18px;
+        color: #fff;
+        margin-left: 0%;
+        margin-top: 17%;
+        letter-spacing: 2px;
+        margin-bottom: 0;
+    }
+
+    .music-line-res {
+        margin-left: 3%;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 50px;
+    }
+
+}
+
+@media (max-width: 1360px) {
+    .music-sub-head {
+        font-size: 26px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+    }
+
+    .music-sub-head-para {
+        padding: 0px 6px 1px 87px;
+        font-size: 20px;
+        margin-bottom: 17px;
+        color: #fff;
+        letter-spacing: 1px;
+        font-weight: 100;
+    }
+
+    .music-input-div {
+        display: flex;
+        justify-content: center;
+        margin-left: 1%;
+    }
+
+    .music-sub-head-div-responsive {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 6%;
+    }
+
+    .music-ticket-btn {
+        float: right;
+        height: 35px;
+        width: 82%;
+        background: transparent;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        /* padding: 12px; */
+        /* margin: 0; */
+        cursor: pointer;
+        border: 2px solid #444141;
+        margin-top: 18%;
+    }
+
+    .music-para-Park {
+        font-weight: 100;
+        font-size: 16px;
+        color: #fff;
+        margin-left: 0%;
+        margin-top: 17%;
+        letter-spacing: 2px;
+        margin-bottom: 0;
+    }
+    .music-para-Park-sub {
+        font-weight: 100;
+        font-size: 12px;
+        color: #fff;
+        margin-left: -2%;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .music-sub-head {
+        font-size: 25px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+    }
+}
+@media (max-width: 1260px) {
+    .music-sub-head {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+    }
+    .music-site-name-div {
+        display: flex;
+        align-items: flex-end;
+        height: 200px;
+        justify-content: center;
+        margin-left: 4%;
+    }
+    .music-sub-head-div-responsive {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 13%;
+    }
+
+    .music-ticket-btn {
+        float: right;
+        height: 35px;
+        width: 91%;
+        background: transparent;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        /* padding: 12px; */
+        /* margin: 0; */
+        cursor: pointer;
+        border: 2px solid #444141;
+        margin-top: 18%;
+    }
+    .music-para-Park {
+        font-weight: 100;
+        font-size: 15px;
+        color: #fff;
+        margin-left: 0%;
+        margin-top: 17%;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+    }
+    .music-para-Park-sub {
+        font-weight: 100;
+        font-size: 12px;
+        color: #fff;
+        margin-left: 0%;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 1230px) {
+    .music-sub-head {
+        font-size: 23px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+    }
+
+    .music-main-div-right{
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 1165px) {
+    .music-sub-head-para {
+        padding: 0px 6px 1px 63px;
+        font-size: 20px;
+        margin-bottom: 17px;
+        color: #fff;
+        letter-spacing: 1px;
+        font-weight: 100;
+    }
+    .music-ticket-btn {
+        float: right;
+        height: 35px;
+        width: 100%;
+        background: transparent;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        /* padding: 12px; */
+        /* margin: 0; */
+        cursor: pointer;
+        border: 2px solid #444141;
+        margin-top: 18%;
+    }
+    .music-anchor-link {
+        font-size: 14px;
+        color: #fff;
+        border-bottom: 1px solid;
+        margin-right: 3%;
+    }
+
+    .music-anchor-link-unactive {
+        font-size: 14px;
+        color: #aaaaaa;
+        border-bottom: 1px solid;
+        margin-right: 3%;
+    }
+    .music-sub-head-24k {
+        font-size: 26px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+        margin-top: 10%;
+        font-weight: 700;
+        margin-right: -3%;
+    }
+    .music-sub-head-div-responsive {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 6%;
+    }
+    .music-list-div1 {
+        margin-top: 10%;
+        margin-left: 9%;
+    }
+
+    .music-list-main-div {
+        margin-top: 10%;
+        margin-left: 9%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .music-main-div-right {
+        margin-left: 14%;
+    }
+
+    .music-list-div1 {
+        width: 100%;
+    }
+
+    .music-list-main-div{
+        width: 100%;
+    }
+
+    .music-sub-head {
+        font-size: 21px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+    }
+    .music-site-name {
+        font-family: 'Nunito', sans-serif;
+        overflow: hidden;
+        text-align: left;
+        text-transform: capitalize;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 1em;
+        font-size: 34px;
+    }
+
+    .music-line-div {
+        margin-left: 15%;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 50px;
+        width: 90%;
+    }
+
+    .music-line-res {
+        margin-left: -6%;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 50px;
+        width: 113%;
+    }
+
+    .music-sub-head-follow {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+        font-weight: 800;
+        margin-left: -11%;
+        margin-top: 15%;
+        letter-spacing: 1px;
+    }
+
+    .music-list-div {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 10%;
+        margin-left: -9%;
+    }
+}
+
+@media (max-width: 1045px) {
+    .music-sub-head {
+        font-size: 19px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+    }
+
+    .music-submit-btn {
+        height: 35px;
+        width: 26%;
+        background: transparent;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        /* padding: 12px; */
+        /* margin: 0; */
+        cursor: pointer;
+        border: 2px solid #444141;
+    }
+    .music-sub-head-24k {
+        font-size: 25px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+        margin-top: 10%;
+        font-weight: 700;
+        margin-right: -3%;
+    }
+    .music-anchor-link {
+        font-size: 12px;
+        color: #fff;
+        border-bottom: 1px solid;
+        margin-right: 3%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .music-site-name {
+        font-family: 'Nunito', sans-serif;
+        overflow: hidden;
+        text-align: left;
+        text-transform: capitalize;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 1em;
+        font-size: 32px;
+    }
+    .music-sub-head-para {
+        padding: 0px 6px 1px 49px;
+        font-size: 20px;
+        margin-bottom: 17px;
+        color: #fff;
+        letter-spacing: 1px;
+        font-weight: 100;
+    }
+    .music-sub-head-24k {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+        margin-top: 10%;
+        font-weight: 700;
+        margin-right: -3%;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .music-site-name {
+        font-family: 'Nunito', sans-serif;
+        overflow: hidden;
+        text-align: left;
+        text-transform: capitalize;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 1em;
+        font-size: 32px;
+        margin-right: 21%;
+    }
+    .music-sub-head-div {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 12%;
+    }
+
+    .music-sub-head-para {
+        padding: 0px 6px 1px 2px;
+        font-size: 20px;
+        margin-bottom: 17px;
+        color: #fff;
+        letter-spacing: 1px;
+        font-weight: 100;
+    }
+    .music-sub-head-24k {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+        margin-top: 10%;
+        font-weight: 700;
+        margin-right: 2%;
+    }
+    .music-sub-head-div-responsive {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: -11%;
+    }
+    .music-sub-head-follow {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+        font-weight: 800;
+        margin-left: -20%;
+        margin-top: 15%;
+        letter-spacing: 1px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .music-sub-head-div {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 9%;
+    }
+    .music-line-div {
+        margin-left: 12%;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 50px;
+        width: 90%;
+    }
+    .music-input-div {
+        display: flex;
+        justify-content: center;
+        margin-left: -3%;
+    }
+    .music-sub-head-div-responsive {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 2%;
+    }
+
+}
+
+
+.music-line-div {
+    margin-left: 5%;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .music-main-div-right {
+        margin-left: 0;
+    }
+    .music-site-name {
+        font-family: 'Nunito', sans-serif;
+        overflow: hidden;
+        text-align: left;
+        text-transform: capitalize;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 1em;
+        font-size: 32px;
+        margin-right: 37%;
+    }
+    .music-sub-head-div-responsive {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: -23%;
+    }
+    .music-line-div {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 50px;
+        width: 93%;
+        margin-left: 10%;
+    }
+
+    /*.music-sub-head-div {*/
+        /*display: flex;*/
+        /*justify-content: flex-end;*/
+        /*margin-left: 22%;*/
+    /*}*/
+    /*.music-list-div {*/
+        /*display: flex;*/
+        /*justify-content: flex-start;*/
+        /*margin-top: 10%;*/
+        /*margin-left: 4%;*/
+    /*}*/
+}
+
+
+@media (max-width: 650px) {
+    .music-site-name {
+        font-family: 'Nunito', sans-serif;
+        overflow: hidden;
+        text-align: left;
+        text-transform: capitalize;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 1em;
+        font-size: 30px;
+        margin-right: 37%;
+    }
+    .music-sub-head-div-responsive {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: -15%;
+    }
+    .music-sub-head-div-mob-res{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 19%;
+
+    }
+    .music-list-div {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 10%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 620px) {
+    .music-site-name {
+        font-family: 'Nunito', sans-serif;
+        overflow: hidden;
+        text-align: left;
+        text-transform: capitalize;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 1em;
+        font-size: 30px;
+        margin-right: 33%;
+    }
+    .music-sub-head-div-responsive {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: -11%;
+    }
+    .music-sub-head {
+        font-size: 19px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+        margin-left: 0%;
+    }
+}
+
+
+@media (max-width: 570px) {
+    .music-site-name {
+        font-family: 'Nunito', sans-serif;
+        overflow: hidden;
+        text-align: left;
+        text-transform: capitalize;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 1em;
+        font-size: 30px;
+        margin-right: 29%;
+    }
+    .music-sub-head-follow {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+        font-weight: 800;
+        margin-left: -16%;
+        margin-top: 15%;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 540px) {
+    .music-sub-head-div-responsive {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 0%;
+    }
+
+    .music-site-name {
+        font-family: 'Nunito', sans-serif;
+        overflow: hidden;
+        text-align: left;
+        text-transform: capitalize;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 1em;
+        font-size: 30px;
+        margin-right: 23%;
+    }
+    .music-sub-head {
+        font-size: 19px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+        margin-left: 0%;
+    }
+
+
+}
+@media (max-width: 500px) {
+    .music-site-name-div {
+        display: flex;
+        align-items: flex-end;
+        height: 200px;
+        justify-content: center;
+        margin-left: 0%;
+    }
+    .music-sub-head {
+        font-size: 19px;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+        color: #fff;
+        margin-left: -1%;
+    }
+    .music-sub-head-div-responsive {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: -4%;
+        width: 125%;
+    }
+
+    .music-anchor-link {
+        font-size: 12px;
+        color: #fff;
+        border-bottom: 1px solid;
+        margin-right: 2%;
+    }
+
+    .music-anchor-link-unactive {
+        font-size: 11px;
+        color: #aaaaaa;
+        border-bottom: 1px solid;
+        margin-right: 8%;
+    }
+    .music-anchor-link-slach {
+        font-size: 12px;
+        color: white;
+        margin-right: 3%;
+    }
+    .music-submit-btn {
+        height: 35px;
+        width: 33%;
+        background: transparent;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        /* padding: 12px; */
+        /* margin: 0; */
+        cursor: pointer;
+        border: 2px solid #444141;
+    }
+
+    .music-site-name {
+        font-family: 'Nunito', sans-serif;
+        overflow: hidden;
+        text-align: left;
+        text-transform: capitalize;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 1em;
+        font-size: 22px;
+        margin-right: 16%;
+    }
+
+    .music-para-date {
+        font-size: 12px;
+        color: #fff;
+        font-weight: 800;
+        margin-left: 0%;
+        margin-top: 17%;
+        letter-spacing: 2px;
+        margin-bottom: 0;
+    }
+
+    .music-para-date-year {
+        font-size: 12px;
+        color: #fff;
+        font-weight: 800;
+        margin-left: 0;
+        letter-spacing: 2px;
+        padding-bottom: 0;
+        margin-top: 0;
+    }
+
+    .music-para-Park {
+        font-weight: 100;
+        font-size: 10px;
+        color: #fff;
+        margin-left: -4%;
+        margin-top: 17%;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+    }
+
+    .music-para-Park-sub {
+        font-weight: 100;
+        font-size: 8px;
+        color: #fff;
+        margin-left: 0%;
+        letter-spacing: 1px;
+    }
+    .music-ticket-btn {
+        float: right;
+        height: 35px;
+        width: 112%;
+        background: transparent;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 10px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        /* padding: 12px; */
+        /* margin: 0; */
+        cursor: pointer;
+        border: 2px solid #444141;
+        margin-top: 18%;
+    }
+
+    .music-sub-head-div-responsive {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: -11%;
+        width: 125%;
+    }
+}
+
+/*----------------------------------------------concerts css start----------------------------------------------------*/
+
+.concerts-main-div{
+    background-color: black;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.concerts-one-head{
+    font-weight: 900;
+    color: #fff;
+    text-transform: capitalize;
+    text-transform: uppercase;
+}
+
+.concerts-sub-pic-div {
+    display: block;
+    width: 538px;
+    height: 538px;
+    margin: 0px;
+    position: relative;
+    left: 30%;
+    background: url(img/TALHA-back.png) center center;
+    background-size: cover;
+    /*margin-top: 5%;*/
+}
+
+
+.concerts-anchor-link{
+    margin-top: 1%;
+}
+.concerts-anchor-link a {
+
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    transition: opacity 300ms;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0px 10px;
+    letter-spacing: 1px;
+}
+
+.concert-two-div{
+    margin-top: 5%;
+}
+
+.concerts-sub-one-pic-div{
+    display: block;
+    width: 538px;
+    height: 538px;
+    margin: 0px;
+    position: relative;
+    left: 30%;
+    background: url(img/concert-one.jpg ) center center;
+    background-size: cover;
+}
+
+.concerts-three-sub-pic-div{
+    display: block;
+    width: 538px;
+    height: 538px;
+    margin: 0px;
+    position: relative;
+    left: 30%;
+    background: url(img/concert-two.jpg ) center center;
+    background-size: cover;
+}
+
+@media (max-width: 2200px) {
+
+
+    .concerts-three-sub-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 34%;
+        background: url(img/concert-two.jpg) center center;
+        background-size: cover;
+    }
+    .concerts-sub-one-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 35%;
+        background: url(img/concert-one.jpg) center center;
+        background-size: cover;
+    }
+
+    .concerts-sub-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 35%;
+        background: url(img/TALHA-back.png) center center;
+        background-size: cover;
+        /* margin-top: 5%; */
+    }
+
+    .concerts-sub-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 35%;
+        background: url(img/TALHA-back.png) center center;
+        background-size: cover;
+        /* margin-top: 5%; */
+    }
+}
+
+
+@media (min-width: 1650px) {
+    .sidenav{
+        width: 17%;
+    }
+
+    .contact-main-div {
+        background-color: black;
+        height: auto;
+    }
+    .concerts-three-sub-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 37%;
+        background: url(img/concert-two.jpg) center center;
+        background-size: cover;
+    }
+
+    .concerts-sub-one-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 37%;
+        background: url(img/concert-one.jpg) center center;
+        background-size: cover;
+    }
+
+    .concerts-sub-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 37%;
+        background: url(img/TALHA-back.png) center center;
+        background-size: cover;
+        /* margin-top: 5%; */
+    }
+
+    .music-site-name-div {
+        display: flex;
+        align-items: flex-end;
+        height: 200px;
+        justify-content: center;
+        margin-left: -10%;
+    }
+
+    .music-sub-head-div {
+        display: flex;
+        justify-content: center;
+        margin-left: -2%;
+    }
+    /*.music-sub-head-para {*/
+    /*    padding: 0px 6px 1px 212px;*/
+    /*    font-size: 20px;*/
+    /*    margin-bottom: 17px;*/
+    /*    color: #fff;*/
+    /*    letter-spacing: 1px;*/
+    /*    font-weight: 100;*/
+    /*}*/
+
+    .music-anchor-link {
+        font-size: 16px;
+        color: #fff;
+        border-bottom: 1px solid;
+        margin-right: 1%;
+    }
+    .music-anchor-link-unactive {
+        font-size: 16px;
+        color: #aaaaaa;
+        border-bottom: 1px solid;
+        margin-right: 4%;
+    }
+}
+@media (max-width: 2200px){
+
+    /*.concerts-three-sub-pic-div {*/
+    /*    display: block;*/
+    /*    width: 538px;*/
+    /*    height: 538px;*/
+    /*    margin: 0px;*/
+    /*    position: relative;*/
+    /*    left: 34%;*/
+    /*    background: url(img/concert-two.jpg) center center;*/
+    /*    background-size: cover;*/
+    /*}*/
+    /*.concerts-sub-one-pic-div {*/
+    /*    display: block;*/
+    /*    width: 538px;*/
+    /*    height: 538px;*/
+    /*    margin: 0px;*/
+    /*    position: relative;*/
+    /*    left: 35%;*/
+    /*    background: url(img/concert-one.jpg) center center;*/
+    /*    background-size: cover;*/
+    /*}*/
+
+    /*.concerts-sub-pic-div {*/
+    /*    display: block;*/
+    /*    width: 538px;*/
+    /*    height: 538px;*/
+    /*    margin: 0px;*/
+    /*    position: relative;*/
+    /*    left: 35%;*/
+    /*    background: url(img/TALHA-back.png) center center;*/
+    /*    background-size: cover;*/
+    /*    !* margin-top: 5%; *!*/
+    /*}*/
+
+    /*.concerts-sub-pic-div {*/
+    /*    display: block;*/
+    /*    width: 538px;*/
+    /*    height: 538px;*/
+    /*    margin: 0px;*/
+    /*    position: relative;*/
+    /*    left: 35%;*/
+    /*    background: url(img/TALHA-back.png) center center;*/
+    /*    background-size: cover;*/
+    /*    !* margin-top: 5%; *!*/
+    /*}*/
+}
+
+
+@media (max-width: 2000px){
+    .concerts-sub-one-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 33%;
+        background: url(img/concert-one.jpg) center center;
+        background-size: cover;
+    }
+
+    .concerts-three-sub-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 32%;
+        background: url(img/concert-two.jpg) center center;
+        background-size: cover;
+    }
+
+    .concerts-sub-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 33%;
+        background: url(img/TALHA-back.png) center center;
+        background-size: cover;
+        /* margin-top: 5%; */
+    }
+}
+
+@media (max-width: 1800px) {
+    .concerts-sub-one-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 31%;
+        background: url(img/concert-one.jpg) center center;
+        background-size: cover;
+    }
+
+    .concerts-sub-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 31%;
+        background: url(img/TALHA-back.png) center center;
+        background-size: cover;
+        /* margin-top: 5%; */
+    }
+}
+
+@media (max-width: 1400px) {
+    .concerts-three-sub-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 26%;
+        background: url(img/concert-two.jpg) center center;
+        background-size: cover;
+    }
+
+    .concerts-sub-one-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 26%;
+        background: url(img/concert-one.jpg) center center;
+        background-size: cover;
+    }
+    .concerts-sub-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 26%;
+        background: url(img/TALHA-back.png) center center;
+        background-size: cover;
+        /* margin-top: 5%; */
+    }
+}
+
+@media (max-width: 1300px) {
+    .concerts-three-sub-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 23%;
+        background: url(img/concert-two.jpg) center center;
+        background-size: cover;
+    }
+
+    .concerts-sub-one-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 23%;
+        background: url(img/concert-one.jpg) center center;
+        background-size: cover;
+    }
+
+    .concerts-sub-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 23%;
+        background: url(img/TALHA-back.png) center center;
+        background-size: cover;
+        /* margin-top: 5%; */
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .concerts-sub-one-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 21%;
+        background: url(img/concert-one.jpg) center center;
+        background-size: cover;
+    }
+
+    .concerts-sub-one-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 21%;
+        background: url(img/concert-one.jpg) center center;
+        background-size: cover;
+    }
+
+    .concerts-sub-pic-div {
+        display: block;
+        width: 538px;
+        height: 538px;
+        margin: 0px;
+        position: relative;
+        left: 21%;
+        background: url(img/TALHA-back.png) center center;
+        background-size: cover;
+        /* margin-top: 5%; */
+    }
+}
+
+
+@media (max-width: 1100px) {
+    .concerts-three-sub-pic-div {
+        left: 18%;
+
+    }
+
+    .concerts-sub-one-pic-div {
+        left: 18%;
+    }
+
+    .concerts-sub-pic-div {
+        left: 18%;
+    }
+}
+@media (max-width: 1000px) {
+    .concerts-sub-one-pic-div {
+        left: 15%;
+
+    }
+
+    .concerts-three-sub-pic-div {
+        left: 15%;
+    }
+
+    .concerts-sub-pic-div {
+        left: 15%;
+    }
+}
+@media (max-width: 992px) {
+    .concerts-sub-one-pic-div {
+        left: 11%;
+
+    }
+
+    .concerts-three-sub-pic-div {
+        left: 11%;
+    }
+
+    .concerts-sub-pic-div {
+        left: 11%;
+    }
+}
+
+
+@media (max-width: 930px) {
+    .concerts-anchor-link a {
+        /* color: #ffffff; */
+        text-decoration: none;
+        font-size: 14px;
+        text-align: center;
+        transition: opacity 300ms;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 0px 5px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 888px) {
+    .concerts-link-item{
+        margin-left: 5%;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .concerts-three-sub-pic-div {
+        left: 5%;
+
+    }
+
+    .concerts-sub-one-pic-div {
+        left: 5%;
+
+
+    }
+
+    .concerts-sub-pic-div {
+        left: 5%;
+
+    }
+}
+@media (max-width: 600px) {
+    .concerts-three-sub-pic-div {
+        left: 23%;
+        width: 300px;
+        height: 300px;
+    }
+
+    .concerts-sub-one-pic-div {
+        left: 23%;
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .concerts-sub-pic-div {
+        left: 23%;
+        width: 300px;
+        height: 300px;
+    }
+
+    .concerts-anchor-link a {
+        /* color: #ffffff; */
+        text-decoration: none;
+        font-size: 12px;
+        text-align: center;
+        transition: opacity 300ms;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 0px 0px;
+        letter-spacing: 1px;
+    }
+    .concert-two-div {
+        margin-top: 12%;
+    }
+}
+
+@media (max-width: 500px) {
+    .concerts-main-div {
+        min-height: -webkit-fill-available;
+        background-color: black;
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+
+        .concerts-three-sub-pic-div {
+            left: 14%;
+            width: 300px;
+            height: 300px;
+        }
+
+    .concerts-sub-one-pic-div {
+        left: 14%;
+        width: 300px;
+        height: 300px;
+    }
+
+    .concerts-sub-pic-div {
+        left: 13%;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/*-----------------------------------------contact css start---------------------------------------------------*/
+
+.contact-main-div {
+    background-color: black;
+    height: -webkit-fill-available;
+
+
+}
+
+.contact-img-hand-div{
+    margin-top: 15%;
+}
+
+.contact-hand-para {
+    color: #5f5f5f;
+    letter-spacing: 1px;
+    margin-top: 2%;
+}
+
+.contact-input-field {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #5f5f5f;
+    width: 70%;
+    background-color: transparent;
+    color: #fff;
+    font-size: 21px;
+}
+.contact-input-field:focus {
+    border-color: #fff
+}
+
+.contact-input-name-div{
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.contact-input-email-div{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.contact-btn-send{
+    height: 35px;
+    width: 20%;
+    background: transparent;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    /* padding: 12px; */
+    /* margin: 0; */
+    cursor: pointer;
+    border: 2px solid #444141;
+}
+
+
+.contact-last-para{
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.contact-last-para{
+    margin-top: 12%;
+}
+
+.contact-last-para-div{
+    padding-bottom: 7%;
+}
+.contact-right-area-div{
+    margin-top: 38%;
+}
+
+.contact-right-para-area {
+    color: #5f5f5f;
+    letter-spacing: 1px;
+    margin-top: 2%;
+}
+
+.contact-right-area-address{
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+.contact-input-field::placeholder{
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+@media (min-width: 1650px) {
+    .contact-main-div {
+        background-color: black;
+        /*height: auto;*/
+    }
+}
+
+@media (max-width: 1300px) {
+    .contact-right-whole-div{
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .contact-right-whole-div {
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 992px) {
+    .contact-right-area-div {
+        margin-top: 30%;
+    }
+    .contact-right-area-address {
+        font-size: 16px;
+        color: #fff;
+        letter-spacing: 1px;
+        font-weight: 200;
+    }
+
+    .contact-last-para {
+        color: #fff;
+        letter-spacing: 1px;
+        font-weight: 300;
+    }
+
+    .contact-btn-send {
+        height: 35px;
+        width: 30%;
+        background: transparent;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        /* padding: 12px; */
+        /* margin: 0; */
+        cursor: pointer;
+        border: 2px solid #444141;
+    }
+
+    .contact-input-field::placeholder{
+        letter-spacing: 1px;
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    .contact-right-row{
+        margin-top: 40%;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .contact-right-whole-div {
+        margin-left: 0px;
+
+    }
+    .contact-input-field {
+        outline: 0;
+        border-width: 0 0 2px;
+        border-color: #5f5f5f;
+        width: 100%;
+        background-color: transparent;
+        color: #fff;
+        font-size: 21px;
+    }
+    .contact-right-row {
+        margin-top: 0%;
+    }
+
+    .contact-right-area-div {
+        margin-top: 15%;
+    }
+
+    .contact-main-div {
+        background-color: black;
+        /*height:auto;*/
+
+
+    }
+}
