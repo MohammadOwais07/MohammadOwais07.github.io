@@ -1,0 +1,329 @@
+body{
+
+    padding: 0;
+    margin: 0;
+    color: #30383f;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 13px;
+    min-height: 100%;
+    background: #f1f3f4
+}
+
+#wrapper {
+    max-width: 1650px;
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+
+}
+
+#later-header-section{
+    background-color: #fff;
+    border-bottom: 1px solid #cbd6e2;
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0px;
+}
+.navbar-header-right{
+    float: right;
+}
+.nav-container{
+    margin-top: 1%;
+}
+.navbar-inverse .navbar-brand {
+    color: #25c6fe;
+    padding-top: 5px;
+}
+
+.navbar-inverse .navbar-brand:hover{
+    color: #35495b;
+    padding-top: 5px;
+}
+.btn-start-free{
+    display: block;
+    border-style: solid;
+    border-radius: 5px;
+    left: 900px;
+    top: 9px;
+    z-index: 14;
+    width: 168px;
+    height: 36px;
+    position: absolute;
+    background: rgba(255,255,255,1);
+    box-shadow: none;
+    text-shadow: none;
+    color: #25c6fe;
+    border-width: 1px;
+    border-color: #25c6fe;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    font-family: Poppins;
+    font-style: normal;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.lp-pom-button span {
+    position: absolute;
+    top: 50%;
+    display: block;
+    text-align: center;
+    left: 0;
+    right: 0;
+    padding: 0 8px 0 8px;
+    cursor: pointer;
+    text-shadow: none;
+    color: #25c6fe;
+}
+
+
+#later-header-section-background{
+    background-image: url('img/later-back.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+}
+
+.later-header-sec-text-div{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.later-header-sec-head{
+    color: #fff;
+    font-size: 60px;
+    margin-top: 12%;
+}
+
+.later-header-sec-para {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 11%;
+}
+
+.later-header-sec-para-two{
+    color: #fff;
+    font-size: 24px;
+    margin-top: 5%;
+}
+
+
+.later-header-sec-input::placeholder{
+    font-size: 16px;
+    padding-left: 2%;
+}
+.later-header-sec-input {
+    background-color: rgb(245, 248, 250);
+    color: rgb(51, 71, 91);
+    font-size: 1rem;
+    line-height: 1.375;
+    width: 64%;
+    min-height: 4.5rem;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    border-color: rgb(203, 214, 226);
+    border-radius: 3.1px;
+    padding: 0.5625rem 0.625rem;
+    margin: auto;
+    margin-top: 5%;
+
+}
+
+select {
+    margin-top: 3%;
+    border: 1px solid #ccc;
+    height: 46px;
+    width: 64%;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    font-size: 17px;
+    /*color: #a49999;*/
+}
+
+
+.later-header-sec-btn {
+    background-color: #00eda5;
+    height: 50px;
+    width: 65%;
+    color: rgb(255, 255, 255);
+    margin-top: 4%;
+    margin-bottom: 8%;
+    font-size: 16px !important;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 7px;
+}
+
+.selectwrap{position: relative;float: left;}
+.selectwrap:after{content:"↓";text-align: center;line-height:32px;position: absolute;width: 32px;height: 32px;background: #fff;right: 1px;top: 1px;pointer-events: none;}
+
+
+/*.later-mobile-back-img-div{*/
+    /*background-image: url('img/later-mobile-img.png');*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: top center;*/
+    /*position: relative;*/
+/*}*/
+
+.later-mobile-back-text-div{
+    margin-top: 5%;
+}
+
+.later-mobile-img-head{
+
+    font-weight: 800;
+    font-style: normal;
+    font-size: 28px;
+    color: rgb(50, 59, 67);
+}
+
+.later-mobile-list li{
+    font-size: 18px;
+    padding-bottom: 22px;
+}
+
+
+#later-mobile-section {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.later-mobile-last-text-div{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 22px;
+    margin-top: 5%;
+}
+
+.later-social-link{
+    font-size: 29px;
+    padding-left: 10px;
+}
+
+.footer-link-anchr{
+    color: rgb(123, 137, 148);
+    font-size: 16px;
+    text-decoration: underline;
+    padding-left: 15px;
+}
+
+.footer-para-later{
+font-size: 16px;
+}
+
+
+@media (max-width: 1200px) {
+    .later-header-sec-text-div {
+        text-align: center;
+        width: 71%;
+        margin: auto;
+    }
+    .btn-start-free {
+        display: block;
+        border-style: solid;
+        border-radius: 5px;
+        left: 700px;
+    }
+}
+
+@media (max-width: 992px) {
+    .later-header-sec-text-div {
+        text-align: center;
+        width: 86%;
+        margin: auto;
+    }
+    .btn-start-free {
+        display: block;
+        border-style: solid;
+        border-radius: 5px;
+        left: 550px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .later-header-sec-text-div {
+        text-align: center;
+        width: 100%;
+    }
+    .btn-start-free {
+        left: 450px;
+    }
+}
+
+@media (max-width: 660px) {
+    .btn-start-free {
+        left: 350px;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .btn-start-free {
+        left: 250px;
+    }
+}
+
+@media (max-width: 500px) {
+    .later-header-sec-head {
+        color: #fff;
+        font-size: 41px;
+        margin-top: 12%;
+    }
+    .later-header-sec-para {
+
+        font-size: 17px;
+    }
+    .later-mobile-last-text-para{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 414px) {
+    .btn-start-free {
+        left: 200px;
+    }
+}
+
+@media (max-width: 375px) {
+    .btn-start-free {
+        left: 150px;
+    }
+    .footer-para-later {
+        font-size: 10px;
+    }
+    .footer-link-anchr {
+        color: rgb(123, 137, 148);
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .btn-start-free {
+
+        left: 175px;
+        width: 106px;
+    }
+
+    .footer-link-anchr {
+        color: rgb(123, 137, 148);
+        font-size: 12px;
+    }
+
+.footer-para-later {
+    font-size: 12px;
+}
+}

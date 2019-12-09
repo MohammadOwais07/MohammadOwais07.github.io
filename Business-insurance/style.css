@@ -1,0 +1,446 @@
+body{
+
+    padding: 0;
+    margin: 0;
+    color: #30383f;
+    font-size: 13px;
+    min-height: 100%;
+    background: #f1f3f4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+#wrapper {
+    max-width: 1650px;
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+}
+
+#business-insurance-header-section {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.navbar-inverse {
+    background-color: #fff;
+    border-color: transparent;
+    margin-bottom: 10px;
+}
+
+.nav-container {
+    margin-top: 2%;
+}
+
+.navbar-header-right {
+    float: right;
+}
+.navbar-inverse .navbar-brand {
+    color: #35495c;
+    padding-top: 5px;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color: #000;
+    background-color: transparent;
+}
+#business-insurance-header-content-section{
+    background-image: linear-gradient(40deg, rgba(21, 20, 20, 0.82), rgba(64, 58, 60, 0.84) 80%), url(img/insuranceconcept.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    padding-bottom: 55px;
+}
+
+.business-insurance-header-content-div{
+    box-sizing: border-box;
+   text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 768px;
+    padding-bottom: 128px;
+    padding-top: 128px;
+}
+
+.business-insurance-header-head{
+    color: #fff;
+}
+
+.business-insurance-header-para{
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.btn-business-insurance-header:hover {
+    text-decoration: none;
+    color: #fff;
+
+}
+.btn-business-insurance-header {
+    height: 51px;
+    background-color: #cb3c74;
+    font-size: 16px!important;
+    width: 33%;
+    border: none;
+    color: #fff;
+    margin-top: 15px;
+}
+
+#business-insurance-client-section{
+    background-color: #000;
+}
+
+.b-i-client-main-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.b-i-client-div{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#business-insurance-stepline-section{
+    background-color: #fff;
+}
+.wrapper {
+    width: 42px;
+    /*width: auto;*/
+    height: auto;
+}
+
+
+.circle {
+    width: 33px;
+    height: 33px;
+    background: #cb3c74;
+    border-radius: 100px;
+    position: relative;
+    /*margin: 100px auto 0 auto;*/
+}
+
+h5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #fff;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 100px;
+    background: #cb3c74;
+    /*margin: 1px auto 0 auto;*/
+    margin: 1px 23px 0 auto;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.b-i-stepline-text-div{
+    text-align: center;
+}
+
+.step-div-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.step-div {
+    display: flex;
+    /*justify-content: center;*/
+    width: 7%;
+    flex-direction: column;
+}
+
+.step-div-para-one {
+    padding-bottom: 93px;
+    font-size: 18px;
+    font-weight: 900;
+    padding-top: 6px;
+}
+
+.step-para-main{
+    font-size: 18px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.diver{
+    display: flex;
+    justify-content: space-between;
+    width: 28%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.btn-business-insurance-mid {
+    height: 51px;
+    background-color: transparent;
+    font-size: 16px!important;
+    width: 33%;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.step-para-before {
+    color: #999;
+    font-size: 14px;
+    padding-top: 32px;
+}
+
+.b-i-card-main-head-div{
+    text-align: center;
+    margin-top: 8%;
+}
+
+.i-b-card-div{
+    width: 25%;
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    /*flex-direction: column;*/
+}
+
+
+.i-b-card-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9%;
+    text-align: left;
+}
+
+.i-b-card-para{
+    font-size: 15px;
+}
+.i-b-card-head{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.b-i-FAQ{
+    padding-top: 45px;
+    margin-bottom: 4%;
+}
+
+.b-i-FAQ-para-one {
+    padding-top: 8px;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+#business-insurance-Ready{
+    background-image: linear-gradient(40deg, rgba(195, 41, 135, 0.72), rgba(133, 66, 149, 0.84) 80%);
+    margin-top: 5%;
+}
+
+
+.b-i-ready-div{
+    text-align: center;
+}
+.b-i-ready-head{
+    color: #fff;
+    margin-top: 5%;
+}
+
+
+.btn-business-insurance-ready {
+    height: 51px;
+    background-color: #fff;
+    font-size: 16px!important;
+    width: 28%;
+    color: #000;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.footer-sub-text-div{
+    margin-top: 7%;
+}
+
+.i-b-footer-head{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.i-b-footer-para a{
+    color: #000;
+    text-decoration: underline;
+}
+
+.i-b-footer-before-main-div{
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+.footer-after-para{
+    color: #999999;
+}
+
+@media (max-width: 1200px) {
+    .diver {
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .diver {
+        display: flex;
+        justify-content: space-between;
+        width: 52%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-sub-legal-responsive {
+        float: right;
+    }
+}
+
+@media (max-width: 768px) {
+    .step-para-before {
+        color: #999;
+        font-size: 12px;
+    }
+
+    .i-b-card-div {
+        width: 100%;
+        margin-bottom: 11%;
+
+    }
+    .i-b-card-row {
+        display: block;
+        text-align: center;
+    }
+
+    .responsive-icon{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-after-para-div{
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 500px) {
+    .btn-business-insurance-header {
+        height: 51px;
+        width: 55%;
+    }
+
+    .b-i-client-main-div {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .b-i-client-div {
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        flex-wrap: wrap;
+        width: 25%;
+    }
+
+    .step-para-main {
+        font-size: 13px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .diver {
+
+        width: 72%;
+    }
+
+    .btn-business-insurance-mid {
+        width: 50%;
+    }
+
+    .step-para-before {
+        color: #999;
+        font-size: 12px;
+        padding: 32px 25px 0 26px;
+    }
+
+    #business-insurance-Ready {
+        background-image: linear-gradient(40deg, rgba(195, 41, 135, 0.72), rgba(133, 66, 149, 0.84) 80%);
+        margin-top: 5%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .btn-business-insurance-ready {
+        width: 50%;
+    }
+    .navbar-header-right {
+        float: right;
+        margin-top: -7%;
+    }
+}
+
+
+@media (max-width: 414px) {
+    .diver {
+        width: 85%;
+    }
+
+    .b-i-card-head {
+        font-size: 22px;
+    }
+
+    .b-i-ready-head {
+        font-size: 22px;
+
+    }
+
+    .b-i-FAQ {
+
+        font-size: 17px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .diver {
+        width: 92%;
+    }
+}
+
+@media (max-width: 320px){
+    .btn-business-insurance-header {
+        height: 51px;
+        width: 100%;
+    }
+
+    .diver {
+        width: 102%;
+    }
+
+    .btn-business-insurance-mid {
+        width: 90%;
+    }
+
+    .btn-business-insurance-ready {
+        width: 82%;
+    }
+}

@@ -1,0 +1,352 @@
+body{
+
+    padding: 0;
+    margin: 0;
+    color: #30383f;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    min-height: 100%;
+    background: #f1f3f4
+}
+
+#wrapper {
+    max-width: 1650px;
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+
+}
+
+#header-section{
+    background-color: #f5f8fa;
+    border-bottom: 1px solid #cbd6e2;
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 10px;
+}
+.navbar-header-right{
+    float: right;
+}
+.nav-container{
+    margin-top: 2%;
+}
+.navbar-inverse .navbar-brand {
+    color: #35495c;
+    padding-top: 5px;
+}
+
+.navbar-inverse .navbar-brand:hover{
+    color: #35495b;
+    padding-top: 5px;
+}
+.hubspot-header-main-div{
+    margin-bottom: 5%;
+}
+
+.section-header-head {
+    color: #33475b;
+    font-weight: 800;
+    font-size: 60px;
+}
+.section-header-div {
+    text-align: center;
+    padding: 0.15em 0 1em;
+}
+
+p.secondary-header {
+    color: #f60;
+    margin-top: 36px;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+.hubspot-para-one {
+    font-size: 17px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #30383fcc;
+    line-height: 1.5;
+}
+
+.hubspot-para-one li::before {
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: -0.1em;
+    left: -0.875em;
+    background-color: #2d3e50;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+}
+
+.hubspot-para-one li {
+    list-style-type: none;
+    margin: 0 0 0.75em;
+    padding: 0 0 0 1.5em;
+}
+
+.hubspot-para-list{
+    padding-left: 0px;
+}
+
+.hubspot-head-right {
+    color: #33475b;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 1.3125;
+}
+
+.hubspot-right-label{
+    margin-bottom: 9px;
+    color: #33475b;
+    font-weight: 500;
+}
+
+.hubspot-right-input{
+    background-color: #f5f8fa;
+    color: #33475b;
+    font-size: 1rem;
+    line-height: 1.375;
+    border: 1px solid;
+    border-color: #cbd6e2;
+    border-radius: .1875rem;
+    width: 85%;
+    min-height: 4.5rem;
+    padding: 0.5625rem 0.625rem;
+}
+
+.form-group {
+    margin-bottom: 31px;
+}
+
+.hubspot-para-right-one-does{
+    font-size: 15px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #30383fcc;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.hubspot-para-right-two-web {
+    font-size: 18px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #30383fcc;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.dropdown .btn-default {
+    height: 44px;
+    width: 85%;
+    color: #000;
+    background-color: #f5f8fa;
+}
+
+.dropdown .caret {
+    color: #000;
+    display: inline-block;
+    /* width: 0; */
+    /* height: 0; */
+    margin-left: 110px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.container-cheakbox {
+     display: block;
+     position: relative;
+     padding-left: 35px;
+     /*margin-bottom: 12px;*/
+     cursor: pointer;
+     /*font-size: 12px;*/
+     font-weight: 400;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     /*margin-top: 6%;*/
+
+    font-size: 17px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #30383fcc;
+    line-height: 1.5;
+ }
+
+.hubspot-para-right-three-subscribe{
+    font-size: 17px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #30383fcc;
+    line-height: 1.5;
+    position: relative;
+    padding: 0.125rem 0 0.125rem 2rem;
+}
+
+.container-cheakbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.container-cheakbox input:checked ~ .checkmark {
+    background-color: #ed2025;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.container-cheakbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.container-cheakbox .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.hubspot-head-right-para-we{
+    font-size: 17px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #30383fcc;
+    line-height: 1.5;
+}
+
+.hubspot-head-right-anchor{
+    color: #0091ae;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+.hubspot-right-btn {
+    background-color: #ff7a59;
+    height: 50px;
+    font-size: 16px!important;
+    width: 85%;
+    border: none;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 5%;
+    border-radius: 7px;
+}
+
+#hsg-footer--lp {
+    text-align: center;
+    padding: 7.5rem 0;
+    margin-top: 5%;
+}
+
+.hsg-footer {
+    background-color: #33475b;
+    color: #fff;
+}
+
+.hsg-footer p {
+    font-size: 18px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.hsg-footer__copyright li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #cbd6e2;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.hsg-footer__copyright li {
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .navbar-header-right {
+        float: right;
+        margin-top: -7%;
+    }
+
+    .navbar-header{
+        margin-top: 3%;
+    }
+
+    .section-header-head {
+        color: #33475b;
+        font-weight: 800;
+        font-size: 25px;
+    }
+    .hubspot-head-right {
+        color: #33475b;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 1.3125;
+    }
+
+    .dropdown .caret {
+        margin-left: 160px;
+    }
+    .right-main-div{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 375px) {
+    .right-main-div{
+        margin-left: 1%;
+        margin-top: 5%;
+    }
+    .section-header-head {
+        color: #33475b;
+        font-weight: 800;
+        font-size: 16px;
+    }
+}
+@media (max-width: 320px) {
+    .right-main-div{
+        margin-left: 1%;
+        margin-top: 5%;
+    }
+    .section-header-head {
+        color: #33475b;
+        font-weight: 800;
+        font-size: 15px;
+    }
+}

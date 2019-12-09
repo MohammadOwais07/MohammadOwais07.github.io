@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PPc-3vi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+    <link href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' rel='stylesheet' type='text/css'>
+
+    <link href="https://fonts.googleapis.com/css?family=Mina|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+        a {
+            color: #333;
+        }
+        .menu {
+            width: 100%;
+        }
+        .menu-container {
+            margin: 0 auto;
+            background: #fff;
+        }
+
+        .menu a.logo {
+            display: inline-block;
+            padding: 1.5em 3em;
+            width: 10%;
+            float: left;
+        }
+        .menu img {
+            max-width: 100%;
+        }
+        .menu-mobile {
+            display: none;
+            padding: 20px;
+        }
+        .menu-mobile:after {
+            content: "\f394";
+            font-family: "Ionicons";
+            font-size: 2.5rem;
+            padding: 0;
+            float: right;
+            position: relative;
+            top: 50%;
+            -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+        }
+        .menu-dropdown-icon:before {
+            content: "\f489";
+            font-family: "Ionicons";
+            display: none;
+            cursor: pointer;
+            float: right;
+            padding: 1.5em 2em;
+            background: #fff;
+            color: #333;
+        }
+        .menu > ul {
+            margin: 0 auto;
+            width: 80%;
+            list-style: none;
+            padding: 0;
+            position: relative;
+            /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
+            box-sizing: border-box;
+            clear: right;
+        }
+        .menu > ul:before,
+        .menu > ul:after {
+            content: "";
+            display: table;
+        }
+        .menu > ul:after {
+            clear: both;
+        }
+        .menu > ul > li {
+            float: left;
+            background: #fff;
+            padding: 0;
+            margin: 0;
+        }
+        .menu > ul > li a {
+            text-decoration: none;
+            padding: 1.5em 3em;
+            display: block;
+            font-weight: 700;
+            margin-top: 4%;
+        }
+        .menu > ul > li:hover {
+            background: #f0f0f0;
+        }
+        .menu > ul > li > ul {
+            display: none;
+            width: 100%;
+            background: #f0f0f0;
+            padding: 20px;
+            position: absolute;
+            z-index: 99;
+            left: 0;
+            margin: 0;
+            list-style: none;
+            box-sizing: border-box;
+        }
+        .menu > ul > li > ul:before,
+        .menu > ul > li > ul:after {
+            content: "";
+            display: table;
+        }
+        .menu > ul > li > ul:after {
+            clear: both;
+        }
+        .menu > ul > li > ul > li {
+            margin: 0;
+            padding-bottom: 0;
+            list-style: none;
+            width: 25%;
+            background: none;
+            float: left;
+        }
+        .menu > ul > li > ul > li a {
+            color: #777;
+            padding: 0.2em 0;
+            width: 95%;
+            display: block;
+            border-bottom: 1px solid #ccc;
+        }
+        .menu > ul > li > ul > li a:hover {
+            color: #03a9f4;
+        }
+        .menu > ul > li > ul > li > ul {
+            display: block;
+            padding: 0;
+            margin: 10px 0 0;
+            list-style: none;
+            box-sizing: border-box;
+        }
+        .menu > ul > li > ul > li > ul:before,
+        .menu > ul > li > ul > li > ul:after {
+            content: "";
+            display: table;
+        }
+        .menu > ul > li > ul > li > ul:after {
+            clear: both;
+        }
+        .menu > ul > li > ul > li > ul > li {
+            float: left;
+            width: 100%;
+            padding: 10px 0;
+            margin: 0;
+            font-size: 0.8em;
+        }
+        .menu > ul > li > ul > li > ul > li a {
+            border: 0;
+            font-size: 14px;
+        }
+        .menu > ul > li > ul.normal-sub {
+            width: 300px;
+            left: auto;
+            padding: 10px 20px;
+        }
+        .menu > ul > li > ul.normal-sub > li {
+            width: 100%;
+        }
+        .menu > ul > li > ul.normal-sub > li a {
+            border: 0;
+            padding: 1em 0;
+        }
+        /* ––––––––––––––––––––––––––––––––––––––––––––––––––
+        Mobile style's
+        –––––––––––––––––––––––––––––––––––––––––––––––––– */
+        @media only screen and (max-width: 959px) {
+            .menu-container {
+                width: 100%;
+            }
+            .menu-container .menu {
+                display: inline-block;
+            }
+            .menu-mobile {
+                display: block;
+                float: right;
+                padding: 20px 20px 0;
+                width: 80%;
+            }
+            .menu-dropdown-icon:before {
+                display: block;
+            }
+            .menu > ul {
+                display: none;
+                width: 100%;
+            }
+            .menu > ul > li {
+                width: 100%;
+                float: none;
+                display: block;
+            }
+            .menu > ul > li a {
+                padding: 1.5em;
+                width: 100%;
+                display: block;
+            }
+            .menu > ul > li > ul {
+                position: relative;
+                padding: 0 40px;
+            }
+            .menu > ul > li > ul.normal-sub {
+                width: 100%;
+            }
+            .menu > ul > li > ul > li {
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+            }
+            .menu > ul > li > ul > li:first-child {
+                margin: 0;
+            }
+            .menu > ul > li > ul > li > ul {
+                position: relative;
+            }
+            .menu > ul > li > ul > li > ul > li {
+                float: none;
+            }
+            .menu .show-on-mobile {
+                display: block;
+            }
+        }
+
+
+
+        .menu-icon {
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            box-shadow: 0 3px 4px 0 rgba(0,0,0,.05);
+            background: #fff;
+            border-radius: 50%;
+            padding: 5px;
+            text-align: center;
+            line-height: 23px;
+        }
+
+        .menu-icon span {
+            padding-left: 54px;
+        }
+
+        .manu-para {
+            font-size: 14px;
+            padding-bottom: 0;
+            color: #6b7c93;
+            line-height: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #header-outer #cd-primary-nav .sub-menu-wrap li a p {
+            font-size: 14px;
+            padding-bottom: 0;
+            color: #6b7c93;
+            line-height: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: black;
+            width: 100%;
+            padding: 15px;
+            display: inline-block;
+        }
+
+        .menu-icon-test{
+            margin-left: 25%;
+        }
+
+        .manu-para1{
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+
+        .manu-core-service-para{
+            font-weight: 500;
+            margin-bottom: 17px;
+            display: block;
+            line-height: 13px;
+            font-size: 18px;
+            color: black;
+        }
+
+        .manu-core-service-para-li {
+            font-weight: 600;
+            /*margin-bottom: 9px;*/
+            display: block;
+            line-height: 7px;
+            font-size: 14px;
+            color: black;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="menu-container">
+    <div class="menu">
+        <a href="#" class="logo"><div class="logo-img-div"><img class="logo-3vi-img" src="img/3vi-white.png" alt=""></div></a>
+        <ul class="clearfix">
+            <!--<li><a href="#">Home</a></li>-->
+            <li><a href="#">Service</a>
+                <ul>
+                    <li>
+                        <!--<a href="#">School</a>-->
+                        <ul>
+                            <li>
+                                <div class="kasa">
+                                <div class="menu-icon">
+                                <a href="#"> <img src="https://cubix-live-rweozmkdz4lpkhxbzs.netdna-ssl.com/wp-content/uploads/2018/06/social-platform-icon.svg">
+
+                                </a>
+                            </div>
+                                <div class="menu-icon-test">
+                                    <p class="manu-para1">Social Platform</p>
+                                    <p class="manu-para" > Social-App <br> building Platform</p>
+                                    </div>
+                                </div>
+                             </li>
+
+                            <li>
+                                <a href="#"> <div class="kasa">
+                                    <div class="menu-icon">
+                                        <img class="menu-img" src="https://cubix-live-rweozmkdz4lpkhxbzs.netdna-ssl.com/wp-content/uploads/2018/06/augmented-reality-icon.svg"></div>
+                                    <div class="menu-icon-test">
+                                        <p class="manu-para1">Augmented Reality</p>
+                                        <p class="manu-para" >Modern AR apps</p>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"> <div class="kasa">
+                                    <div class="menu-icon"><img class="menu-img" src="https://cubix-live-rweozmkdz4lpkhxbzs.netdna-ssl.com/wp-content/uploads/2018/06/big-data-icon.svg"></div>
+                                    <div class="menu-icon-test">
+                                        <p class="manu-para1">Big Data</p>
+                                        <p class="manu-para" >Apps integrated with  <br>  Big Data</p>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"> <div class="kasa">
+                                    <div class="menu-icon"><img class="menu-img" src="https://cubix-live-rweozmkdz4lpkhxbzs.netdna-ssl.com/wp-content/uploads/2019/08/share-point-icon.svg">
+                                    </div>
+                                    <div class="menu-icon-test">
+                                        <p class="manu-para1">Big Data</p>
+                                        <p class="manu-para" >Microsoft SharePoint   <br>  Development Services</p>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <!--<a href="#">Study</a>-->
+                        <ul>
+                            <li>
+                                <div class="kasa">
+                                    <div class="menu-icon"><img class="menu-img" src="https://cubix-live-rweozmkdz4lpkhxbzs.netdna-ssl.com/wp-content/uploads/2018/06/game-development-icon.svg"></div>
+                                    <div class="menu-icon-test">
+                                        <p class="manu-para1">Game Development</p>
+                                        <p class="manu-para" > 2D, 3D and Isometric<br>  Games </p>
+                                    </div>
+                                </div>
+                            </li>
+
+
+                            <li>
+                                <a href="#"> <div class="kasa">
+                                    <div class="menu-icon"><img class="menu-img" src="https://cubix-live-rweozmkdz4lpkhxbzs.netdna-ssl.com/wp-content/uploads/2018/06/big-data-icon.svg"></div>
+                                    <div class="menu-icon-test">
+                                        <p class="manu-para1">Big Data</p>
+                                        <p class="manu-para" >Apps integrated with  <br>  Big Data</p>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"> <div class="kasa">
+                                    <div class="menu-icon"><img class="menu-img" src="https://cubix-live-rweozmkdz4lpkhxbzs.netdna-ssl.com/wp-content/uploads/2018/06/web-development-icon.svg"></div>
+                                    <div class="menu-icon-test">
+                                        <p class="manu-para1">Web Development</p>
+                                        <p class="manu-para" >Robust web development </p>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <!--<a href="#">Research</a>-->
+                        <ul>
+                            <li>
+                                <div class="kasa">
+                                    <div class="menu-icon"><img class="menu-img" src="https://cubix-live-rweozmkdz4lpkhxbzs.netdna-ssl.com/wp-content/uploads/2018/06/blockchain-icon.svg"></div>
+                                    <div class="menu-icon-test">
+                                        <p class="manu-para1">Blockchain Development</p>
+                                        <p class="manu-para" > Blockchain Dapp Development</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <div class="kasa">
+                                    <div class="menu-icon"><img class="menu-img" src="https://cubix-live-rweozmkdz4lpkhxbzs.netdna-ssl.com/wp-content/uploads/2018/06/artificial-intelligence-icon.svg"></div>
+                                        <div class="menu-icon-test">
+                                        <p class="manu-para1">Artificial Intelligence</p>
+                                        <p class="manu-para" >AI and Machine Learning</p>
+                                    </div>
+
+                                    </div></a>
+                            </li>
+                            <li>
+                                <a href="#"> <div class="kasa">
+                                    <div class="menu-icon"><img class="menu-img" src="https://cubix-live-rweozmkdz4lpkhxbzs.netdna-ssl.com/wp-content/uploads/2019/05/MVP-startup-development-icon.svg"></div>
+                                    <div class="menu-icon-test">
+                                        <p class="manu-para1">MVP Development</p>
+                                        <p class="manu-para" >MVP for Startups</p>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <!--<a href="#">Something</a>-->
+                        <ul>
+                            <li><a href="#" ><p class="manu-core-service-para">Core Service</p></a> </li>
+                            <li><a href="#" ><p class="manu-core-service-para-li">Discovery</p></a> </li>
+                            <li><a href="#" ><p class="manu-core-service-para-li">Design</p></a> </li>
+                            <li><a href="#" ><p class="manu-core-service-para-li">Testing</p></a> </li>
+                            <li><a href="#" ><p class="manu-core-service-para-li">Deployment</p></a> </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li><a href="#">Solutions</a>
+                <ul>
+                    <li>
+                        <!--<a href="#">School</a>-->
+                        <ul>
+                            <li><a href="#">
+                                <div class="kasa">
+                                    <div class="menu-icon"><img class="menu-img" src="https://cubix-live-rweozmkdz4lpkhxbzs.netdna-ssl.com/wp-content/uploads/2018/10/cubix-happy-force-icon.svg"></div>
+                                <div class="menu-icon-test">
+                                    <p class="manu-para1">Cubix Happyforce</p>
+                                    <p class="manu-para" > HR Solution</p>
+                                </div>
+                            </div></a></li>
+
+                            <li><a href="#">
+                                <div class="kasa">
+                                    <div class="menu-icon"><img class="menu-img" src="https://cubix-live-rweozmkdz4lpkhxbzs.netdna-ssl.com/wp-content/uploads/2018/10/cubix-insight-menu-icon.svg"></div>
+                                    <div class="menu-icon-test">
+                                        <p class="manu-para1">Cubix Insight Machine</p>
+                                        <p class="manu-para" > Machine Solution</p>
+                                    </div>
+                                </div></a></li>
+
+
+                            <li><a href="#">
+                                <div class="menu-icon"><img class="menu-img" src="https://cubix-live-rweozmkdz4lpkhxbzs.netdna-ssl.com/wp-content/uploads/2018/06/social-platform-icon.svg"></div>
+                                    <div class="menu-icon-test">
+                                        <p class="manu-para1">Social Platform</p>
+                                        <p class="manu-para" > Social-App building Platform</p>
+                                    </div>
+                                </a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <!--<a href="#">Study</a>-->
+                        <ul>
+                            <li><a href="#">
+                                <div class="menu-icon"><img class="menu-img" src="https://cubix-live-rweozmkdz4lpkhxbzs.netdna-ssl.com/wp-content/uploads/2018/10/cubix-commerce-menu-icon.svg"></div>
+                                <div class="menu-icon-test">
+                                    <p class="manu-para1">Cubix Shop</p>
+                                    <p class="manu-para" > Marketplace Solution</p>
+                                </div>
+                            </a></li>
+
+                            <li><a href="#">
+                                <div class="menu-icon"><img class="menu-img" src="https://cubix-live-rweozmkdz4lpkhxbzs.netdna-ssl.com/wp-content/uploads/2018/06/rpg-engine.svg"></div>
+                                <div class="menu-icon-test">
+                                    <p class="manu-para1">Cubix Hero</p>
+                                    <p class="manu-para" > Powerfull RPG Solution</p>
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="menu-icon"><img class="menu-img" src="https://cubix-live-rweozmkdz4lpkhxbzs.netdna-ssl.com/wp-content/uploads/2018/06/messenger-icon.svg"></div>
+                                <div class="menu-icon-test">
+                                    <p class="manu-para1">Messenger</p>
+                                    <p class="manu-para" > Real-time messaging solution</p>
+                                </div>
+                            </a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <!--<a href="#">Study</a>-->
+                        <ul>
+                            <li><a href="#">
+                                <div class="menu-icon"><img class="menu-img" src="https://cubix-live-rweozmkdz4lpkhxbzs.netdna-ssl.com/wp-content/uploads/2018/06/event-management-icon.svg"></div>
+                                <div class="menu-icon-test">
+                                    <p class="manu-para1">Events Management</p>
+                                    <p class="manu-para" > Digital event management</p>
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="menu-icon"><img class="menu-img" src="https://cubix-live-rweozmkdz4lpkhxbzs.netdna-ssl.com/wp-content/uploads/2018/10/on-demand-delivery-menu-icon.svg"></div>
+                                <div class="menu-icon-test">
+                                    <p class="manu-para1">On-Demand Delivery</p>
+                                    <p class="manu-para" > On Demand Delivery solution</p>
+                                </div>
+                            </a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <!--<a href="#">Empty sub</a>-->
+                        <ul>
+                            <li><a href="#">
+                                <div class="menu-icon"><img class="menu-img" src="https://cubix-live-rweozmkdz4lpkhxbzs.netdna-ssl.com/wp-content/uploads/2018/10/cubix-blockchain-menu-icon.svg"></div>
+                                <div class="menu-icon-test">
+                                    <p class="manu-para1">Cubix Chain</p>
+                                    <p class="manu-para" > Blockchain Solution</p>
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="menu-icon"><img class="menu-img" src="https://cubix-live-rweozmkdz4lpkhxbzs.netdna-ssl.com/wp-content/uploads/2018/06/chatbot-icon.svg"></div>
+                                <div class="menu-icon-test">
+                                    <p class="manu-para1">Chat Bot</p>
+                                    <p class="manu-para"> Smart Chatbot solution</p>
+                                </div>
+                            </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li><a href="#">Work</a>
+
+            </li>
+
+            <li><a href="#">About</a>
+                <ul>
+                    <li>
+                        <!--<a href="#">School</a>-->
+                        <ul>
+                            <li><a href="#">
+                                <div class="kasa">
+
+                                    <div class="menu-icon-test">
+                                        <p class="manu-para1">Process</p>
+                                        <p class="manu-para" > Our Agile Process</p>
+                                    </div>
+                                </div></a></li>
+
+                            <li><a href="#">
+                                <div class="kasa">
+
+                                    <div class="menu-icon-test">
+                                        <p class="manu-para1">Careers</p>
+                                        <p class="manu-para" > Build your careers with us.</p>
+                                    </div>
+                                </div></a></li>
+
+
+
+                        </ul>
+                    </li>
+                    <li>
+                        <!--<a href="#">Study</a>-->
+                        <ul>
+                            <li><a href="#">
+                                <div class="kasa">
+
+                                    <div class="menu-icon-test">
+                                        <p class="manu-para1">Clients</p>
+                                        <p class="manu-para" > Our Global Clientele</p>
+                                    </div>
+                                </div></a></li>
+
+                            <li><a href="#">
+                                <div class="kasa">
+
+                                    <div class="menu-icon-test">
+                                        <p class="manu-para1">Testimonials</p>
+                                        <p class="manu-para" > What our clients have to say</p>
+                                    </div>
+                                </div></a></li>
+
+
+
+                        </ul>
+                    </li>
+                    <li>
+                        <!--<a href="#">Study</a>-->
+                        <ul>
+                            <li><a href="#">
+                                <div class="kasa">
+
+                                    <div class="menu-icon-test">
+                                        <p class="manu-para1">University</p>
+                                        <p class="manu-para" > Learn and Grow</p>
+                                    </div>
+                                </div></a></li>
+
+                            <li><a href="#">
+                                <div class="kasa">
+
+                                    <div class="menu-icon-test">
+                                        <p class="manu-para1">Manifesto</p>
+                                        <p class="manu-para"> Our Business Model</p>
+                                    </div>
+                                </div></a></li>
+
+
+
+                        </ul>
+                    </li>
+
+                </ul>
+            </li>
+
+
+
+
+            <li><a href="#">Insights</a>
+                <ul>
+                    <li>
+                        <!--<a href="#">School</a>-->
+                        <ul>
+                            <li><a href="#">
+                                <div class="kasa">
+
+                                    <div class="menu-icon-test">
+                                        <p class="manu-para1">Blog</p>
+                                        <p class="manu-para" >Stuff that Matters</p>
+                                    </div>
+                                </div></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <!--<a href="#">Study</a>-->
+                        <ul>
+                            <li><a href="#">
+                                <div class="kasa">
+
+                                    <div class="menu-icon-test">
+                                        <p class="manu-para1">Press Release</p>
+                                        <p class="manu-para"> From our media desk</p>
+                                    </div>
+                                </div></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <!--<a href="#">Study</a>-->
+                        <ul>
+                            <li><a href="#">
+                                <div class="kasa">
+
+                                    <div class="menu-icon-test">
+                                        <p class="manu-para1">News & Updates</p>
+                                        <p class="manu-para" > Stay Informed about us</p>
+                                    </div>
+                                </div></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li><a href="#">Contact</a>
+            <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i><span class="header-us-span">US</span> 415-963-4773</a><li>
+            <li>
+                <button class="btn btn-header"> START YOUR PROJECT</button></li>
+
+        </ul>
+
+    </div>
+
+</div>
+
+<script>
+    $(document).ready(function() {
+        "use strict";
+        $(".menu > ul > li:has( > ul)").addClass("menu-dropdown-icon");
+        $(".menu > ul > li > ul:not(:has(ul))").addClass("normal-sub");
+        $(".menu > ul").before('<a href="#" class="menu-mobile">&nbsp;</a>');
+        $(".menu > ul > li").hover(function(e) {
+            if ($(window).width() > 943) {
+                $(this)
+                    .children("ul")
+                    .stop(true, false)
+                    .fadeToggle(150);
+                e.preventDefault();
+            }
+        });
+        $(".menu > ul > li").click(function() {
+            if ($(window).width() <= 943) {
+                $(this)
+                    .children("ul")
+                    .fadeToggle(150);
+            }
+        });
+        $(".menu-mobile").click(function(e) {
+            $(".menu > ul").toggleClass("show-on-mobile");
+            e.preventDefault();
+        });
+    });
+    $(window).resize(function() {
+        $(".menu > ul > li")
+            .children("ul")
+            .hide();
+        $(".menu > ul").removeClass("show-on-mobile");
+    });
+
+</script>
+</body>
+</html>
