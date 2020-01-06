@@ -857,6 +857,7 @@ h2.menu-item:after {
 }
 
 .content {
+    background-color: #e8eef3!important;
     position: relative;
     padding: 120px 70px 30px;
     height: auto;
